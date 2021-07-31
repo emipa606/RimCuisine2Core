@@ -1,4 +1,7 @@
 # Changelog for RimCuisine2Core
 
+1.0.1.0 - Error in publishing, probably to long description.
+
+
 1.0.0.0 - First publish
 

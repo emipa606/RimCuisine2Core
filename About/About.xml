@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>RimCuisine 2 Core (Continued)</name>
   <packageId>Crustypeanut.RC2.Core</packageId>
@@ -47,7 +47,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1833592062
 
 Welcome to RimCuisine 2! This mod is focused on adding new crops and food types for your pawns to enjoy while they suffer horribly here on the Rim! The mod has been completely reworked from scratch to provide better mod compatibility and overall performance, while simultaneously fixing issues found in the first one.
 
-Overall, the mod is designed to be vanilla-friendly and fit seamlessly into normal gameplay without changing things up too dramatically.  A secondary design focus was to improve both tribal gameplay and caravaning with the addition of a number of food-preservation techniques that don&apos;t rely on freezing temperatures or high technology.  
+Overall, the mod is designed to be vanilla-friendly and fit seamlessly into normal gameplay without changing things up too dramatically.  A secondary design focus was to improve both tribal gameplay and caravaning with the addition of a number of food-preservation techniques that don't rely on freezing temperatures or high technology.  
 
 ------------------------------------------------------------
 
@@ -57,7 +57,7 @@ Overall, the mod is designed to be vanilla-friendly and fit seamlessly into norm
 
 [b]New Food Categories:[/b] All foods are now organized into the five major food groups: Meat, Grains, Vegetables, Fruits, and Sweets, varying between raw and processed.  Processed ingredients, such as dried fruits/meat and canned goods (found in the M&amp;M Expansion) can be used in cooking recipes just like raw ingredients, but tend to be more space and weight-efficient.  All vanilla recipes have been updated to use these new categories!
 
-[b]New Traders![/b] Introducing the Agricultural Traders! They primarily sell crops and farm animals so you can import the crops you can&apos;t grow locally and buy some much-needed cows for tasty foods! (like cheese in the M&amp;M submod) There is another trader I&apos;ll let you find on your own as well.. he he he
+[b]New Traders![/b] Introducing the Agricultural Traders! They primarily sell crops and farm animals so you can import the crops you can't grow locally and buy some much-needed cows for tasty foods! (like cheese in the M&amp;M submod) There is another trader I'll let you find on your own as well.. he he he
 
 [b]Changes to Existing Stuff:[/b] None! Well, I lied.  A few minor tweaks to categories and the inventory display.  All of which have been patched in correctly so as to not cause issues.  In addition, a few old techs have been renamed and moved to the RimCuisine tech tree, but otherwise unmolested in their definitions (for compatibility reasons)  Pemmican is now “Basic Preservation Techniques”, and Survival Meals is now “Intermediate Preservation Techniques”.  Tree Sowing is now Basic Forestry, and Cocoa trees is Advanced Forestry.  Unlike RimCuisine 1, healroot is untouched! 
 
@@ -108,16 +108,16 @@ RimCuisine 2 is technically compatible with existing saves, but FOR BEST QUALITY
 
 Mehni, who suffered endlessly through me constantly bouncing ideas off of him and having him rate my art, as well as for helping teach me how to mod in the first place!
 
-Dismar, creator of Vegetable Garden, for the initial inspiration for the mod.  Go check his out if you haven&apos;t! (like anyone hasn’t yet LOL)
+Dismar, creator of Vegetable Garden, for the initial inspiration for the mod.  Go check his out if you haven't! (like anyone hasn’t yet LOL)
 OskarProtocki, who helped with art advice
-Brian, RL friend and co-worker who came up with the initial Zopioid idea.  I&apos;m sure we&apos;re on a list now for talking about it at work.
+Brian, RL friend and co-worker who came up with the initial Zopioid idea.  I'm sure we're on a list now for talking about it at work.
 Fans of RimCuisine 1! Thank you for your continued support!
 And everyone on the mod development/mod art channel on the Rimworld Discord, who helped me out with the odd idea or feedback!
 
-Eagle0600 for making the expanded fermenting code! Without his awesome stuff I&apos;m not sure if I could&apos;ve made the drying racks or pickling barrels! (They&apos;d be much boring and just a cooking recipe!)
+Eagle0600 for making the expanded fermenting code! Without his awesome stuff I'm not sure if I could've made the drying racks or pickling barrels! (They'd be much boring and just a cooking recipe!)
 https://steamcommunity.com/sharedfiles/filedetails/?id=955850576&amp;searchtext=expanded+fermenting
 
-Even if you don&apos;t plan on using the mod for modding, go give him a sub and a like for me :P
+Even if you don't plan on using the mod for modding, go give him a sub and a like for me :P
 
 [img]https://i.imgur.com/Rs6T6cr.png[/img]
 [list]
@@ -130,4 +130,3 @@ Even if you don&apos;t plan on using the mod for modding, go give him a sub and 
 [/list]
 </description>
 </ModMetaData>
-
