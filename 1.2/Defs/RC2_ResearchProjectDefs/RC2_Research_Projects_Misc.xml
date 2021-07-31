@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--============================== Main Categories ==============================-->
+  <ResearchProjectDef>
+    <defName>RC2_BasicCooking</defName>
+    <label>basic cooking</label>
+    <description>The knowledge of making pottages, candy, and tea, among other things.</description>
+    <tab>RimCuisine</tab>
+    <baseCost>300</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <tags>
+      <li>ClassicStart</li>
+    </tags>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>RC2_IntermediateCooking</defName>
+    <label>intermediate cooking</label>
+    <description>The knowledge of more advanced cooking, including quernstones, coffee, and pastries.</description>
+    <tab>RimCuisine</tab>
+    <baseCost>400</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>RC2_BasicCooking</li>
+    </prerequisites>
+    <tags>
+      <li>ClassicStart</li>
+    </tags>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>RC2_AdvancedCooking</defName>
+    <label>advanced cooking</label>
+    <description>Advanced cooking techniques, including the rollermill and making tofu from soybeans.</description>
+    <tab>RimCuisine</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>RC2_IntermediateCooking</li>
+      <li>Electricity</li>
+    </prerequisites>
+    <tags>
+      <li>ClassicStart</li>
+    </tags>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>Pemmican</defName>
+    <label>basic food preservation</label>
+    <description>The knowledge of making pemmican, drying fruit and drying meat and making hardtack.</description>
+    <tab>RimCuisine</tab>
+    <baseCost>400</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <tags>
+      <li>TribalStart</li>
+    </tags>
+    <prerequisites>
+      <li>RC2_BasicCooking</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>PackagedSurvivalMeal</defName>
+    <label>intermediate food preservation</label>
+    <description>Produce packaged survival meals which never go bad.</description>
+    <tab>RimCuisine</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Pemmican</li>
+      <li>NutrientPaste</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  <!--<ResearchProjectDef>
+		<defName>RC2_AdvancedFoodPreservation</defName>
+		<label>advanced food preservation</label>
+		<description>The knowledge of canning and the ability to make a cannery.  Canned food lasts indefinitely.</description>
+		<tab>RimCuisine</tab>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>RC2_IntermediateFoodPreservation</li>
+			<li>Electricity</li>
+		</prerequisites>
+ 		<researchViewX>3</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>-->
+  <ResearchProjectDef>
+    <defName>RC2_BasicAgriculture</defName>
+    <label>basic agriculture</label>
+    <description>The knowledge of planting some simple crops.</description>
+    <tab>RimCuisine</tab>
+    <tags>
+      <li>TribalStart</li>
+      <li>ClassicStart</li>
+    </tags>
+    <baseCost>300</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>0</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>TreeSowing</defName>
+    <label>basic forestry</label>
+    <description>Sow the local biome's natural trees in your fields, as well as some that bear fruit.</description>
+    <tab>RimCuisine</tab>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <prerequisites>
+      <li>RC2_BasicAgriculture</li>
+    </prerequisites>
+    <tags>
+      <li>TribalStart</li>
+    </tags>
+    <researchViewX>0.5</researchViewX>
+    <researchViewY>2.7</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>RC2_IntermediateAgriculture</defName>
+    <label>intermediate agriculture</label>
+    <description>The knowledge of planting more advanced crops.</description>
+    <tab>RimCuisine</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>RC2_BasicAgriculture</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>RC2_IntermediateForestry</defName>
+    <label>intermediate forestry</label>
+    <description>The knowledge of planting fruit trees in your fields.</description>
+    <tab>RimCuisine</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>TreeSowing</li>
+    </prerequisites>
+    <researchViewX>1.5</researchViewX>
+    <researchViewY>2.7</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>RC2_AdvancedAgriculture</defName>
+    <label>advanced agriculture</label>
+    <description>The knowledge of planting even more advanced and useful crops.</description>
+    <tab>RimCuisine</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>RC2_IntermediateAgriculture</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>Cocoa</defName>
+    <label>advanced forestry</label>
+    <description>Further expanded knowledge of planting fruit trees.</description>
+    <tab>RimCuisine</tab>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>RC2_IntermediateForestry</li>
+    </prerequisites>
+    <researchViewX>2.5</researchViewX>
+    <researchViewY>2.7</researchViewY>
+  </ResearchProjectDef>
+</Defs>

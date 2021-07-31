@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--Survival Foods-->
+  <!--Survival foods are a mix between preserved ingredients (pickled vegetables, dried meat, dried fruit) and long-lasting meals (hardtack).
+	Preserved ingredients are just that - ingredients meant to be used for cooking, not eating directly.  However, all of them still taste better
+	than raw food (except raw fruit!), so they don't usually have bad thoughts associated with them.  Their preference is just above raw food though.
+	Hardtack meanwhile, is less nutrient-efficient than pemmican (the recipe doesn't make as much), lasts longer, but gives an awful meal thought, making it
+	less OP than in RimCuisine 1.  Its also super cheap because of how bad it tastes, making it great to buy from traders in a pinch.-->
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>RC2_Hardtack</defName>
+    <label>hardtack</label>
+    <thingClass>ThingWithComps</thingClass>
+    <description>A tough biscuit or cracker that lasts a very long time and is good for travelling.  Makes you thirsty and doesn't taste very good though.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Food/Hardtack</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <tradeability>All</tradeability>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>.25</MarketValue>
+      <Mass>0.015</Mass>
+      <WorkToMake>300</WorkToMake>
+      <DeteriorationRate>2</DeteriorationRate>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <chairSearchRadius>1</chairSearchRadius>
+      <preferability>RawBad</preferability>
+      <tasteThought>AteRawFood</tasteThought>
+      <optimalityOffsetHumanlikes>1</optimalityOffsetHumanlikes>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>300</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_FoodPoisonable" />
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_SurvivalFoodBase">
+    <defName>RC2_DriedFruit</defName>
+    <label>dried fruit</label>
+    <description>Fruit that has been dried, often near a fire, in the sun, or in an oven.  With its moisture gone, they last quite a bit longer and travel well.  Favored by caravneers and tribals alike.  Can be used in cooking recipes.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Food/DriedFruit</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2</MarketValue>
+      <Mass>0.02</Mass>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit, Processed</foodType>
+      <tasteThought>
+      </tasteThought>
+      <preferability>RawBad</preferability>
+      <optimalityOffsetHumanlikes>1</optimalityOffsetHumanlikes>
+    </ingestible>
+    <thingCategories>
+      <li>RC2_FruitProcessed</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <!--Dried meat used to be 60 days before rotting, but I felt its more balanced at 30 days.  Its still helluva lot longer than raw meat.-->
+  <ThingDef ParentName="RC2_SurvivalFoodBase">
+    <defName>RC2_DriedMeat</defName>
+    <label>dried meat</label>
+    <description>Meat hunks that have been trimmed of most, if not all, of their fat and dried near a fire or in a stove.  Dried meat travels well and lasts quite a bit longer than raw meat.  Favored by tribals and caravaneers.  Can be eaten by itself without issue, but is often used in cooking recipes, especially stews, to soften it up.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Food/DriedMeat</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.2</MarketValue>
+      <Mass>0.02</Mass>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <ingestible>
+      <foodType>Meat, Processed</foodType>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <tasteThought>
+      </tasteThought>
+      <preferability>RawBad</preferability>
+      <optimalityOffsetHumanlikes>1</optimalityOffsetHumanlikes>
+    </ingestible>
+    <thingCategories>
+      <li>RC2_MeatProcessed</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_SurvivalFoodBase">
+    <defName>RC2_PickledVegetables</defName>
+    <label>pickled vegetables</label>
+    <description>Vegetables that have been packed into a jar or can with a briny or vinegary solution.  Favored by those with a taste for vinegar, they're also often used in cooking and they last a long time.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Food/PickledVegetables</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+      <Flammability>.7</Flammability>
+      <DeteriorationRate>3</DeteriorationRate>
+      <Mass>0.02</Mass>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit, Processed</foodType>
+      <tasteThought>
+      </tasteThought>
+      <preferability>RawBad</preferability>
+      <optimalityOffsetHumanlikes>1</optimalityOffsetHumanlikes>
+    </ingestible>
+    <thingCategories>
+      <li>RC2_VegetablesProcessed</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>120</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PreppedSurvivalFoodBase">
+    <defName>RC2_TrimmedMeat</defName>
+    <label>trimmed meat</label>
+    <description>Meat hunks that have been trimmed of most, if not all, of their fat and ready to be dried at a drying rack.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Food/TrimmedMeat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <!--<stackLimit>75</stackLimit>-->
+    <statBases>
+      <MarketValue>1</MarketValue>
+      <Mass>0.04</Mass>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <ingestible>
+      <foodType>Meat</foodType>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <tasteThought>AteRawFood</tasteThought>
+      <preferability>RawBad</preferability>
+      <optimalityOffsetHumanlikes>-3</optimalityOffsetHumanlikes>
+    </ingestible>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>3</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PreppedSurvivalFoodBase">
+    <defName>RC2_PreparedFruit</defName>
+    <label>prepared fruit</label>
+    <description>Fruit that has been peeled, slice, and/or de-pitted/seeded so it can easily be dried.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Food/PreparedFruit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <!--<stackLimit>75</stackLimit>-->
+    <statBases>
+      <MarketValue>1</MarketValue>
+      <Mass>0.04</Mass>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <tasteThought>
+      </tasteThought>
+      <preferability>RawBad</preferability>
+      <optimalityOffsetHumanlikes>-2</optimalityOffsetHumanlikes>
+    </ingestible>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>3</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PreppedSurvivalFoodBase">
+    <defName>RC2_PickleBrine</defName>
+    <label>brined vegetables</label>
+    <description>Vegetables that have been trimmed of excess leafage and mixed in with a briney solution, ready for long-term pickling in a barrel.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Food/PickleBrine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <!--<stackLimit>75</stackLimit>-->
+    <statBases>
+      <MarketValue>1</MarketValue>
+      <Mass>0.04</Mass>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <tasteThought>AteRawFood</tasteThought>
+      <preferability>RawBad</preferability>
+      <optimalityOffsetHumanlikes>-3</optimalityOffsetHumanlikes>
+    </ingestible>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <!--<ThingDef ParentName="OrganicProductBase">
+    <defName>RC2_Cheese</defName>
+    <label>cheese</label>
+    <thingClass>ThingWithComps</thingClass>
+    <description>A hunk of delicious golden curdled milk known as cheese. Can't ever get enough of this stuff.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Food/Cheese</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	<tradeability>All</tradeability>
+    <socialPropernessMatters>true</socialPropernessMatters>
+	<thingCategories>
+      <li>RC2_AnimalProductProcessed</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>3</MarketValue>
+      <Mass>0.015</Mass>
+      <WorkToMake>300</WorkToMake>
+			<DeteriorationRate>2</DeteriorationRate>
+		<Nutrition>0.05</Nutrition>
+    </statBases>
+    <ingestible>
+      <foodType>AnimalProduct, Processed</foodType>
+	  <chairSearchRadius>-10</chairSearchRadius>
+      <preferability>RawBad</preferability>
+	  <tasteThought>RC2_AteCheese</tasteThought>
+	  <specialThoughtAsIngredient>AteCheeseAsIngredient</specialThoughtAsIngredient>
+	  <optimalityOffsetHumanlikes>1</optimalityOffsetHumanlikes>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>120</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+      <li Class="CompProperties_Ingredients" />
+    </comps>
+  </ThingDef>-->
+</Defs>

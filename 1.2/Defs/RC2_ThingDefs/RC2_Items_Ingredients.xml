@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=============== Ingredients ====================-->
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_Flour</defName>
+    <label>flour</label>
+    <description>Flour made from grinding any sort of grain.  Used in baking and cooking, it is the staple of many societies, including here on the Rim.  Very long lasting with a 2 year shelflife.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Food/Flour</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>3</MarketValue>
+      <Mass>0.10</Mass>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <foodType>Processed</foodType>
+      <preferability>DesperateOnly</preferability>
+      <tasteThought>RC2_AteFlour</tasteThought>
+    </ingestible>
+    <thingCategories>
+      <li>RC2_GrainsProcessed</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>120</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_ResourceBase">
+    <defName>RC2_Sugar</defName>
+    <label>sugar</label>
+    <description>A crystaline substance so sweet it'll make your teeth hurt, not to mention quickly get you sick to your stomach.  Best eaten cooked in a variety of dishes and not eaten raw.  But if you're desperate, its better than eating Steve. (Heyoo!)</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Food/Sugar</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>5</MarketValue>
+      <Mass>0.15</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>8</DeteriorationRate>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <thingCategories>
+      <li>RC2_SweetsProcessed</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <foodType>Processed</foodType>
+      <tasteThought>RC2_AteSweetener</tasteThought>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>120</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_ResourceBase">
+    <defName>RC2_Tofu</defName>
+    <label>Tofu</label>
+    <description>A soy based product that provides the protein needed to be considered a meat substitute.  Tastes like ass according to most rimworlders.  Gourmands, however, appreciate its unique texture and taste. Does not preserve well, lasting only 3 days without proper refridgeration or freezing.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Food/Tofu</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>4</MarketValue>
+      <Mass>0.15</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>8</DeteriorationRate>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <thingCategories>
+      <li>RC2_MeatProcessed</li>
+    </thingCategories>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <preferability>RawBad</preferability>
+      <tasteThought>AteRawFood</tasteThought>
+      <specialThoughtAsIngredient>AteTofuAsIngredient</specialThoughtAsIngredient>
+      <foodType>Processed</foodType>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>3</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_ResourceBase">
+    <defName>RC2_Syrup</defName>
+    <label>syrup</label>
+    <description>A sticky golden brown substance bled from innocent maple trees.  Extremely sweet and delicious, often used on flapjacks or guzzled down directly by the insane. Doesn't spoil, but will deteriorate if left outside for too long.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Food/Syrup</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>4</MarketValue>
+      <Mass>0.15</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>3</DeteriorationRate>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <thingCategories>
+      <li>RC2_SweetsRaw</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <foodType>Processed, Fluid</foodType>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+      <tasteThought>RC2_AteSweetener</tasteThought>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Ingredients" />
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_ResourceBase">
+    <defName>RC2_Honey</defName>
+    <label>honey</label>
+    <description>A delicious batch of regurgitated bee-produce.  Super sweet, super delicious, honey is used as a natural sweetener in all sorts of goodies.  Also used in the production of mead by angry northmen. Doesn't spoil, though can deteriorate if left outside.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Food/Honey</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>8</MarketValue>
+      <Mass>0.15</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>3</DeteriorationRate>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <thingCategories>
+      <li>RC2_SweetsRaw</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <foodType>Processed, Fluid</foodType>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+      <specialThoughtAsIngredient>AteRareAsIngredient</specialThoughtAsIngredient>
+      <tasteThought>RC2_AteSweetener</tasteThought>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Ingredients" />
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_ResourceBase">
+    <defName>RC2_AgaveNectar</defName>
+    <label>agave nectar</label>
+    <description>A processed sweetener made from the agave plant.  Super sweet and healthy, and also used to make tequila!</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Food/AgaveNectar</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>4</MarketValue>
+      <Mass>0.15</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>8</DeteriorationRate>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <thingCategories>
+      <li>RC2_SweetsProcessed</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <foodType>Processed, Fluid</foodType>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+      <specialThoughtAsIngredient>AteRareAsIngredient</specialThoughtAsIngredient>
+      <tasteThought>RC2_AteSweetener</tasteThought>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>120</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

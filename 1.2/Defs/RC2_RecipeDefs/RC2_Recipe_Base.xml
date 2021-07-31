@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef Name="RC2_CookJoyMealBase" Abstract="True">
+    <defName>RC2_CookJoyMealBase</defName>
+    <label>make food</label>
+    <description>Make food.</description>
+    <jobString>Making food.</jobString>
+    <workAmount>400</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+  <RecipeDef Name="RC2_RecipeBase" Abstract="True">
+    <defName>RC2_RecipeBase</defName>
+    <label>make food</label>
+    <description>Make food.</description>
+    <jobString>Making food.</jobString>
+    <workAmount>400</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+  <!--<RecipeDef Name="RC2_RecipeBase" Abstract="True">
+		<defName>RC2_RecipeBase</defName>
+		<label>make food</label>
+		<description>Make food.</description>
+		<jobString>Making food.</jobString>
+		<workAmount>400</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workSkill>Cooking</workSkill>
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+		</recipeUsers>
+	</RecipeDef>-->
+</Defs>

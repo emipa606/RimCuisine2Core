@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="RC2_CookJoyMealBase">
+    <defName>RC2_MakeCandy</defName>
+    <label>make candy</label>
+    <description>Uses sweets to make delicious, delicious candy.  Makes 10.</description>
+    <jobString>Making candy.</jobString>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_SweetsRaw</li>
+            <li>RC2_SweetsProcessed</li>
+          </categories>
+          <thingDefs>
+            <li>Chocolate</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_MealCandy>10</RC2_MealCandy>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>RC2_SweetsRaw</li>
+        <li>RC2_SweetsProcessed</li>
+      </categories>
+      <thingDefs>
+        <li>Chocolate</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>RC2_SweetsRaw</li>
+        <li>RC2_SweetsProcessed</li>
+      </categories>
+      <thingDefs>
+        <li>Chocolate</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <skillRequirements>
+      <Cooking>2</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>RC2_BasicCooking</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_CookJoyMealBase">
+    <defName>RC2_MakeJuice</defName>
+    <label>make juice</label>
+    <description>Uses one or more fruits to make delicious juice.  Makes 5.</description>
+    <jobString>Making juice.</jobString>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_FruitsRaw</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_MealJuice>5</RC2_MealJuice>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>RC2_FruitsRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>RC2_FruitsRaw</li>
+      </categories>
+    </defaultIngredientFilter>
+    <skillRequirements>
+      <Cooking>2</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>RC2_BasicCooking</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_CookJoyMealBase">
+    <defName>RC2_MakePastry</defName>
+    <label>bake pastries</label>
+    <description>Uses sweets and flour to make pastries.  No not pasties, pastries! Careful of any law enforcement nearby, however, as they'll eat it all. Makes 10.</description>
+    <jobString>Baking pastries.</jobString>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_SweetsRaw</li>
+            <li>RC2_SweetsProcessed</li>
+          </categories>
+          <thingDefs>
+            <li>Chocolate</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_GrainsProcessed</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_MealPastry>10</RC2_MealPastry>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>RC2_SweetsRaw</li>
+        <li>RC2_SweetsProcessed</li>
+        <li>RC2_GrainsProcessed</li>
+      </categories>
+      <thingDefs>
+        <li>Chocolate</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>RC2_SweetsRaw</li>
+        <li>RC2_SweetsProcessed</li>
+        <li>RC2_GrainsProcessed</li>
+      </categories>
+      <thingDefs>
+        <li>Chocolate</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <skillRequirements>
+      <Cooking>5</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>RC2_IntermediateCooking</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_RecipeBase">
+    <defName>RC2_ProcessCoffee</defName>
+    <label>brew coffee</label>
+    <description>Brew raw coffee beans into delicous coffee. Makes 5.</description>
+    <jobString>Brewing coffee.</jobString>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RC2_RawCoffeeBeans</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_Coffee>5</RC2_Coffee>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RC2_RawCoffeeBeans</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>RC2_RawCoffeeBeans</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <researchPrerequisite>RC2_IntermediateCooking</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_RecipeBase">
+    <defName>RC2_BrewTea</defName>
+    <label>brew green tea</label>
+    <description>Brew tea leaves into green tea. Makes 5.</description>
+    <jobString>Brewing green tea.</jobString>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RC2_RawTeaLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_GreenTea>5</RC2_GreenTea>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RC2_RawTeaLeaves</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>RC2_RawTeaLeaves</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <researchPrerequisite>RC2_BasicCooking</researchPrerequisite>
+  </RecipeDef>
+</Defs>

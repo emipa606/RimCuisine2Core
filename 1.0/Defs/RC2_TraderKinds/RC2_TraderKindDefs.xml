@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TraderKindDef>
+    <defName>RC2_Caravan_Cabbage</defName>
+    <label>cabbage merchant</label>
+    <commonality>.25</commonality>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>50</min>
+          <max>100</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>RC2_RawCabbages</thingDef>
+        <countRange>
+          <min>500</min>
+          <max>5000</max>
+        </countRange>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+  <TraderKindDef>
+    <defName>RC2_Caravan_Neolithic_Farmer</defName>
+    <label>agricultural trader</label>
+    <commonality>1.5</commonality>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>750</min>
+          <max>1200</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Animals">
+        <tradeTagsSell>
+          <li>AnimalFarm</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>AnimalPet</li>
+        </tradeTagsBuy>
+        <kindCountRange>
+          <min>2</min>
+          <max>6</max>
+        </kindCountRange>
+        <countRange>
+          <min>4</min>
+          <max>10</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>RC2_GrainsRaw</categoryDef>
+        <thingDefCountRange>
+          <min>3</min>
+          <max>6</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>200</min>
+          <max>400</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>RC2_VegetablesRaw</categoryDef>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>6</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>200</min>
+          <max>400</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>RC2_FruitsRaw</categoryDef>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>6</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>100</min>
+          <max>200</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>PlantMatter</categoryDef>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>8</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>100</min>
+          <max>200</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>RC2_FoodProcessed</categoryDef>
+        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>5</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>100</min>
+          <max>200</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>AnimalProductRaw</categoryDef>
+        <excludedCategories>
+          <li>EggsFertilized</li>
+        </excludedCategories>
+        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>5</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>100</min>
+          <max>300</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_MultiDef">
+        <thingDefs>
+          <li>RC2_Hardtack</li>
+          <li>Pemmican</li>
+          <!--<li>RC2_Cheese</li>-->
+        </thingDefs>
+        <countRange>
+          <min>200</min>
+          <max>1000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Kibble</thingDef>
+        <countRange>
+          <min>250</min>
+          <max>1000</max>
+        </countRange>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+  <TraderKindDef>
+    <defName>RC2_Caravan_Outlander_Farmer</defName>
+    <label>agricultural trader</label>
+    <commonality>1.5</commonality>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>750</min>
+          <max>1200</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Animals">
+        <tradeTagsSell>
+          <li>AnimalFarm</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>AnimalPet</li>
+        </tradeTagsBuy>
+        <kindCountRange>
+          <min>2</min>
+          <max>6</max>
+        </kindCountRange>
+        <countRange>
+          <min>4</min>
+          <max>10</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>RC2_GrainsRaw</categoryDef>
+        <thingDefCountRange>
+          <min>3</min>
+          <max>6</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>200</min>
+          <max>600</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>RC2_VegetablesRaw</categoryDef>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>6</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>200</min>
+          <max>600</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>RC2_FruitsRaw</categoryDef>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>6</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>100</min>
+          <max>200</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>PlantMatter</categoryDef>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>8</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>100</min>
+          <max>200</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>RC2_FoodProcessed</categoryDef>
+        <thingDefCountRange>
+          <min>3</min>
+          <max>5</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>500</min>
+          <max>1000</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>AnimalProductRaw</categoryDef>
+        <excludedCategories>
+          <li>EggsFertilized</li>
+        </excludedCategories>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>5</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>100</min>
+          <max>300</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_MultiDef">
+        <thingDefs>
+          <li>RC2_Hardtack</li>
+          <!--<li>RC2_Cheese</li>-->
+        </thingDefs>
+        <countRange>
+          <min>200</min>
+          <max>1000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Kibble</thingDef>
+        <countRange>
+          <min>500</min>
+          <max>1000</max>
+        </countRange>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+  <TraderKindDef>
+    <defName>RC2_Orbital_SnackTrader</defName>
+    <label>RimCo Whole Foods Trader</label>
+    <commonality>1</commonality>
+    <orbital>true</orbital>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>2000</min>
+          <max>4000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>FoodRaw</categoryDef>
+        <excludedCategories>
+          <li>EggsFertilized</li>
+        </excludedCategories>
+        <thingDefCountRange>
+          <min>15</min>
+          <max>30</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>500</min>
+          <max>2000</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>PlantMatter</categoryDef>
+        <thingDefCountRange>
+          <min>5</min>
+          <max>10</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>500</min>
+          <max>2000</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>RC2_FoodProcessed</categoryDef>
+        <thingDefCountRange>
+          <min>5</min>
+          <max>10</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>500</min>
+          <max>2000</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Kibble</thingDef>
+        <countRange>
+          <min>2000</min>
+          <max>5000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Chocolate</thingDef>
+        <countRange>
+          <min>100</min>
+          <max>500</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MealSurvivalPack</thingDef>
+        <countRange>
+          <min>200</min>
+          <max>500</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MealNutrientPaste</thingDef>
+        <countRange>
+          <min>200</min>
+          <max>500</max>
+        </countRange>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+</Defs>

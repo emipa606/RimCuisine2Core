@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=========================== Stuff ==============================-->
+  <ThingDef ParentName="RC2_WildDeciduousTreeBase">
+    <defName>RC2_PlantBeeTree</defName>
+    <label>bee-infested tree</label>
+    <description>A mostly lifeless tree that is currently supporting a hive of bees.  Harvest them periodically for delicious honey!</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/BeeTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <growDays>6</growDays>
+      <lifespanDaysPerGrowDays>10</lifespanDaysPerGrowDays>
+      <harvestYield>1</harvestYield>
+      <fertilitySensitivity>0.2</fertilitySensitivity>
+      <harvestAfterGrowth>0.5</harvestAfterGrowth>
+      <harvestedThingDef>RC2_Honey</harvestedThingDef>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/BeeTree</immatureGraphicPath>
+      <leaflessGraphicPath>Things/Plant/TreeBirch_Leafless</leaflessGraphicPath>
+      <wildClusterRadius>1</wildClusterRadius>
+      <wildClusterWeight>1</wildClusterWeight>
+    </plant>
+  </ThingDef>
+  <!--=========================== Vegetables ==============================-->
+  <ThingDef ParentName="RC2_PlantBase">
+    <defName>RC2_PlantTruffles</defName>
+    <label>truffle plant</label>
+    <description>An edible fungus that is difficult to find and highly valued for its taste.</description>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Nutrition>0.18</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/TrufflePlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <fillPercent>0.01</fillPercent>
+    <pathCost>5</pathCost>
+    <plant>
+      <fertilitySensitivity>0.0</fertilitySensitivity>
+      <growDays>3</growDays>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.30</harvestAfterGrowth>
+      <harvestedThingDef>RC2_RawTruffles</harvestedThingDef>
+      <harvestYield>5</harvestYield>
+      <harvestWork>700</harvestWork>
+      <fertilityMin>0.03</fertilityMin>
+      <visualSizeRange>
+        <min>0.7</min>
+        <max>1.2</max>
+      </visualSizeRange>
+      <topWindExposure>0.0</topWindExposure>
+      <wildClusterWeight>20</wildClusterWeight>
+      <wildClusterRadius>4</wildClusterRadius>
+      <wildOrder>2</wildOrder>
+    </plant>
+  </ThingDef>
+  <!--=========================== Non-Food ==============================-->
+  <ThingDef ParentName="RC2_PlantBase">
+    <defName>RC2_PlantFlax</defName>
+    <label>flax plant</label>
+    <description>Yields flax, a fiber useful for making cloth.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.18</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/FlaxPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <plant>
+      <fertilitySensitivity>0.4</fertilitySensitivity>
+      <growDays>6</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>Cloth</harvestedThingDef>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestYield>12</harvestYield>
+      <topWindExposure>0.35</topWindExposure>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/FlaxPlant</immatureGraphicPath>
+      <visualSizeRange>
+        <min>0.3</min>
+        <max>1.00</max>
+      </visualSizeRange>
+      <wildClusterWeight>160</wildClusterWeight>
+      <wildClusterRadius>8</wildClusterRadius>
+      <wildOrder>2</wildOrder>
+    </plant>
+  </ThingDef>
+</Defs>

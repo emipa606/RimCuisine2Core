@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>RC2_DoBillsQuernstone</defName>
+    <label>mill raw food</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>32</priorityInType>
+    <fixedBillGiverDefs>
+      <li>RC2_Quernstone</li>
+      <li>RC2_RollerMill</li>
+      <li>RC2_FoodPrepSpot</li>
+    </fixedBillGiverDefs>
+    <verb>milling</verb>
+    <gerund>milling</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>TakeBeerOutOfFermentingBarrel</defName>
+    <label>take product out of processing building</label>
+    <giverClass>ExpandableFermenting.WorkGiver_TakeProductOutOfFermentingBuilding</giverClass>
+    <workType>Cooking</workType>
+    <verb>take product</verb>
+    <gerund>taking product from</gerund>
+    <priorityInType>52</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>FillFermentingBarrel</defName>
+    <label>fill processing building</label>
+    <giverClass>ExpandableFermenting.WorkGiver_FillFermentingBuilding</giverClass>
+    <workType>Cooking</workType>
+    <verb>fill</verb>
+    <gerund>filling</gerund>
+    <priorityInType>51</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>TakeBeerOutOfFermentingBarrel2</defName>
+    <label>take product out of processing building</label>
+    <giverClass>ExpandableFermenting.WorkGiver_TakeProductOutOfFermentingBuilding</giverClass>
+    <workType>Hauling</workType>
+    <verb>take product</verb>
+    <gerund>taking product from</gerund>
+    <priorityInType>20</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>FillFermentingBarrel2</defName>
+    <label>fill processing building</label>
+    <giverClass>ExpandableFermenting.WorkGiver_FillFermentingBuilding</giverClass>
+    <workType>Hauling</workType>
+    <verb>fill</verb>
+    <gerund>filling</gerund>
+    <priorityInType>19</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+</Defs>

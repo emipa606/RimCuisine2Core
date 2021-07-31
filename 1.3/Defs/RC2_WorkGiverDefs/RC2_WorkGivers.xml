@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>RC2_DoBillsQuernstone</defName>
+    <label>mill raw food</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>32</priorityInType>
+    <fixedBillGiverDefs>
+      <li>RC2_Quernstone</li>
+      <li>RC2_RollerMill</li>
+      <li>RC2_FoodPrepSpot</li>
+    </fixedBillGiverDefs>
+    <verb>milling</verb>
+    <gerund>milling</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+</Defs>

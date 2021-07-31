@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=============== Ingredients ====================-->
+  <ThingDef ParentName="MealCooked">
+    <defName>RC2_ThinPottage</defName>
+    <label>thin pottage</label>
+    <description>A simple, bland tasting pottage made from a few ingredients. Not quite as filling as a proper meal.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Food/WeakStew</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>12</MarketValue>
+      <Nutrition>0.75</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <optimalityOffsetHumanlikes>-1</optimalityOffsetHumanlikes>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="MealCooked">
+    <defName>RC2_ThickPottage</defName>
+    <label>thick pottage</label>
+    <description>A filling pottage made from meat and vegetarian ingredients.  Tasty, but not quite as filling as a proper meal.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Food/HeartyStew</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <Nutrition>0.75</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealFine</preferability>
+      <optimalityOffsetHumanlikes>-1</optimalityOffsetHumanlikes>
+      <tasteThought>AteFineMeal</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+</Defs>

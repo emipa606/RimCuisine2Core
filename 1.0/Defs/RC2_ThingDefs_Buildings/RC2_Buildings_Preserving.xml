@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>RC2_MeatDryingRack</defName>
+    <label>meat drying rack</label>
+    <description>A rack for drying raw meat. Must be placed outdoors.</description>
+    <thingClass>ExpandableFermenting.Building_Processing</thingClass>
+    <!-- Can also use ExpandableFermenting.Building_Processing. Combine with CompProperties_Processing. -->
+    <graphicData>
+      <texPath>RC2_Things/RC2_Buildings/MeatDryingRack/MeatDryingRack</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2.5,2.5)</drawSize>
+      <drawRotated>false</drawRotated>
+      <damageData>
+        <rect>(0.05,0.1,0.9,0.9)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(0.75, 0.35, 0.33)</volume>
+      </shadowData>
+    </graphicData>
+    <!--<minifiedDef>MinifiedThing</minifiedDef>-->
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.45</fillPercent>
+    <pathCost>60</pathCost>
+    <size>(2, 2)</size>
+    <!--<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>-->
+    <statBases>
+      <WorkToBuild>150</WorkToBuild>
+      <Mass>5</Mass>
+      <MaxHitPoints>25</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <building>
+      <allowAutoroof>false</allowAutoroof>
+    </building>
+    <comps>
+      <!-- Can also use power, flickable, refuelable, and breakdownable components. -->
+      <li Class="ExpandableFermenting.CompProperties_Processing">
+        <ingredientDef>RC2_TrimmedMeat</ingredientDef>
+        <ingredientLabel>meat</ingredientLabel>
+        <productDef>RC2_DriedMeat</productDef>
+        <!-- Must be defined. -->
+        <capacity>150</capacity>
+        <fermentationDuration>120000</fermentationDuration>
+        <!--<minIdealTemperature>15.0</minIdealTemperature>
+				<processFinishedLabel>Dried</processFinishedLabel>
+				<idealTempLabel>Ideal drying temperature</idealTempLabel>
+				<outOfIdealTemperatureLabel>Non-ideal temperature. Drying speed: </outOfIdealTemperatureLabel> -->
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+      <!--<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>240.0</fuelConsumptionRate>
+				<fuelCapacity>10.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</fuelFilter>
+			</li>-->
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_NotUnderRoof</li>
+    </placeWorkers>
+    <tickerType>Rare</tickerType>
+    <!--<constructEffect>ConstructWood</constructEffect>-->
+    <designationCategory>RC2_RimCuisine</designationCategory>
+    <researchPrerequisites>
+      <li>Pemmican</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>RC2_FruitDryingRack</defName>
+    <label>fruit drying rack</label>
+    <description>A rack for drying fruit.  Degrades the flavor of any high quality fruit, but dried fruit still tastes good.</description>
+    <thingClass>ExpandableFermenting.Building_Processing</thingClass>
+    <!-- Can also use ExpandableFermenting.Building_Processing. Combine with CompProperties_Processing. -->
+    <graphicData>
+      <texPath>RC2_Things/RC2_Buildings/FruitDryingRack/FruitDryingRack</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1.5,1.5)</drawSize>
+      <damageData>
+        <rect>(0.05,0.1,0.9,0.9)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(0.75, 0.35, 0.33)</volume>
+      </shadowData>
+      <drawRotated>false</drawRotated>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.45</fillPercent>
+    <pathCost>60</pathCost>
+    <size>(1, 1)</size>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <statBases>
+      <WorkToBuild>200</WorkToBuild>
+      <Mass>10</Mass>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <comps>
+      <!-- Can also use power, flickable, refuelable, and breakdownable components. -->
+      <li Class="ExpandableFermenting.CompProperties_Processing">
+        <ingredientDef>RC2_PreparedFruit</ingredientDef>
+        <ingredientLabel>fruit</ingredientLabel>
+        <productDef>RC2_DriedFruit</productDef>
+        <!-- Must be defined. -->
+        <capacity>25</capacity>
+        <fermentationDuration>120000</fermentationDuration>
+        <!--<minIdealTemperature>15</minIdealTemperature>
+				<processFinishedLabel>Dried</processFinishedLabel>
+				<idealTempLabel>Ideal drying temperature</idealTempLabel>
+				<outOfIdealTemperatureLabel>Non-ideal temperature. Drying speed: </outOfIdealTemperatureLabel>-->
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+      <!--<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>240.0</fuelConsumptionRate>
+				<fuelCapacity>10.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</fuelFilter>
+			</li>-->
+    </comps>
+    <tickerType>Rare</tickerType>
+    <rotatable>true</rotatable>
+    <designationCategory>RC2_RimCuisine</designationCategory>
+    <!--<constructEffect>ConstructWood</constructEffect>-->
+    <researchPrerequisites>
+      <li>Pemmican</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>RC2_PicklingBarrel</defName>
+    <label>pickling barrel</label>
+    <description>A barrel filled with brine to pickle vegetables. Degrades the quality of high-quality vegetables, making everything taste like salt and vinegar.</description>
+    <thingClass>ExpandableFermenting.Building_Processing</thingClass>
+    <!-- Can also use ExpandableFermenting.Building_Processing. Combine with CompProperties_Processing. -->
+    <graphicData>
+      <texPath>RC2_Things/RC2_Buildings/PicklingBarrel/PicklingBarrel</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawRotated>false</drawRotated>
+      <damageData>
+        <rect>(0.05,0.1,0.9,0.9)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(0.75, 0.35, 0.33)</volume>
+      </shadowData>
+      <drawSize>(1.35,1.35)</drawSize>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.45</fillPercent>
+    <pathCost>60</pathCost>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <statBases>
+      <WorkToBuild>300</WorkToBuild>
+      <Mass>20</Mass>
+      <MaxHitPoints>75</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <comps>
+      <!-- Can also use power, flickable, refuelable, and breakdownable components. -->
+      <li Class="ExpandableFermenting.CompProperties_Processing">
+        <ingredientDef>RC2_PickleBrine</ingredientDef>
+        <ingredientLabel>vegetables</ingredientLabel>
+        <productDef>RC2_PickledVegetables</productDef>
+        <!-- Must be defined. -->
+        <capacity>75</capacity>
+        <fermentationDuration>300000</fermentationDuration>
+        <!-- <minIdealTemperature>7.0</minIdealTemperature> is default. Beer is not ruined below this temperature, but progress slows. Not used for CompProperties_Processing. -->
+        <!--<processFinishedLabel>Pickled</processFinishedLabel> -->
+        <!-- <idealTempLabel>Ideal fermenting temperature</idealTempLabel> is default. "Ideal processing temperature" is default for CompProperties_Processing. -->
+        <!-- <outOfIdealTemperatureLabel>Non-ideal temperature. Fermentation speed:</outOfIdealTemperatureLabel> is default. Not used for CompProperties_Processing. -->
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <tickerType>Rare</tickerType>
+    <rotatable>false</rotatable>
+    <designationCategory>RC2_RimCuisine</designationCategory>
+    <researchPrerequisites>
+      <li>Pemmican</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <!--<ThingDef ParentName="BuildingBase">
+		<defName>RC2_ElectricMeatDryingRack</defName>
+		<label>electric meat drying rack</label>
+		<description>An electrically powered rack for drying raw meat.  Works three times as fast!</description>
+		<thingClass>ExpandableFermenting.Building_Processing</thingClass> Can also use ExpandableFermenting.Building_Processing. Combine with CompProperties_Processing. 
+		<graphicData>
+			<texPath>RC2_Things/RC2_Buildings/ElectricMeatDryingRack/ElectricMeatDryingRack</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.25,2.25)</drawSize>
+			<drawRotated>false</drawRotated>
+			<damageData>
+				<rect>(0.05,0.1,0.9,0.9)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.75, 0.35, 0.33)</volume>
+			</shadowData>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.45</fillPercent>
+		<pathCost>60</pathCost>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<statBases>
+			<WorkToBuild>150</WorkToBuild>
+			<Mass>5</Mass>
+			<MaxHitPoints>25</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<costList>
+			<Steel>100</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="ExpandableFermenting.CompProperties_Processing">
+				<ingredientFilter> 
+					<categories>
+						<li>MeatRaw</li>
+					</categories>
+					<disallowedThingDefs>
+						<li>Meat_Human</li>
+						<li>Meat_Megaspider</li>
+					</disallowedThingDefs>
+				</ingredientFilter> 
+				<ingredientLabel>meat</ingredientLabel> 
+				<capacity>75</capacity>
+				<fermentationDuration>60000</fermentationDuration>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>80</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<rotatable>true</rotatable>
+		<designationCategory>Production</designationCategory>
+		<researchPrerequisites>
+			<li>PackagedSurvivalMeal</li>
+			<li>Electricity</li>
+		</researchPrerequisites>
+	</ThingDef>-->
+  <!--<ThingDef ParentName="BuildingBase">
+		<defName>RC2_ElectricFruitDryingRack</defName>
+		<label>electric fruit drying rack</label>
+		<description>An electrically powered rack for drying fruit.  Degrades the flavor of any high quality fruit.  Works three times as fast as a wood-powered one.</description>
+		<thingClass>ExpandableFermenting.Building_Processing</thingClass> 
+		<graphicData>
+			<texPath>RC2_Things/RC2_Buildings/ElectricFruitDryingRack/ElectricFruitDryingRack</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+			<damageData>
+				<rect>(0.05,0.1,0.9,0.9)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.75, 0.35, 0.33)</volume>
+			</shadowData>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.45</fillPercent>
+		<pathCost>60</pathCost>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<statBases>
+			<WorkToBuild>150</WorkToBuild>
+			<Mass>5</Mass>
+			<MaxHitPoints>25</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<costList>
+			<Steel>100</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="ExpandableFermenting.CompProperties_Processing">
+				<ingredientFilter> 
+					<categories>
+						<li>RC2_FruitsRaw</li>
+					</categories>
+					<disallowedThingDefs>
+						<li>RC2_RawPecans</li>
+					</disallowedThingDefs>
+				</ingredientFilter> 
+				<ingredientLabel>fruit</ingredientLabel> 
+				<productDef>RC2_DriedFruit</productDef> 
+				<capacity>75</capacity>
+				<fermentationDuration>60000</fermentationDuration>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>80</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<rotatable>true</rotatable>
+		<designationCategory>Production</designationCategory>
+		<researchPrerequisites>
+			<li>PackagedSurvivalMeal</li>
+			<li>Electricity</li>
+		</researchPrerequisites>
+	</ThingDef>-->
+</Defs>

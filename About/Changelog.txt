@@ -1,0 +1,4 @@
+# Changelog for RimCuisine2Core
+
+1.0.0.0 - First publish
+

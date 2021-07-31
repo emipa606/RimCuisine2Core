@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>RC2_MeatDryingRack</defName>
+    <label>meat drying rack</label>
+    <description>A rack for drying raw meat. Must be placed outdoors.</description>
+    <!-- Can also use ExpandableFermenting.Building_Processing. Combine with CompProperties_Processing. -->
+    <graphicData>
+      <texPath>RC2_Things/RC2/MeatDryingRack/MeatDryingRack</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2.5,2.5)</drawSize>
+      <damageData>
+        <rect>(0.05,0.1,0.9,0.9)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(0.75, 0.35, 0.33)</volume>
+      </shadowData>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <rotatable>false</rotatable>
+    <!--<minifiedDef>MinifiedThing</minifiedDef>-->
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.45</fillPercent>
+    <pathCost>60</pathCost>
+    <size>(2, 2)</size>
+    <!--<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>-->
+    <statBases>
+      <WorkToBuild>150</WorkToBuild>
+      <Mass>5</Mass>
+      <MaxHitPoints>25</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <building>
+      <allowAutoroof>false</allowAutoroof>
+    </building>
+    <comps>
+      <!-- Can also use power, flickable, refuelable, and breakdownable components. -->
+      <li Class="UniversalFermenter.CompProperties_UniversalFermenter">
+        <barOffset>(0.0, 0.17)</barOffset>
+        <processes>
+          <li>
+            <thingDef>RC2_DriedMeat</thingDef>
+            <ingredientFilter>
+              <thingDefs>
+                <li>RC2_TrimmedMeat</li>
+              </thingDefs>
+            </ingredientFilter>
+            <maxCapacity>150</maxCapacity>
+            <processDays>2</processDays>
+            <graphicSuffix>Full</graphicSuffix>
+            <processType>MultipleMixed</processType>
+          </li>
+        </processes>
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+      <!--<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>240.0</fuelConsumptionRate>
+				<fuelCapacity>10.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</fuelFilter>
+			</li>-->
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_NotUnderRoof</li>
+    </placeWorkers>
+    <tickerType>Rare</tickerType>
+    <!--<constructEffect>ConstructWood</constructEffect>-->
+    <designationCategory>RC2_RimCuisine</designationCategory>
+    <researchPrerequisites>
+      <li>Pemmican</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>RC2_FruitDryingRack</defName>
+    <label>fruit drying rack</label>
+    <description>A rack for drying fruit.  Degrades the flavor of any high quality fruit, but dried fruit still tastes good.</description>
+    <!-- Can also use ExpandableFermenting.Building_Processing. Combine with CompProperties_Processing. -->
+    <graphicData>
+      <texPath>RC2_Things/RC2/FruitDryingRack/FruitDryingRack</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1.5,1.5)</drawSize>
+      <damageData>
+        <rect>(0.05,0.1,0.9,0.9)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(0.75, 0.35, 0.33)</volume>
+      </shadowData>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.45</fillPercent>
+    <pathCost>60</pathCost>
+    <size>(1, 1)</size>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <statBases>
+      <WorkToBuild>200</WorkToBuild>
+      <Mass>10</Mass>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <comps>
+      <!-- Can also use power, flickable, refuelable, and breakdownable components. -->
+      <li Class="UniversalFermenter.CompProperties_UniversalFermenter">
+        <processes>
+          <li>
+            <thingDef>RC2_DriedFruit</thingDef>
+            <ingredientFilter>
+              <thingDefs>
+                <li>RC2_PreparedFruit</li>
+              </thingDefs>
+            </ingredientFilter>
+            <processDays>2</processDays>
+            <graphicSuffix>Full</graphicSuffix>
+            <processType>MultipleMixed</processType>
+          </li>
+        </processes>
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+      <!--<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>240.0</fuelConsumptionRate>
+				<fuelCapacity>10.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</fuelFilter>
+			</li>-->
+    </comps>
+    <tickerType>Rare</tickerType>
+    <rotatable>true</rotatable>
+    <designationCategory>RC2_RimCuisine</designationCategory>
+    <!--<constructEffect>ConstructWood</constructEffect>-->
+    <researchPrerequisites>
+      <li>Pemmican</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>RC2_PicklingBarrel</defName>
+    <label>pickling barrel</label>
+    <description>A barrel filled with brine to pickle vegetables. Degrades the quality of high-quality vegetables, making everything taste like salt and vinegar.</description>
+    <!-- Can also use ExpandableFermenting.Building_Processing. Combine with CompProperties_Processing. -->
+    <graphicData>
+      <texPath>RC2_Things/RC2/PicklingBarrel/PicklingBarrel</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <damageData>
+        <rect>(0.05,0.1,0.9,0.9)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(0.75, 0.35, 0.33)</volume>
+      </shadowData>
+      <drawSize>(1.35,1.35)</drawSize>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.45</fillPercent>
+    <pathCost>60</pathCost>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <statBases>
+      <WorkToBuild>300</WorkToBuild>
+      <Mass>20</Mass>
+      <MaxHitPoints>75</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <comps>
+      <!-- Can also use power, flickable, refuelable, and breakdownable components. -->
+      <li Class="UniversalFermenter.CompProperties_UniversalFermenter">
+        <barOffset>(0.0, -0.2)</barOffset>
+        <processes>
+          <li>
+            <thingDef>RC2_PickledVegetables</thingDef>
+            <ingredientFilter>
+              <thingDefs>
+                <li>RC2_PickleBrine</li>
+              </thingDefs>
+            </ingredientFilter>
+            <maxCapacity>75</maxCapacity>
+            <processDays>5</processDays>
+            <graphicSuffix>Full</graphicSuffix>
+          </li>
+        </processes>
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <tickerType>Rare</tickerType>
+    <rotatable>false</rotatable>
+    <designationCategory>RC2_RimCuisine</designationCategory>
+    <researchPrerequisites>
+      <li>Pemmican</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>
