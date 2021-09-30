@@ -57,7 +57,7 @@
             <processDays>2</processDays>
             <graphicSuffix>Full</graphicSuffix>
             <processType>MultipleMixed</processType>
-            <temperatureSafe>25.0~75.0</temperatureSafe>
+            <temperatureSafe>1.0~75.0</temperatureSafe>
             <temperatureIdeal>30.0~70.0</temperatureIdeal>
           </li>
         </processes>
@@ -134,7 +134,7 @@
             <processDays>2</processDays>
             <graphicSuffix>Full</graphicSuffix>
             <processType>MultipleMixed</processType>
-            <temperatureSafe>25.0~75.0</temperatureSafe>
+            <temperatureSafe>1.0~75.0</temperatureSafe>
             <temperatureIdeal>30.0~70.0</temperatureIdeal>
           </li>
         </processes>
