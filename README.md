@@ -47,23 +47,6 @@ While this mod is basically feature-complete, I will be using you guys as test s
 -Pottages now require only Basic Cooking to make.
 -Sorghum can now be properly bulk-milled.
 
-
---------------------------------------------------
-
-Like my mods?** ko-fi.com/crustypeanut]Consider supporting me with delicious caffeine!**
-
---------------------------------------------------
-
-**To-do List:**
-
-Work on balance!
-Minor art tweaks and fixes.  
-Bugfixes (hopefully there aren’t any!)
-Compatibility patches!
-RimCuisine 2: Rim-Cola Expansion!
-RimCuisine 2: Flowers and Ferns Expansion!
-And more…??
-
 --------------------------------------------------
 
 **Compatibilities:**
@@ -103,5 +86,17 @@ Even if you don't plan on using the mod for modding, go give him a sub and a lik
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
+
+
+![Image](https://i.imgur.com/PwoNOj4.png)
+
+
+
+-  See if the the error persists if you just have this mod and its requirements active.
+-  If not, try adding your other mods until it happens again.
+-  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib and command Ctrl+F12
+-  For best support, please use the Discord-channel for error-reporting.
+-  Do not report errors by making a discussion-thread, I get no notification of that.
+-  If you have the solution for a problem, please post it to the GitHub repository.
 
 

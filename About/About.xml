@@ -55,9 +55,9 @@ Overall, the mod is designed to be vanilla-friendly and fit seamlessly into norm
 
 [b]New Meals:[/b] A variety of new meals including mass-produced pottage, sugary candy and pastries, as well as coffee, tea, and of course hardtack! Snacks provide their own moodlets, while coffee and tea provide pawns with a source of caffeine, boosting their productivity and learning while simultaneously boosting their anxiety.  Yay caffeine-induced panic attacks!  
 
-[b]New Food Categories:[/b] All foods are now organized into the five major food groups: Meat, Grains, Vegetables, Fruits, and Sweets, varying between raw and processed.  Processed ingredients, such as dried fruits/meat and canned goods (found in the M&amp;M Expansion) can be used in cooking recipes just like raw ingredients, but tend to be more space and weight-efficient.  All vanilla recipes have been updated to use these new categories!
+[b]New Food Categories:[/b] All foods are now organized into the five major food groups: Meat, Grains, Vegetables, Fruits, and Sweets, varying between raw and processed.  Processed ingredients, such as dried fruits/meat and canned goods (found in the M&amp;amp;M Expansion) can be used in cooking recipes just like raw ingredients, but tend to be more space and weight-efficient.  All vanilla recipes have been updated to use these new categories!
 
-[b]New Traders![/b] Introducing the Agricultural Traders! They primarily sell crops and farm animals so you can import the crops you can't grow locally and buy some much-needed cows for tasty foods! (like cheese in the M&amp;M submod) There is another trader I'll let you find on your own as well.. he he he
+[b]New Traders![/b] Introducing the Agricultural Traders! They primarily sell crops and farm animals so you can import the crops you can't grow locally and buy some much-needed cows for tasty foods! (like cheese in the M&amp;amp;M submod) There is another trader I'll let you find on your own as well.. he he he
 
 [b]Changes to Existing Stuff:[/b] None! Well, I lied.  A few minor tweaks to categories and the inventory display.  All of which have been patched in correctly so as to not cause issues.  In addition, a few old techs have been renamed and moved to the RimCuisine tech tree, but otherwise unmolested in their definitions (for compatibility reasons)  Pemmican is now “Basic Preservation Techniques”, and Survival Meals is now “Intermediate Preservation Techniques”.  Tree Sowing is now Basic Forestry, and Cocoa trees is Advanced Forestry.  Unlike RimCuisine 1, healroot is untouched! 
 
@@ -73,23 +73,6 @@ While this mod is basically feature-complete, I will be using you guys as test s
 -Fixed a number of descriptions, especially the technology ones which were using outdated RimCuisine 1 descriptions.
 -Pottages now require only Basic Cooking to make.
 -Sorghum can now be properly bulk-milled.
-
-
---------------------------------------------------
-
-Like my mods?[b] [url=ko-fi.com/crustypeanut]Consider supporting me with delicious caffeine![/url][/b]
-
---------------------------------------------------
-
-[b]To-do List:[/b]
-
-Work on balance!
-Minor art tweaks and fixes.  
-Bugfixes (hopefully there aren’t any!)
-Compatibility patches!
-RimCuisine 2: Rim-Cola Expansion!
-RimCuisine 2: Flowers and Ferns Expansion!
-And more…??
 
 --------------------------------------------------
 
@@ -115,7 +98,7 @@ Fans of RimCuisine 1! Thank you for your continued support!
 And everyone on the mod development/mod art channel on the Rimworld Discord, who helped me out with the odd idea or feedback!
 
 Eagle0600 for making the expanded fermenting code! Without his awesome stuff I'm not sure if I could've made the drying racks or pickling barrels! (They'd be much boring and just a cooking recipe!)
-https://steamcommunity.com/sharedfiles/filedetails/?id=955850576&amp;searchtext=expanded+fermenting
+https://steamcommunity.com/sharedfiles/filedetails/?id=955850576&amp;amp;searchtext=expanded+fermenting
 
 Even if you don't plan on using the mod for modding, go give him a sub and a like for me :P
 
@@ -128,5 +111,14 @@ Even if you don't plan on using the mod for modding, go give him a sub and a lik
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
-</description>
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]</description>
 </ModMetaData>

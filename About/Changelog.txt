@@ -1,5 +1,8 @@
 # Changelog for RimCuisine2Core
 
+1.0.2.0 - Removed the old fermenting barrel that was replaced by the UF-version. Added temperature ranges on the barrel and the drying rack. Thank you cnsguy/Vapid!
+
+
 1.0.1.0 - Error in publishing, probably to long description.
 
 
