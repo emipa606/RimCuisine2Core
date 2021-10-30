@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="UpdateFeatureBase">
+		<modNameReadable>RimCuisine2Core</modNameReadable>
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2562519366</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+		<defName>RimCuisine2Core_1_0_3_0</defName>
+		<assemblyVersion>1.0.3.0</assemblyVersion>
+		<content>As the Universal Fermenter has been superseded by [SYR] Processor Framework the mod has been updated to use this instead. Thank you Zaljerem for the updated processes.
+</content>
+	</HugsLib.UpdateFeatureDef>
+</Defs>
+

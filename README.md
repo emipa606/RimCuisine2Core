@@ -5,8 +5,10 @@
 Update of Crustypeanuts mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1833592062
 
-- The 1.3 mod now uses the https://steamcommunity.com/sharedfiles/filedetails/?id=2558008936]Universal Fermenter instead of the previously included Expandable Fermenting
-- UF code and graphics by Charlotte
+[strike]- The 1.3 mod now uses the https://steamcommunity.com/sharedfiles/filedetails/?id=2558008936]Universal Fermenter instead of the previously included Expandable Fermenting
+- UF code and graphics by Charlotte[/strike]
+- As the Universal Fermenter has been superseded by https://steamcommunity.com/sharedfiles/filedetails/?id=2633514537][SYR] Processor Framework the mod has been updated to use this instead. Thank you Zaljerem for the updated processes. Made it easy to update the rest of the RC2 mods!
+- The old fermenting barrel is removed in 1.3
 
 ![Image](https://i.imgur.com/7Gzt3Rg.png)
 
@@ -69,11 +71,6 @@ OskarProtocki, who helped with art advice
 Brian, RL friend and co-worker who came up with the initial Zopioid idea.  I'm sure we're on a list now for talking about it at work.
 Fans of RimCuisine 1! Thank you for your continued support!
 And everyone on the mod development/mod art channel on the Rimworld Discord, who helped me out with the odd idea or feedback!
-
-Eagle0600 for making the expanded fermenting code! Without his awesome stuff I'm not sure if I could've made the drying racks or pickling barrels! (They'd be much boring and just a cooking recipe!)
-https://steamcommunity.com/sharedfiles/filedetails/?id=955850576&amp;searchtext=expanded+fermenting
-
-Even if you don't plan on using the mod for modding, go give him a sub and a like for me :P
 
 ![Image](https://i.imgur.com/Rs6T6cr.png)
 

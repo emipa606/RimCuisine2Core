@@ -4,7 +4,6 @@
     <defName>RC2_MeatDryingRack</defName>
     <label>meat drying rack</label>
     <description>A rack for drying raw meat. Must be placed outdoors.</description>
-    <!-- Can also use ExpandableFermenting.Building_Processing. Combine with CompProperties_Processing. -->
     <graphicData>
       <texPath>RC2_Things/RC2/MeatDryingRack/MeatDryingRack</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -17,6 +16,7 @@
         <volume>(0.75, 0.35, 0.33)</volume>
       </shadowData>
     </graphicData>
+    <drawerType>MapMeshAndRealTime</drawerType>
     <defaultPlacingRot>South</defaultPlacingRot>
     <rotatable>false</rotatable>
     <!--<minifiedDef>MinifiedThing</minifiedDef>-->
@@ -43,23 +43,17 @@
     </building>
     <comps>
       <!-- Can also use power, flickable, refuelable, and breakdownable components. -->
-      <li Class="UniversalFermenter.CompProperties_UniversalFermenter">
+      <li Class="ProcessorFramework.CompProperties_Processor">
+        <capacity>150</capacity>
+        <independentProcesses>true</independentProcesses>
+        <parallelProcesses>true</parallelProcesses>
+        <dropIngredients>false</dropIngredients>
+        <showProductIcon>true</showProductIcon>
         <barOffset>(0.0, 0.17)</barOffset>
+        <barScale>(1.0, 1.0)</barScale>
+        <colorCoded>false</colorCoded>
         <processes>
-          <li>
-            <thingDef>RC2_DriedMeat</thingDef>
-            <ingredientFilter>
-              <thingDefs>
-                <li>RC2_TrimmedMeat</li>
-              </thingDefs>
-            </ingredientFilter>
-            <maxCapacity>150</maxCapacity>
-            <processDays>2</processDays>
-            <graphicSuffix>Full</graphicSuffix>
-            <processType>MultipleMixed</processType>
-            <temperatureSafe>1.0~75.0</temperatureSafe>
-            <temperatureIdeal>30.0~70.0</temperatureIdeal>
-          </li>
+          <li>RC2_DriedMeat_Process</li>
         </processes>
       </li>
       <li Class="CompProperties_Forbiddable" />
@@ -100,6 +94,7 @@
         <volume>(0.75, 0.35, 0.33)</volume>
       </shadowData>
     </graphicData>
+    <drawerType>MapMeshAndRealTime</drawerType>
     <defaultPlacingRot>South</defaultPlacingRot>
     <minifiedDef>MinifiedThing</minifiedDef>
     <altitudeLayer>Building</altitudeLayer>
@@ -122,21 +117,17 @@
     </stuffCategories>
     <comps>
       <!-- Can also use power, flickable, refuelable, and breakdownable components. -->
-      <li Class="UniversalFermenter.CompProperties_UniversalFermenter">
+      <li Class="ProcessorFramework.CompProperties_Processor">
+        <capacity>150</capacity>
+        <independentProcesses>true</independentProcesses>
+        <parallelProcesses>true</parallelProcesses>
+        <dropIngredients>false</dropIngredients>
+        <showProductIcon>true</showProductIcon>
+        <barOffset>(0.0, 0.17)</barOffset>
+        <barScale>(1.0, 1.0)</barScale>
+        <colorCoded>false</colorCoded>
         <processes>
-          <li>
-            <thingDef>RC2_DriedFruit</thingDef>
-            <ingredientFilter>
-              <thingDefs>
-                <li>RC2_PreparedFruit</li>
-              </thingDefs>
-            </ingredientFilter>
-            <processDays>2</processDays>
-            <graphicSuffix>Full</graphicSuffix>
-            <processType>MultipleMixed</processType>
-            <temperatureSafe>1.0~75.0</temperatureSafe>
-            <temperatureIdeal>30.0~70.0</temperatureIdeal>
-          </li>
+          <li>RC2_DriedFruit_Process</li>
         </processes>
       </li>
       <li Class="CompProperties_Forbiddable" />
@@ -162,7 +153,6 @@
     <defName>RC2_PicklingBarrel</defName>
     <label>pickling barrel</label>
     <description>A barrel filled with brine to pickle vegetables. Degrades the quality of high-quality vegetables, making everything taste like salt and vinegar.</description>
-    <!-- Can also use ExpandableFermenting.Building_Processing. Combine with CompProperties_Processing. -->
     <graphicData>
       <texPath>RC2_Things/RC2/PicklingBarrel/PicklingBarrel</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -175,6 +165,7 @@
       </shadowData>
       <drawSize>(1.35,1.35)</drawSize>
     </graphicData>
+    <drawerType>MapMeshAndRealTime</drawerType>
     <defaultPlacingRot>South</defaultPlacingRot>
     <minifiedDef>MinifiedThing</minifiedDef>
     <altitudeLayer>Building</altitudeLayer>
@@ -196,20 +187,17 @@
     </stuffCategories>
     <comps>
       <!-- Can also use power, flickable, refuelable, and breakdownable components. -->
-      <li Class="UniversalFermenter.CompProperties_UniversalFermenter">
+      <li Class="ProcessorFramework.CompProperties_Processor">
+        <capacity>75</capacity>
+        <independentProcesses>true</independentProcesses>
+        <parallelProcesses>true</parallelProcesses>
+        <dropIngredients>false</dropIngredients>
+        <showProductIcon>true</showProductIcon>
         <barOffset>(0.0, -0.2)</barOffset>
+        <barScale>(1.0, 1.0)</barScale>
+        <colorCoded>false</colorCoded>
         <processes>
-          <li>
-            <thingDef>RC2_PickledVegetables</thingDef>
-            <ingredientFilter>
-              <thingDefs>
-                <li>RC2_PickleBrine</li>
-              </thingDefs>
-            </ingredientFilter>
-            <maxCapacity>75</maxCapacity>
-            <processDays>5</processDays>
-            <graphicSuffix>Full</graphicSuffix>
-          </li>
+          <li>RC2_PickledVegetables_Process</li>
         </processes>
       </li>
       <li Class="CompProperties_Forbiddable" />

@@ -1,5 +1,8 @@
 # Changelog for RimCuisine2Core
 
+1.0.3.0 - Updated to use the [SYR] Processor Framework instead of the UF-mod, thanks Zaljerem for the updated processes
+
+
 1.0.2.0 - Removed the old fermenting barrel that was replaced by the UF-version. Added temperature ranges on the barrel and the drying rack. Thank you cnsguy/Vapid!
 
 
