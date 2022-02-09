@@ -625,6 +625,57 @@
       </li>
     </operations>
   </Operation>
+  <!-- Bulk meals -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName = "CookMealSimpleBulk"]/ingredients/li/filter/categories</xpath>
+        <value>
+          <li>RC2_FoodProcessed</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName = "CookMealFineBulk"]/ingredients/li[1]/filter/categories</xpath>
+        <value>
+          <li>RC2_MeatProcessed</li>
+          <li>RC2_AnimalProductProcessed</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName = "CookMealFineBulk"]/ingredients/li[2]/filter/categories</xpath>
+        <value>
+          <li>RC2_PlantFoodProcessed</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName = "CookMealLavishBulk"]/ingredients/li[1]/filter/categories</xpath>
+        <value>
+          <li>RC2_MeatProcessed</li>
+          <li>RC2_AnimalProductProcessed</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName = "CookMealLavishBulk"]/ingredients/li[2]/filter/categories</xpath>
+        <value>
+          <li>RC2_PlantFoodProcessed</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName = "CookMealSurvivalBulk"]/ingredients/li[1]/filter/categories</xpath>
+        <value>
+          <li>RC2_MeatProcessed</li>
+          <li>RC2_AnimalProductProcessed</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName = "CookMealSurvivalBulk"]/ingredients/li[2]/filter/categories</xpath>
+        <value>
+          <li>RC2_PlantFoodProcessed</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
   <!-- Trader Stuff -->
   <!--Adds in joy meals, joy drinks, processed foods and survival foods to various vanilla traders.  Lots of stuff here, not going into super detail about it.  Easy to change for balance purposes if need-be.-->
   <Operation Class="PatchOperationSequence">
