@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Traderkind Patches-->
+  <!--Adds in the new trader types to the faction lists.-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/FactionDef[@Name = "TribeBase"]/caravanTraderKinds</xpath>
+        <value>
+          <li>RC2_Caravan_Cabbage</li>
+          <li>RC2_Caravan_Neolithic_Farmer</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/FactionDef[@Name = "OutlanderFactionBase"]/caravanTraderKinds</xpath>
+        <value>
+          <li>RC2_Caravan_Outlander_Farmer</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
