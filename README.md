@@ -9,6 +9,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1833592062
 - UF code and graphics by Charlotte[/strike]
 - As the Universal Fermenter has been superseded by https://steamcommunity.com/sharedfiles/filedetails/?id=2633514537][SYR] Processor Framework the mod has been updated to use this instead. Thank you Zaljerem for the updated processes. Made it easy to update the rest of the RC2 mods!
 - The old fermenting barrel is removed in 1.3
+- Processed meat/vegs can now be used in bulk and the new vegetarian/carnivore meals. Thanks to user The Manual!
 
 ![Image](https://i.imgur.com/7Gzt3Rg.png)
 
