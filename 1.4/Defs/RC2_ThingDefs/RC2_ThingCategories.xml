@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Foods -->
+  <!--<ThingCategoryDef>
+      <defName>FoodMeals</defName>
+      <label>meals</label>
+      <parent>Foods</parent>
+      <resourceReadoutRoot>true</resourceReadoutRoot>
+      <iconPath>UI/Icons/ThingCategories/FoodMeals</iconPath>
+    </ThingCategoryDef>-->
+  <ThingCategoryDef>
+    <defName>RC2_FoodMealsJoy</defName>
+    <label>snacks</label>
+    <parent>FoodMeals</parent>
+    <!--<resourceReadoutRoot>true</resourceReadoutRoot>-->
+    <iconPath>RC2_UI/RC2_Icons/RC2_ThingCategories/FoodMealsJoyIcon</iconPath>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>RC2_DrinkMealsJoy</defName>
+    <label>drinks</label>
+    <parent>FoodMeals</parent>
+    <!--<resourceReadoutRoot>true</resourceReadoutRoot>-->
+    <iconPath>RC2_UI/RC2_Icons/RC2_ThingCategories/DrinkMealJoyIcon</iconPath>
+  </ThingCategoryDef>
+  <!--<ThingCategoryDef>
+      <defName>RC2_RawIngredients</defName>
+      <label>raw ingredients</label>
+      <parent>FoodRaw</parent>
+      <resourceReadoutRoot>true</resourceReadoutRoot>
+      <iconPath>UI/Icons/ThingCategories/FoodRaw</iconPath>
+    </ThingCategoryDef>-->
+  <!--<ThingCategoryDef>
+      <defName>FoodRaw</defName>
+      <label>raw ingredients</label>
+      <parent>Foods</parent>
+      <resourceReadoutRoot>true</resourceReadoutRoot>
+      <iconPath>UI/Icons/ThingCategories/FoodRaw</iconPath>
+    </ThingCategoryDef>-->
+  <!--<ThingCategoryDef>
+			<defName>MeatRaw</defName>
+			<label>raw meat</label>
+			<parent>FoodRaw</parent>
+			<iconPath>UI/Icons/ThingCategories/MeatRaw</iconPath>
+		</ThingCategoryDef>-->
+  <!--<ThingCategoryDef>
+			<defName>PlantFoodRaw</defName>
+			<label>raw vegetarian</label>
+			<parent>FoodRaw</parent>
+			<iconPath>UI/Icons/ThingCategories/PlantFoodRaw</iconPath>
+		</ThingCategoryDef>-->
+  <ThingCategoryDef>
+    <defName>RC2_GrainsRaw</defName>
+    <label>raw grains</label>
+    <parent>PlantFoodRaw</parent>
+    <iconPath>RC2_UI/RC2_Icons/RC2_ThingCategories/RawGrainIcon</iconPath>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>RC2_VegetablesRaw</defName>
+    <label>raw vegetables</label>
+    <parent>PlantFoodRaw</parent>
+    <iconPath>RC2_UI/RC2_Icons/RC2_ThingCategories/RawVegetablesIcon</iconPath>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>RC2_FruitsRaw</defName>
+    <label>raw fruits</label>
+    <parent>PlantFoodRaw</parent>
+    <iconPath>RC2_UI/RC2_Icons/RC2_ThingCategories/RawFruitIcon</iconPath>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>RC2_SweetsRaw</defName>
+    <label>raw sweets</label>
+    <parent>FoodRaw</parent>
+    <iconPath>RC2_UI/RC2_Icons/RC2_ThingCategories/RawSweetsIcon</iconPath>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>RC2_FoodProcessed</defName>
+    <label>processed ingredients</label>
+    <parent>Foods</parent>
+    <iconPath>RC2_UI/RC2_Icons/RC2_ThingCategories/ProcessedFoods</iconPath>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>RC2_MeatProcessed</defName>
+    <label>processed meat</label>
+    <parent>RC2_FoodProcessed</parent>
+    <iconPath>RC2_UI/RC2_Icons/RC2_ThingCategories/ProcessedMeatIcon</iconPath>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>RC2_PlantFoodProcessed</defName>
+    <label>processed vegetarian</label>
+    <parent>RC2_FoodProcessed</parent>
+    <iconPath>RC2_UI/RC2_Icons/RC2_ThingCategories/ProcessedVegetarianIcon</iconPath>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>RC2_GrainsProcessed</defName>
+    <label>processed grains</label>
+    <parent>RC2_PlantFoodProcessed</parent>
+    <iconPath>RC2_UI/RC2_Icons/RC2_ThingCategories/ProcessedGrainIcon</iconPath>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>RC2_VegetablesProcessed</defName>
+    <label>processed vegetables</label>
+    <parent>RC2_PlantFoodProcessed</parent>
+    <iconPath>RC2_UI/RC2_Icons/RC2_ThingCategories/ProcessedVegetablesIcon</iconPath>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>RC2_FruitProcessed</defName>
+    <label>processed fruits</label>
+    <parent>RC2_PlantFoodProcessed</parent>
+    <iconPath>RC2_UI/RC2_Icons/RC2_ThingCategories/ProcessedFruitIcon</iconPath>
+  </ThingCategoryDef>
+  <!--<ThingCategoryDef>
+			<defName>SpicesProcessed</defName>
+			<label>spices</label>
+			<parent>FoodProcessed</parent>
+			<iconPath>UI/Icons/ThingCategories/PlantFoodRaw</iconPath>
+		</ThingCategoryDef>-->
+  <ThingCategoryDef>
+    <defName>RC2_SweetsProcessed</defName>
+    <label>processed sweets</label>
+    <parent>RC2_FoodProcessed</parent>
+    <iconPath>RC2_UI/RC2_Icons/RC2_ThingCategories/ProcessedSweetsIcon</iconPath>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>RC2_AnimalProductProcessed</defName>
+    <label>processed animal products</label>
+    <parent>RC2_FoodProcessed</parent>
+    <iconPath>UI/Icons/ThingCategories/AnimalProductRaw</iconPath>
+  </ThingCategoryDef>
+</Defs>

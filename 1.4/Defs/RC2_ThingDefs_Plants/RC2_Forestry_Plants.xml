@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=========================== Basic Forestry ==============================-->
+  <ThingDef ParentName="RC2_DeciduousTreeBase">
+    <defName>RC2_PlantOrangeTree</defName>
+    <label>citrus tree</label>
+    <description>A fruit bearing tree that grows a number of orange citrus fruit. Bears fruit four times a year once it matures.  Only likes warmer climates.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/OrangeTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestYield>13</harvestYield>
+      <fertilitySensitivity>0.2</fertilitySensitivity>
+      <harvestAfterGrowth>0.75</harvestAfterGrowth>
+      <harvestedThingDef>RC2_RawOrange</harvestedThingDef>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/OrangeTree</immatureGraphicPath>
+      <sowResearchPrerequisites>
+        <li>TreeSowing</li>
+      </sowResearchPrerequisites>
+      <sowMinSkill>3</sowMinSkill>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_DeciduousTreeBase">
+    <defName>RC2_PlantAppletree</defName>
+    <label>apple tree</label>
+    <description>A fruit bearing tree that grows large, juicy red apples.  Bears fruit five times a year once mature.  Does best in temperate climates.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/AppleTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestYield>10</harvestYield>
+      <fertilitySensitivity>0.7</fertilitySensitivity>
+      <harvestAfterGrowth>0.8</harvestAfterGrowth>
+      <harvestedThingDef>RC2_RawApples</harvestedThingDef>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/AppleTree</immatureGraphicPath>
+      <sowResearchPrerequisites>
+        <li>TreeSowing</li>
+      </sowResearchPrerequisites>
+      <sowMinSkill>3</sowMinSkill>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_DeciduousTreeBase">
+    <defName>RC2_PlantPlumTree</defName>
+    <label>plum tree</label>
+    <description>A fruit bearing tree that grows large, juicy plums.  Bears fruit three times a year once mature.  Likes temperate and tropical climates.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/PlumTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestYield>16</harvestYield>
+      <fertilitySensitivity>0.5</fertilitySensitivity>
+      <harvestAfterGrowth>0.67</harvestAfterGrowth>
+      <harvestedThingDef>RC2_RawPlums</harvestedThingDef>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/PlumTree</immatureGraphicPath>
+      <sowResearchPrerequisites>
+        <li>TreeSowing</li>
+      </sowResearchPrerequisites>
+      <sowMinSkill>3</sowMinSkill>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_DeciduousTreeBase">
+    <defName>RC2_PlantPeachTree</defName>
+    <label>peach tree</label>
+    <description>A fruit bearing tree that grows large, juicy peaches.  Bears fruit two times a year once mature.  Does best in temperate climates.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/PeachTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestYield>25</harvestYield>
+      <fertilitySensitivity>1</fertilitySensitivity>
+      <harvestAfterGrowth>0.5</harvestAfterGrowth>
+      <harvestedThingDef>RC2_RawPeaches</harvestedThingDef>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/PeachTree</immatureGraphicPath>
+      <sowResearchPrerequisites>
+        <li>TreeSowing</li>
+      </sowResearchPrerequisites>
+      <sowMinSkill>3</sowMinSkill>
+    </plant>
+  </ThingDef>
+  <!--=========================== Intermediate Forestry ==============================-->
+  <ThingDef ParentName="RC2_DeciduousTreeBase">
+    <defName>RC2_PlantFigTree</defName>
+    <label>fig tree</label>
+    <description>A fruit bearing tree that grows a number of fig pods.  Bears fruit four times a year once mature.  Only grows well in arid climates.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/FigTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestYield>11</harvestYield>
+      <fertilitySensitivity>0.7</fertilitySensitivity>
+      <harvestAfterGrowth>0.75</harvestAfterGrowth>
+      <harvestedThingDef>RC2_RawFigs</harvestedThingDef>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/FigTree</immatureGraphicPath>
+      <sowResearchPrerequisites>
+        <li>RC2_IntermediateForestry</li>
+      </sowResearchPrerequisites>
+      <sowMinSkill>5</sowMinSkill>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_DeciduousTreeBase">
+    <defName>RC2_PlantPomegranateTree</defName>
+    <label>pomegranate tree</label>
+    <description>A fruit bearing tree that grows a number of pomegranates.  Bears fruit twice a year once mature.  Likes hot, dry climates.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/PomegranateTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestYield>24</harvestYield>
+      <fertilitySensitivity>0.3</fertilitySensitivity>
+      <harvestAfterGrowth>0.5</harvestAfterGrowth>
+      <harvestedThingDef>RC2_RawPomegranates</harvestedThingDef>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/PomegranateTree</immatureGraphicPath>
+      <sowResearchPrerequisites>
+        <li>RC2_IntermediateForestry</li>
+      </sowResearchPrerequisites>
+      <sowMinSkill>5</sowMinSkill>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_FruitTreeBase">
+    <defName>RC2_PlantBananaTree</defName>
+    <label>banana tree</label>
+    <description>A fruit bearing tree that grows numerous clusters of bananas.  Bears fruit three times a year once it matures.  Only grown in the tropics.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/BananaTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestYield>15</harvestYield>
+      <fertilitySensitivity>1</fertilitySensitivity>
+      <harvestAfterGrowth>0.67</harvestAfterGrowth>
+      <harvestedThingDef>RC2_RawBanana</harvestedThingDef>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/BananaTree</immatureGraphicPath>
+      <sowResearchPrerequisites>
+        <li>RC2_IntermediateForestry</li>
+      </sowResearchPrerequisites>
+      <sowMinSkill>5</sowMinSkill>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_FruitTreeBase">
+    <defName>RC2_PlantCoconutTree</defName>
+    <label>coconut tree</label>
+    <description>A fruit bearing palm tree that grows coconuts. Bears fruit three times a year.  Only grows well in tropical regions.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/CoconutTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestYield>14</harvestYield>
+      <fertilitySensitivity>1</fertilitySensitivity>
+      <harvestAfterGrowth>0.67</harvestAfterGrowth>
+      <harvestedThingDef>RC2_RawCoconut</harvestedThingDef>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/CoconutTree</immatureGraphicPath>
+      <sowResearchPrerequisites>
+        <li>RC2_IntermediateForestry</li>
+      </sowResearchPrerequisites>
+      <sowMinSkill>5</sowMinSkill>
+      <visualSizeRange>
+        <min>1.5</min>
+        <max>2.5</max>
+      </visualSizeRange>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_FruitTreeBase">
+    <defName>RC2_PlantBreadfruitTree</defName>
+    <label>breadfruit tree</label>
+    <description>A fruit bearing tree that grows a number of breadfruits.  Bears fruit five times a year once mature.  Breadfruit is often a staple food in tropical regions.  Only found in rainforests.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/BreadfruitTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestYield>16</harvestYield>
+      <fertilitySensitivity>1.0</fertilitySensitivity>
+      <harvestAfterGrowth>0.8</harvestAfterGrowth>
+      <harvestedThingDef>RC2_RawBreadfruit</harvestedThingDef>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/BreadfruitTree</immatureGraphicPath>
+      <sowResearchPrerequisites>
+        <li>RC2_IntermediateForestry</li>
+      </sowResearchPrerequisites>
+      <sowMinSkill>1</sowMinSkill>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_DeciduousTreeBase">
+    <defName>RC2_PlantPecanTree</defName>
+    <label>pecan tree</label>
+    <description>A fruit bearing tree that grows small pods that house pecans within them.  Bears fruit less than two times a year.  Found primarily in temperate climates.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/PecanTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestYield>33</harvestYield>
+      <fertilitySensitivity>1</fertilitySensitivity>
+      <harvestAfterGrowth>0.25</harvestAfterGrowth>
+      <harvestedThingDef>RC2_RawPecans</harvestedThingDef>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/PecanTree</immatureGraphicPath>
+      <sowResearchPrerequisites>
+        <li>RC2_IntermediateForestry</li>
+      </sowResearchPrerequisites>
+      <sowMinSkill>5</sowMinSkill>
+    </plant>
+  </ThingDef>
+  <!--=========================== Advanced Forestry ==============================-->
+  <ThingDef ParentName="RC2_FruitTreeBase">
+    <defName>Plant_TreeCocoa</defName>
+    <label>cocoa tree</label>
+    <description>A cocoa tree.  Its beans are used in making chocolate. Yields beans twice a year.  Only grown in tropical regions.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/CacaoTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestYield>20</harvestYield>
+      <fertilitySensitivity>1</fertilitySensitivity>
+      <harvestAfterGrowth>0.5</harvestAfterGrowth>
+      <harvestedThingDef>RC2_RawCocoaBeans</harvestedThingDef>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/CacaoTree</immatureGraphicPath>
+      <sowResearchPrerequisites>
+        <li>Cocoa</li>
+      </sowResearchPrerequisites>
+      <sowMinSkill>8</sowMinSkill>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_DeciduousTreeBase">
+    <defName>RC2_PlantSugarMapleTree</defName>
+    <label>sugar maple tree</label>
+    <description>A common medium-sized tree, easily identifiable by its distinct three-pointed leaf.  This particular breed of tree has a higher sugar content, perfect for syrup production - it produces three bottles worth of syrup a year.  Found in colder and temperate climates.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/SugarMaple</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestYield>1</harvestYield>
+      <fertilitySensitivity>1</fertilitySensitivity>
+      <harvestAfterGrowth>0.75</harvestAfterGrowth>
+      <harvestedThingDef>RC2_Syrup</harvestedThingDef>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/SugarMaple</immatureGraphicPath>
+      <leaflessGraphicPath>Things/Plant/TreeMaple_Leafless</leaflessGraphicPath>
+      <sowResearchPrerequisites>
+        <li>Cocoa</li>
+      </sowResearchPrerequisites>
+      <sowMinSkill>8</sowMinSkill>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_FruitTreeBase">
+    <defName>RC2_PlantDurianTree</defName>
+    <label>durian tree</label>
+    <description>A fruit bearing tree that grows a number of durians.  Bears fruit two times a year once mature.  Only grows in tropical regions.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/DurianTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestYield>20</harvestYield>
+      <fertilitySensitivity>1.0</fertilitySensitivity>
+      <harvestAfterGrowth>0.5</harvestAfterGrowth>
+      <harvestedThingDef>RC2_RawDurians</harvestedThingDef>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/DurianTree</immatureGraphicPath>
+      <sowResearchPrerequisites>
+        <li>Cocoa</li>
+      </sowResearchPrerequisites>
+      <sowMinSkill>8</sowMinSkill>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_FruitTreeBase">
+    <defName>RC2_PlantCherryTree</defName>
+    <label>cherry tree</label>
+    <description>A fruit bearing tree that grows cherries.  Bears fruit less than two times a year once mature.  Does best in temperate regions.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/CherryTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestYield>25</harvestYield>
+      <fertilitySensitivity>1.0</fertilitySensitivity>
+      <harvestAfterGrowth>0.25</harvestAfterGrowth>
+      <harvestedThingDef>RC2_RawCherries</harvestedThingDef>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/CherryTree</immatureGraphicPath>
+      <sowResearchPrerequisites>
+        <li>Cocoa</li>
+      </sowResearchPrerequisites>
+      <sowMinSkill>8</sowMinSkill>
+    </plant>
+  </ThingDef>
+</Defs>

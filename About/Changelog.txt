@@ -1,5 +1,9 @@
 # Changelog for RimCuisine2Core
 
+1.4.1 - Updated to 1.4.
+Used DeepL to update translations for ChineseSimplified, French, German, Russian
+
+
 1.3.3 - More unique defname for the HugLib-news base-definition, to avoid conflicts with other mods.
 
 

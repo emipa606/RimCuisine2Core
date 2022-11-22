@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>RimCuisine 2 Core (Continued)</name>
-  <packageId>Crustypeanut.RC2.Core</packageId>
+  <packageId>Mlie.RC2.Core</packageId>
   <author>Crustypeanut</author>
   <url>https://github.com/emipa606/RimCuisine2Core</url>
   <supportedVersions>
@@ -9,17 +9,16 @@
     <li>1.1</li>
     <li>1.2</li>
     <li>1.3</li>
+    <li>1.4</li>
   </supportedVersions>
-  <modDependenciesByVersion>
-    <v1.3>
-      <li>
-        <packageId>syrchalis.processor.framework</packageId>
-        <displayName>[SYR] Processor Framework</displayName>
-        <steamWorkshopUrl>steam://url/CommunityFilePage/2633514537</steamWorkshopUrl>
-        <downloadUrl>https://github.com/Syrchalis/ProcessorFramework/releases/latest</downloadUrl>
-      </li>
-    </v1.3>
-  </modDependenciesByVersion>
+  <modDependencies>
+    <li>
+      <packageId>syrchalis.processor.framework</packageId>
+      <displayName>[SYR] Processor Framework</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2633514537</steamWorkshopUrl>
+      <downloadUrl>https://github.com/Syrchalis/ProcessorFramework/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
   <loadAfter>
     <li>syrchalis.processor.framework</li>
   </loadAfter>
@@ -109,7 +108,7 @@ And everyone on the mod development/mod art channel on the Rimworld Discord, who
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
-
+	
 [img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
