@@ -564,6 +564,9 @@
           <categories>
             <li>RC2_FruitsRaw</li>
           </categories>
+          <thingDefs>
+            <li MayRequire="Mechanelize.fruitblend">FruitblendRaw</li>
+          </thingDefs>
         </filter>
         <count>5</count>
       </li>
@@ -575,6 +578,9 @@
       <categories>
         <li>RC2_FruitsRaw</li>
       </categories>
+      <thingDefs>
+        <li MayRequire="Mechanelize.fruitblend">FruitblendRaw</li>
+      </thingDefs>
       <disallowedThingDefs>
         <li>RC2_RawPecans</li>
       </disallowedThingDefs>
@@ -583,6 +589,9 @@
       <categories>
         <li>RC2_FruitsRaw</li>
       </categories>
+      <thingDefs>
+        <li MayRequire="Mechanelize.fruitblend">FruitblendRaw</li>
+      </thingDefs>
       <disallowedThingDefs>
         <li>RC2_RawPecans</li>
       </disallowedThingDefs>
@@ -605,6 +614,9 @@
           <categories>
             <li>RC2_FruitsRaw</li>
           </categories>
+          <thingDefs>
+            <li MayRequire="Mechanelize.fruitblend">FruitblendRaw</li>
+          </thingDefs>
         </filter>
         <count>50</count>
       </li>
@@ -616,6 +628,9 @@
       <categories>
         <li>RC2_FruitsRaw</li>
       </categories>
+      <thingDefs>
+        <li MayRequire="Mechanelize.fruitblend">FruitblendRaw</li>
+      </thingDefs>
       <disallowedThingDefs>
         <li>RC2_RawPecans</li>
       </disallowedThingDefs>
@@ -624,6 +639,9 @@
       <categories>
         <li>RC2_FruitsRaw</li>
       </categories>
+      <thingDefs>
+        <li MayRequire="Mechanelize.fruitblend">FruitblendRaw</li>
+      </thingDefs>
       <disallowedThingDefs>
         <li>RC2_RawPecans</li>
       </disallowedThingDefs>
@@ -647,6 +665,9 @@
           <categories>
             <li>RC2_VegetablesRaw</li>
           </categories>
+          <thingDefs>
+            <li MayRequire="sneaks.veggiemix">VeggiemixRaw</li>
+          </thingDefs>
         </filter>
         <count>5</count>
       </li>
@@ -658,6 +679,9 @@
       <categories>
         <li>RC2_VegetablesRaw</li>
       </categories>
+      <thingDefs>
+        <li MayRequire="sneaks.veggiemix">VeggiemixRaw</li>
+      </thingDefs>
       <disallowedThingDefs>
         <li>RC2_RawTruffles</li>
         <li>RC2_RawSugarBeets</li>
@@ -667,6 +691,9 @@
       <categories>
         <li>RC2_VegetablesRaw</li>
       </categories>
+      <thingDefs>
+        <li MayRequire="sneaks.veggiemix">VeggiemixRaw</li>
+      </thingDefs>
       <disallowedThingDefs>
         <li>RC2_RawTruffles</li>
         <li>RC2_RawSugarBeets</li>
@@ -690,6 +717,9 @@
           <categories>
             <li>RC2_VegetablesRaw</li>
           </categories>
+          <thingDefs>
+            <li MayRequire="sneaks.veggiemix">VeggiemixRaw</li>
+          </thingDefs>
         </filter>
         <count>50</count>
       </li>
@@ -701,6 +731,9 @@
       <categories>
         <li>RC2_VegetablesRaw</li>
       </categories>
+      <thingDefs>
+        <li MayRequire="sneaks.veggiemix">VeggiemixRaw</li>
+      </thingDefs>
       <disallowedThingDefs>
         <li>RC2_RawTruffles</li>
         <li>RC2_RawSugarBeets</li>
@@ -710,6 +743,9 @@
       <categories>
         <li>RC2_VegetablesRaw</li>
       </categories>
+      <thingDefs>
+        <li MayRequire="sneaks.veggiemix">VeggiemixRaw</li>
+      </thingDefs>
       <disallowedThingDefs>
         <li>RC2_RawTruffles</li>
         <li>RC2_RawSugarBeets</li>

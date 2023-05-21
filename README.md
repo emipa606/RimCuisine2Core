@@ -1,6 +1,6 @@
 # RimCuisine2Core
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Crustypeanuts mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1833592062
@@ -11,10 +11,10 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1833592062
 - The old fermenting barrel is removed in 1.3
 - Processed meat/vegs can now be used in bulk and the new vegetarian/carnivore meals. Thanks to user The Manual!
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 **Updated for 1.1!** Does not include eventual balance pass or functionality with the new Royalty DLC.. yet.
 
@@ -73,19 +73,6 @@ Brian, RL friend and co-worker who came up with the initial Zopioid idea.  I'm s
 Fans of RimCuisine 1! Thank you for your continued support!
 And everyone on the mod development/mod art channel on the Rimworld Discord, who helped me out with the odd idea or feedback!
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
-
-
-
--  See if the the error persists if you just have this mod and its requirements active.
--  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib and command Ctrl+F12
--  For best support, please use the Discord-channel for error-reporting.
--  Do not report errors by making a discussion-thread, I get no notification of that.
--  If you have the solution for a problem, please post it to the GitHub repository.
-
-
-	
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
 
@@ -98,3 +85,4 @@ And everyone on the mod development/mod art channel on the Rimworld Discord, who
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2562519366]Last updated 2023-05-21
