@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RC2_PlantQuinoa.label>киноа</RC2_PlantQuinoa.label>
+  <RC2_PlantQuinoa.description>Зерновое цветущее растение, произрастающее в горных районах. Этот конкретный сорт предпочитает тёплый, влажный климат и будет расти только в тропических регионах.</RC2_PlantQuinoa.description>
+  <RC2_PlantSoybean.label>соя</RC2_PlantSoybean.label>
+  <RC2_PlantSoybean.description>На сое растут соевые бобы, которые часто используются в качестве заменителя мяса для тех, кто слишком брезглив, чтобы есть мясо умерших. Растёт в умеренных и тропических регионах.</RC2_PlantSoybean.description>
+  <RC2_PlantSoybeanHydro.label>соя</RC2_PlantSoybeanHydro.label>
+  <RC2_PlantSoybeanHydro.description>На сое растут соевые бобы, которые часто используются в качестве заменителя мяса для тех, кто слишком брезглив, чтобы есть мясо умерших. Растёт в умеренных и тропических регионах.</RC2_PlantSoybeanHydro.description>
+  <RC2_PlantPepper.label>перец чили</RC2_PlantPepper.label>
+  <RC2_PlantPepper.description>На кустах перца чили растут очень острые плоды перца чили. Отлично подходят для соусов и приправ к еде! Растёт в субтропических и тропических регионах.</RC2_PlantPepper.description>
+  <RC2_PlantPepperHydro.label>перец чили</RC2_PlantPepperHydro.label>
+  <RC2_PlantPepperHydro.description>На кустах перца чили растут очень острые плоды перца чили. Отлично подходят для соусов и приправ к еде! Растёт в субтропических и тропических регионах.</RC2_PlantPepperHydro.description>
+  <RC2_PlantGrapes.label>виноград</RC2_PlantGrapes.label>
+  <RC2_PlantGrapes.description>Виноград культивировался на протяжении многих эпох и являются источником восхитительных ягод винограда. Только будьте осторожны: это привередливое растение, которое можно выращивать только в умеренных регионах, но не в более влажных болотах.</RC2_PlantGrapes.description>
+  <RC2_PlantCactusFruit.label>опунция</RC2_PlantCactusFruit.label>
+  <RC2_PlantCactusFruit.description>Пустынный кактус с большими листьями и съедобными плодами.</RC2_PlantCactusFruit.description>
+  <RC2_PlantJuniper.label>можжевельник</RC2_PlantJuniper.label>
+  <RC2_PlantJuniper.description>Вечнозелёный кустарник, растущий в холодном климате. На кустах можжевельника растёт особый вид ягод, который используются в качестве пряности и при приготовлении Джина.</RC2_PlantJuniper.description>
+  <RC2_PlantPineapple.label>ананас</RC2_PlantPineapple.label>
+  <RC2_PlantPineapple.description>Ананас - это тропическое растение, которое производит вкусные съедобные фрукты.</RC2_PlantPineapple.description>
+  <RC2_PlantPineappleHydro.label>ананас</RC2_PlantPineappleHydro.label>
+  <RC2_PlantPineappleHydro.description>Ананас - это тропическое растение, которое производит вкусные съедобные фрукты.</RC2_PlantPineappleHydro.description>
+</LanguageData>

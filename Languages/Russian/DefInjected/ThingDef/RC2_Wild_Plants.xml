@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RC2_PlantBeeTree.label>дерево с пчелиным ульем</RC2_PlantBeeTree.label>
+  <RC2_PlantBeeTree.description>Практически безжизненное дерево, в котором обосновался пчелиный улей. Периодически собирайте их вкусный мёд!</RC2_PlantBeeTree.description>
+  <RC2_PlantTruffles.label>трюфель</RC2_PlantTruffles.label>
+  <RC2_PlantTruffles.description>Съедобный гриб, который трудно найти, и он высоко ценится за свой вкус.</RC2_PlantTruffles.description>
+  <RC2_PlantFlax.label>лён</RC2_PlantFlax.label>
+  <RC2_PlantFlax.description>Из льна делают волокно, полезное для изготовления ткани.</RC2_PlantFlax.description>
+</LanguageData>

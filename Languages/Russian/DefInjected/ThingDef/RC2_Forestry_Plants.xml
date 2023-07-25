@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RC2_PlantOrangeTree.label>апельсин</RC2_PlantOrangeTree.label>
+  <RC2_PlantOrangeTree.description>Плодоносящее дерево, на котором растёт множество оранжевых плодов. После вырастания начинает плодоносить четыре раза в год. Только любит более тёплый климат.</RC2_PlantOrangeTree.description>
+  <RC2_PlantAppletree.label>яблоня</RC2_PlantAppletree.label>
+  <RC2_PlantAppletree.description>Плодоносящее дерево, на котором растут крупные, сочные, красные яблоки. После вырастания начинает плодоносить пять раз в год. Лучше всего растёт в умеренном климате.</RC2_PlantAppletree.description>
+  <RC2_PlantPlumTree.label>слива</RC2_PlantPlumTree.label>
+  <RC2_PlantPlumTree.description>Плодоносящее дерево, на котором растут крупные, сочные сливы. После вырастания начинает плодоносить три раза в год. Любит умеренный и тропический климат.</RC2_PlantPlumTree.description>
+  <RC2_PlantPeachTree.label>персик</RC2_PlantPeachTree.label>
+  <RC2_PlantPeachTree.description>Плодоносящее дерево, на котором растут большие, сочные персики. После вырастания начинает плодоносить два раза в год. Лучше всего растёт в умеренном климате.</RC2_PlantPeachTree.description>
+  <RC2_PlantFigTree.label>инжир</RC2_PlantFigTree.label>
+  <RC2_PlantFigTree.description>Плодоносящее дерево, на котором растут плоды инжира. После вырастания начинает плодоносить четыре раза в год. Хорошо растет только в засушливом климате.</RC2_PlantFigTree.description>
+  <RC2_PlantPomegranateTree.label>гранат</RC2_PlantPomegranateTree.label>
+  <RC2_PlantPomegranateTree.description>Плодоносящее дерево, на котором растёт множество гранатов. После вырастания начинает плодоносить дважды в год. Любит жаркий, сухой климат.</RC2_PlantPomegranateTree.description>
+  <RC2_PlantBananaTree.label>банан</RC2_PlantBananaTree.label>
+  <RC2_PlantBananaTree.description>Плодоносящее дерево, на котором растут многочисленные гроздья бананов. После вырастания начинает плодоносить три раза в год. Выращивается только в тропиках.</RC2_PlantBananaTree.description>
+  <RC2_PlantCoconutTree.label>кокосовая пальма</RC2_PlantCoconutTree.label>
+  <RC2_PlantCoconutTree.description>Плодоносящая пальма, на которой растут кокосы. После вырастания начинает плодоносить три раза в год. Хорошо растёт только в тропических регионах.</RC2_PlantCoconutTree.description>
+  <RC2_PlantBreadfruitTree.label>хлебное дерево</RC2_PlantBreadfruitTree.label>
+  <RC2_PlantBreadfruitTree.description>Плодоносящее дерево, на котором растёт множество плодов хлебного дерева. После вырастания начинает плодоносить пять раз в год. Плоды хлебного дерева часто являются основным продуктом питания в тропических регионах. Встречается только в тропических лесах.</RC2_PlantBreadfruitTree.description>
+  <RC2_PlantPecanTree.label>пекан</RC2_PlantPecanTree.label>
+  <RC2_PlantPecanTree.description>Плодоносящее дерево, на котором растут маленькие стручки с орехами пекан. После вырастания начинает плодоносить менее двух раз в год. Встречается преимущественно в умеренном климате.</RC2_PlantPecanTree.description>
+  <Plant_TreeCocoa.label>какао</Plant_TreeCocoa.label>
+  <Plant_TreeCocoa.description>Бобы какао используются в приготовлении шоколада. Урожайность бобов два раза в год. Выращивается только в тропических регионах.</Plant_TreeCocoa.description>
+  <RC2_PlantSugarMapleTree.label>сахарный клён</RC2_PlantSugarMapleTree.label>
+  <RC2_PlantSugarMapleTree.description>Обыкновенное дерево средних размеров, легко узнаваемое по чёткому трехконечному листу. Эта особая порода деревьев имеет более высокое содержание сахара и идеально подходит для производства сиропа. Сахарный клён производит три бутылки сиропа в год. Встречается в более холодном и умеренном климате.</RC2_PlantSugarMapleTree.description>
+  <RC2_PlantDurianTree.label>дуриан</RC2_PlantDurianTree.label>
+  <RC2_PlantDurianTree.description>Плодоносящее дерево, на котором растёт множество плодов дуриана. После вырастания начинает плодоносить два раза в год. Растёт только в тропических регионах.</RC2_PlantDurianTree.description>
+  <RC2_PlantCherryTree.label>вишня</RC2_PlantCherryTree.label>
+  <RC2_PlantCherryTree.description>Плодоносящее дерево, на котором растёт вишня. После вырастания начинает плодоносить менее двух раз в год. Лучше всего растёт в умеренных регионах.</RC2_PlantCherryTree.description>
+</LanguageData>

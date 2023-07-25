@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CookThinPottage.label>приготовить жидкую похлёбку (5 шт.)</CookThinPottage.label>
+  <CookThinPottage.description>Приготовить простую, безвкусную похлёбку из каких-либо ингредиентов.</CookThinPottage.description>
+  <CookThinPottage.jobString>Готовит жидкую похлёбку.</CookThinPottage.jobString>
+  <RC2_CookThickPottage.label>приготовить густую похлёбку (5 шт.)</RC2_CookThickPottage.label>
+  <RC2_CookThickPottage.description>Приготовить густую похлёбку из мяса и растительных ингредиентов.</RC2_CookThickPottage.description>
+  <RC2_CookThickPottage.jobString>Готовит густую похлёбку.</RC2_CookThickPottage.jobString>
+  <RC2_MakeHardtack.label>сделать галеты</RC2_MakeHardtack.label>
+  <RC2_MakeHardtack.description>Сделать галеты, которые хранятся годами и могут вас насытить. Хотя на вкус они не слишком хороши. (14 шт.)</RC2_MakeHardtack.description>
+  <RC2_MakeHardtack.jobString>Делает галеты.</RC2_MakeHardtack.jobString>
+</LanguageData>

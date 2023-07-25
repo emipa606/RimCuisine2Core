@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RC2_MeatDryingRack.label>сушилка для мяса</RC2_MeatDryingRack.label>
+  <RC2_MeatDryingRack.description>Стеллаж для сушки сырого мяса. Должен быть размещён на открытом воздухе.</RC2_MeatDryingRack.description>
+  <RC2_FruitDryingRack.label>сушилка для фруктов</RC2_FruitDryingRack.label>
+  <RC2_FruitDryingRack.description>Стеллаж для сушки фруктов. Ухудшает вкус любого высококачественного фрукта, но сухофрукты всё ещё остаются вкусными.</RC2_FruitDryingRack.description>
+  <RC2_PicklingBarrel.label>бочка для засолки</RC2_PicklingBarrel.label>
+  <RC2_PicklingBarrel.description>Бочка, наполненная рассолом для маринования овощей. Ухудшает качество высококачественных овощей. На вкус всё становится как соль и уксус.</RC2_PicklingBarrel.description>
+</LanguageData>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <RC2_DoBillsQuernstone.label>перемолоть сырые продукты</RC2_DoBillsQuernstone.label>
+  <RC2_DoBillsQuernstone.verb>перемолоть</RC2_DoBillsQuernstone.verb>
+  <RC2_DoBillsQuernstone.gerund>перемолоть</RC2_DoBillsQuernstone.gerund>
+  <TakeBeerOutOfFermentingBarrel.label>забрать продукт из строения переработки</TakeBeerOutOfFermentingBarrel.label>
+  <TakeBeerOutOfFermentingBarrel.verb>забрать продукт</TakeBeerOutOfFermentingBarrel.verb>
+  <TakeBeerOutOfFermentingBarrel.gerund>забирать продукт из</TakeBeerOutOfFermentingBarrel.gerund>
+  <FillFermentingBarrel.label>заполнить строение переработки</FillFermentingBarrel.label>
+  <FillFermentingBarrel.verb>заполнить</FillFermentingBarrel.verb>
+  <FillFermentingBarrel.gerund>заполнить</FillFermentingBarrel.gerund>
+  <TakeBeerOutOfFermentingBarrel2.label>забрать продукт из строения переработки</TakeBeerOutOfFermentingBarrel2.label>
+  <TakeBeerOutOfFermentingBarrel2.verb>забрать продукт</TakeBeerOutOfFermentingBarrel2.verb>
+  <TakeBeerOutOfFermentingBarrel2.gerund>забирать продукт из</TakeBeerOutOfFermentingBarrel2.gerund>
+  <FillFermentingBarrel2.label>заполнить строение переработки</FillFermentingBarrel2.label>
+  <FillFermentingBarrel2.verb>заполнить</FillFermentingBarrel2.verb>
+  <FillFermentingBarrel2.gerund>заполнить</FillFermentingBarrel2.gerund>
+</LanguageData>

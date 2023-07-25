@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RC2_MakeCandy.label>сделать конфеты</RC2_MakeCandy.label>
+  <RC2_MakeCandy.description>Использовать сладости, чтобы сделать вкусные, очень вкусные конфеты. (10 шт.)</RC2_MakeCandy.description>
+  <RC2_MakeCandy.jobString>Делает конфеты.</RC2_MakeCandy.jobString>
+  <RC2_MakeJuice.label>сделать сок</RC2_MakeJuice.label>
+  <RC2_MakeJuice.description>Использовать фрукты, чтобы сделать вкусный сок. (5 шт.)</RC2_MakeJuice.description>
+  <RC2_MakeJuice.jobString>Делает сок.</RC2_MakeJuice.jobString>
+  <RC2_MakePastry.label>испечь пончики</RC2_MakePastry.label>
+  <RC2_MakePastry.description>Использовать сладости и муку для выпечки. Нет, не пирожки, пончики! Однако будьте осторожны! Любые правоохранительные органы поблизости будут не против съесть всё это. (10 шт.)</RC2_MakePastry.description>
+  <RC2_MakePastry.jobString>Печёт пончики.</RC2_MakePastry.jobString>
+  <RC2_ProcessCoffee.label>заварить кофе</RC2_ProcessCoffee.label>
+  <RC2_ProcessCoffee.description>Заварить из кофейных зёрен вкусный кофе. (5 шт.)</RC2_ProcessCoffee.description>
+  <RC2_ProcessCoffee.jobString>Заваривает кофе.</RC2_ProcessCoffee.jobString>
+  <RC2_BrewTea.label>заварить зелёный чай</RC2_BrewTea.label>
+  <RC2_BrewTea.description>Заварить зелёный чай из чайных листьев. (5 шт.)</RC2_BrewTea.description>
+  <RC2_BrewTea.jobString>Заваривает зелёный чай.</RC2_BrewTea.jobString>
+</LanguageData>

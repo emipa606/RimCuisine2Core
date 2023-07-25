@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RC2_PlantSorghum.label>сорго</RC2_PlantSorghum.label>
+  <RC2_PlantSorghum.description>Теплолюбивая трава со съедобными зёрнами. Сорго очень популярно среди пустынных племён и колоний. Довольно хорошо растёт на большинстве почв.</RC2_PlantSorghum.description>
+  <RC2_PlantTomato.label>томат</RC2_PlantTomato.label>
+  <RC2_PlantTomato.description>Этот ярко-красный плод - плод смертельно опасного семейства ядовитых растений. Сам овощ, к счастью, не ядовит и на самом деле довольно вкусный. Особенно если его сварить в соусе или сделать из него кетчуп. Хотя это и ягода, томат классифицируется поварами как овощ. Они не знают ничего лучшего. Любит умеренный климат.</RC2_PlantTomato.description>
+  <RC2_PlantTomatoHydro.label>томат</RC2_PlantTomatoHydro.label>
+  <RC2_PlantTomatoHydro.description>Этот ярко-красный плод - плод смертельно опасного семейства ядовитых растений. Сам овощ, к счастью, не ядовит и на самом деле довольно вкусный. Особенно если его сварить в соусе или сделать из него кетчуп. Хотя это и ягода, томат классифицируется поварами как овощ. Они не знают ничего лучшего. Любит умеренный климат.</RC2_PlantTomatoHydro.description>
+  <RC2_PlantYam.label>ямс</RC2_PlantYam.label>
+  <RC2_PlantYam.description>Этот земляной клубень похож на картофель, но нет. Некоторые ошибочно используют это название для обозначения батата (это не так). В отличие от своего родственника, картофеля, ямс хорошо растёт только в тёплом, влажном климате.</RC2_PlantYam.description>
+  <RC2_PlantYamHydro.label>ямс</RC2_PlantYamHydro.label>
+  <RC2_PlantYamHydro.description>Этот земляной клубень похож на картофель, но нет. Некоторые ошибочно используют это название для обозначения батата (это не так). В отличие от своего родственника, картофеля, ямс хорошо растёт только в тёплом, влажном климате.</RC2_PlantYamHydro.description>
+  <RC2_PlantAsparagus.label>спаржа</RC2_PlantAsparagus.label>
+  <RC2_PlantAsparagus.description>Короткий, быстрорастущий побег, молодые стебли которого используются в качестве еды. Универсальное растение, которое растёт где угодно, только не в тропических регионах.</RC2_PlantAsparagus.description>
+  <RC2_AsparagusBaseHydro.label>спаржа</RC2_AsparagusBaseHydro.label>
+  <RC2_AsparagusBaseHydro.description>Короткий, быстрорастущий побег, молодые стебли которого используются в качестве еды. Универсальное растение, которое растёт где угодно, только не в тропических регионах.</RC2_AsparagusBaseHydro.description>
+  <RC2_PlantMushroom.label>шампиньоны</RC2_PlantMushroom.label>
+  <RC2_PlantMushroom.description>Маленькие белые грибы, который выращивают уже тысячи лет. Не требуют света для роста, но и не умрут под его воздействием. Вариаций существует столько, что они встречаются в любом климате.</RC2_PlantMushroom.description>
+  <RC2_PlantMushroomHydro.label>шампиньоны</RC2_PlantMushroomHydro.label>
+  <RC2_PlantMushroomHydro.description>Маленькие белые грибы, который выращивают уже тысячи лет. Не требуют света для роста, но и не умрут под его воздействием. Вариаций существует столько, что они встречаются в любом климате.</RC2_PlantMushroomHydro.description>
+  <RC2_PlantEggPlant.label>баклажан</RC2_PlantEggPlant.label>
+  <RC2_PlantEggPlant.description>Эти пористые плоды технически являются ягодами - но использовать их как ягоды - плохое решение. Вместо этого они используются аналогично овощам. Выращивается в умеренном и тропическом климате.</RC2_PlantEggPlant.description>
+  <RC2_PlantAgave.label>агава</RC2_PlantAgave.label>
+  <RC2_PlantAgave.description>Крупнолистное пустынное растение со съедобными цветами и стеблями. Этот сорт лучше поддается культивированию, хотя его всё ещё можно выращивать только в засушливых регионах.</RC2_PlantAgave.description>
+  <RC2_PlantPumpkin.label>тыква</RC2_PlantPumpkin.label>
+  <RC2_PlantPumpkin.description>Растение со стелющимися вдоль земли стеблями. На тыкве растут большие, сочные плоды. Требует времени для роста. Тыква плохо реагирует на холодный климат, но может быть выращена в умеренных, тропических и засушливых районах.</RC2_PlantPumpkin.description>
+  <RC2_PlantSugarcane.label>сахарный тростник</RC2_PlantSugarcane.label>
+  <RC2_PlantSugarcane.description>При обработке стеблей этой высокой травы создают восхитительный сахар, отлично подходящий для разрушения ваших зубов. Также используется для приготовления рома! Почему ром всегда пропадает? Выращивается только в тропических регионах.</RC2_PlantSugarcane.description>
+</LanguageData>

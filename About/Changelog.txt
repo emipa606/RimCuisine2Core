@@ -1,5 +1,8 @@
 # Changelog for RimCuisine2Core
 
+1.4.3 - Included the Russian translation by [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2178156726]Imnir[/url]
+
+
 1.4.2 - Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1534881550]Veggie Mix[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2583608344]Fruit Blend[/url]
 
 

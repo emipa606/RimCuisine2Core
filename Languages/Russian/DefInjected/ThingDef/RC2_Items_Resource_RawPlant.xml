@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RC2_RawOats.label>овёс</RC2_RawOats.label>
+  <RC2_RawOats.description>Сырой овёс. Отлично подходит для приготовления пищи, выпечки и закусок!</RC2_RawOats.description>
+  <RC2_RawQuinoa.label>киноа</RC2_RawQuinoa.label>
+  <RC2_RawQuinoa.description>Сырая киноа. Это экзотическое, похожее на рис, зерно ценится за свои полезные свойства. Ну так говорят эксперты. Они ведь знают лучше, верно?</RC2_RawQuinoa.description>
+  <RC2_RawBarley.label>ячмень</RC2_RawBarley.label>
+  <RC2_RawBarley.description>Сырой ячмень. Это твёрдое зерно используется в муке и супах, но также является основным ингредиентом в пиве.</RC2_RawBarley.description>
+  <RC2_RawSorghum.label>сорго</RC2_RawSorghum.label>
+  <RC2_RawSorghum.description>Сырое сорго. Это полезное зерно можно сварить, подобно рису, или смолоть в муку.</RC2_RawSorghum.description>
+  <RC2_RawOnion.label>лук</RC2_RawOnion.label>
+  <RC2_RawOnion.description>Сырой лук. Вонючие, но вкусные очищенные луковицы. Отлично подходят вместе с маслом.</RC2_RawOnion.description>
+  <RC2_RawTomato.label>томаты</RC2_RawTomato.label>
+  <RC2_RawTomato.description>Сырые томаты. Идеальны для соусов!</RC2_RawTomato.description>
+  <RC2_RawSoybean.label>соя</RC2_RawSoybean.label>
+  <RC2_RawSoybean.description>Сырая соя. Соевые бобы используется в супах и других блюдах, но также превращается в заменитель мяса.</RC2_RawSoybean.description>
+  <RC2_RawChickpeas.label>нут</RC2_RawChickpeas.label>
+  <RC2_RawChickpeas.description>Сырой нут. Бобы с высоким содержанием белка, из которых получается отличный хумус!</RC2_RawChickpeas.description>
+  <RC2_RawTruffles.label>трюфели</RC2_RawTruffles.label>
+  <RC2_RawTruffles.description>Сырые трюфели. Очень любимы торговцами из-за своей редкости и вкуса.</RC2_RawTruffles.description>
+  <RC2_RawCabbages.label>капуста</RC2_RawCabbages.label>
+  <RC2_RawCabbages.description>Сырая капуста. Великолепно используется в большом разнообразии блюд, но относительно пресна сама по себе.</RC2_RawCabbages.description>
+  <RC2_RawCarrots.label>морковь</RC2_RawCarrots.label>
+  <RC2_RawCarrots.description>Сырая морковь. Отлично подходит к различным блюдам, и полезна!</RC2_RawCarrots.description>
+  <RC2_RawBeets.label>свёкла</RC2_RawBeets.label>
+  <RC2_RawBeets.description>Сырая свёкла. Всё, от корня до листьев, съедобно и вкусно.</RC2_RawBeets.description>
+  <RC2_RawYams.label>ямс</RC2_RawYams.label>
+  <RC2_RawYams.description>Сырой ямс. Вкусный и сытный клубень!</RC2_RawYams.description>
+  <RC2_RawPeppers.label>перец чили</RC2_RawPeppers.label>
+  <RC2_RawPeppers.description>Сырой перец чили. Острый и пряный! В отличие от большинства овощей, перец чили хорош и сырым, и варёными.</RC2_RawPeppers.description>
+  <RC2_RawSnapPeas.label>горох</RC2_RawSnapPeas.label>
+  <RC2_RawSnapPeas.description>Сырой горох. Один из немногих овощей, которые вкусны прямо с грядки. Хотя технически это фрукт, но не говорите об этом поварам.</RC2_RawSnapPeas.description>
+  <RC2_RawCucumbers.label>огурцы</RC2_RawCucumbers.label>
+  <RC2_RawCucumbers.description>Огурец - это тыквенное растение. Наиболее известен тем, что из его плодов делают как сладкие (душистые), так и грубые (с укропом) солёные огурцы. Их также можно есть сырыми, но кто на самом деле это делает?</RC2_RawCucumbers.description>
+  <RC2_RawSugarBeets.label>сахарная свёкла</RC2_RawSugarBeets.label>
+  <RC2_RawSugarBeets.description>Сырая сахарная свёкла. Съедобна, но имеет слишком сладкий и специфичный вкус. Лучше варить или использовать для изготовления сахара.</RC2_RawSugarBeets.description>
+  <RC2_RawAsparagus.label>спаржа</RC2_RawAsparagus.label>
+  <RC2_RawAsparagus.description>Сырая спаржа. Эти молодые стебли собирают до того, как они станут слишком загрубевшими, чтобы их можно было есть.</RC2_RawAsparagus.description>
+  <RC2_RawEggplants.label>баклажаны</RC2_RawEggplants.label>
+  <RC2_RawEggplants.description>Сырые баклажаны. Используется в самых разных блюдах. Технически это ягода, но в кулинарии баклажаны используют как овощи.</RC2_RawEggplants.description>
+  <RC2_RawBanana.label>бананы</RC2_RawBanana.label>
+  <RC2_RawBanana.description>Сырые бананы. Вкусные, жёлтые плоды. Растут в гроздьях. Часто используются в качестве единицы измерения (наряду с попугаями).</RC2_RawBanana.description>
+  <RC2_RawApples.label>яблоки</RC2_RawApples.label>
+  <RC2_RawApples.description>Сырые яблоки. Вкусные, красные или жёлтые фрукты со сладким и слегка кисловатым привкусом. Сочные и хрустящие!</RC2_RawApples.description>
+  <RC2_RawOrange.label>апельсины</RC2_RawOrange.label>
+  <RC2_RawOrange.description>Сырые апельсины. Отлично подходит для защиты от цинги!</RC2_RawOrange.description>
+  <RC2_RawFigs.label>инжир</RC2_RawFigs.label>
+  <RC2_RawFigs.description>Сырой инжир. Вкусен прямо с дерева и используется в ряде довольно вкусных блюд.</RC2_RawFigs.description>
+  <RC2_RawPomegranates.label>гранаты</RC2_RawPomegranates.label>
+  <RC2_RawPomegranates.description>Сырые гранаты. Вкусны прямо с дерева и используются в ряде довольно вкусных блюд.</RC2_RawPomegranates.description>
+  <RC2_RawCactusFruit.label>плоды кактуса</RC2_RawCactusFruit.label>
+  <RC2_RawCactusFruit.description>Сырые плоды кактуса. Обязательно очистите их от шкурки, прежде чем есть!</RC2_RawCactusFruit.description>
+  <RC2_RawCoconut.label>кокосы</RC2_RawCoconut.label>
+  <RC2_RawCoconut.description>Сырые кокосы. Как известно, постукивание половинками кокоса друг об друга увеличивает скорость ходьбы.</RC2_RawCoconut.description>
+  <RC2_RawJuniperBerries.label>ягоды можжевельника</RC2_RawJuniperBerries.label>
+  <RC2_RawJuniperBerries.description>Сырые ягоды можжевельника. Съедобны, но не очень вкусны. В основном используется для приготовления Джина.</RC2_RawJuniperBerries.description>
+  <RC2_RawGrapes.label>виноград</RC2_RawGrapes.label>
+  <RC2_RawGrapes.description>Сырые гроздья винограда. Виноград вкусен и сырым, но лучше всего используется в виноделии!</RC2_RawGrapes.description>
+  <RC2_RawMelons.label>дыни</RC2_RawMelons.label>
+  <RC2_RawMelons.description>Сырые дыни. Большие, сочные и вкусные. Дыни великолепны в жаркий летний день.</RC2_RawMelons.description>
+  <RC2_RawPumpkins.label>тыквы</RC2_RawPumpkins.label>
+  <RC2_RawPumpkins.description>Сырые тыквы. Большие, сочные и вкусные. Тыквы великолепны осенью.</RC2_RawPumpkins.description>
+  <RC2_RawPineapples.label>ананасы</RC2_RawPineapples.label>
+  <RC2_RawPineapples.description>Сырые ананасы. Тропический фрукт, который растет на низкорослых растениях. У него сладкая мякоть, которой часто наслаждаются сырой, отрезая ананасу верхушку и затем разрезая его на части.</RC2_RawPineapples.description>
+  <RC2_RawBreadfruit.label>плоды хлебного дерева</RC2_RawBreadfruit.label>
+  <RC2_RawBreadfruit.description>Сырой плод хлебного дерева. Тропический фрукт, который по вкусу напоминает свежеиспечённый хлеб или картофель.</RC2_RawBreadfruit.description>
+  <RC2_RawDurians.label>дурианы</RC2_RawDurians.label>
+  <RC2_RawDurians.description>Сырые дурианы. Имеют ужасный запах гнилого мусора и химикатов, но хороший вкус.</RC2_RawDurians.description>
+  <RC2_RawPlums.label>сливы</RC2_RawPlums.label>
+  <RC2_RawPlums.description>Сырые сливы. Эти пыльные на вид плоды имеют большую ямку в центре, и их сок является любимым напитком стариков.</RC2_RawPlums.description>
+  <RC2_RawPeaches.label>персики</RC2_RawPeaches.label>
+  <RC2_RawPeaches.description>Сырые персики. Эти пыльные на вид плоды имеют большую ямку в центре и часто используются для приготовления чая или других вещей.</RC2_RawPeaches.description>
+  <RC2_RawPecans.label>орехи пекан</RC2_RawPecans.label>
+  <RC2_RawPecans.description>Сырье орехи пекан. Эти вкусные орехи являются отличным дополнением к десертам.</RC2_RawPecans.description>
+  <RC2_RawCherries.label>вишни</RC2_RawCherries.label>
+  <RC2_RawCherries.description>Сырые вишни. Эти терпкие ягоды имеют большое семечко, но являются фаворитом в вине, десертах и просто еде.</RC2_RawCherries.description>
+  <RC2_RawWheat.label>пшеница</RC2_RawWheat.label>
+  <RC2_RawWheat.description>Сырая пшеница. Несъедобна для человека в сыром виде и должна быть обработана и приготовлена.</RC2_RawWheat.description>
+  <RC2_RawSugarcane.label>сахарный тростник</RC2_RawSugarcane.label>
+  <RC2_RawSugarcane.description>Сырой сахарный тростник. Хотя вы можете высосать из него сладкий сок, технически он не съедобен. Используется для изготовления сахара.</RC2_RawSugarcane.description>
+  <RC2_RawCoffeeBeans.label>кофейные бобы</RC2_RawCoffeeBeans.label>
+  <RC2_RawCoffeeBeans.description>Сырые кофейные бобы. КООФФЕЕЕ!</RC2_RawCoffeeBeans.description>
+  <RC2_RawTeaLeaves.label>чайные листься</RC2_RawTeaLeaves.label>
+  <RC2_RawTeaLeaves.description>Неферментированные чайные листья. Используется для приготовления расслабляющего зеленого чая.</RC2_RawTeaLeaves.description>
+  <RC2_RawCocoaBeans.label>какао бобы</RC2_RawCocoaBeans.label>
+  <RC2_RawCocoaBeans.description>Сырые какао бобы. Шоколад!</RC2_RawCocoaBeans.description>
+</LanguageData>

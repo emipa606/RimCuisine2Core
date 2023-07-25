@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AteUncommonAsIngredient.stages.0.label>съел необычный ингредиент</AteUncommonAsIngredient.stages.0.label>
+  <AteUncommonAsIngredient.stages.0.description>Это было очень вкусно!</AteUncommonAsIngredient.stages.0.description>
+  <AteRareAsIngredient.stages.0.label>съел редкий ингредиент</AteRareAsIngredient.stages.0.label>
+  <AteRareAsIngredient.stages.0.description>Это было восхитительно!</AteRareAsIngredient.stages.0.description>
+  <AteExoticAsIngredient.stages.0.label>съел экзотический ингредиент</AteExoticAsIngredient.stages.0.label>
+  <AteExoticAsIngredient.stages.0.description>Мммм, какой аромат... такая текстура... так вкусно...</AteExoticAsIngredient.stages.0.description>
+  <AtePoorAsIngredient.stages.0.label>съел плохой ингредиент</AtePoorAsIngredient.stages.0.label>
+  <AtePoorAsIngredient.stages.0.description>Фу, это было не вкусно.</AtePoorAsIngredient.stages.0.description>
+  <AteTofuAsIngredient.stages.0.label>съел тофу</AteTofuAsIngredient.stages.0.label>
+  <AteTofuAsIngredient.stages.0.description>Фу, отвратительно! И это они называют заменителем мяса? Дайте мне настоящего мяса!</AteTofuAsIngredient.stages.0.description>
+  <AteChocolateAsIngredient.stages.0.label>съел шоколад</AteChocolateAsIngredient.stages.0.label>
+  <AteChocolateAsIngredient.stages.0.description>Я ЧЕРТОВСКИ ЛЮБЛЮ ШОКОЛАД!</AteChocolateAsIngredient.stages.0.description>
+  <AteCheeseAsIngredient.stages.0.label>съел еду с сыром</AteCheeseAsIngredient.stages.0.label>
+  <AteCheeseAsIngredient.stages.0.description>Жидкое золото! Не могу насытиться!</AteCheeseAsIngredient.stages.0.description>
+  <AteExtravagantMeal.stages.0.label>съел экстравагантную еду</AteExtravagantMeal.stages.0.label>
+  <AteExtravagantMeal.stages.0.description>Эта экстравагантная еда была потрясающей. Она питала мое тело и душу.</AteExtravagantMeal.stages.0.description>
+  <AteTastySnack.stages.0.label>съел вкусную закуску</AteTastySnack.stages.0.label>
+  <AteTastySnack.stages.0.description>Я люблю закуски!</AteTastySnack.stages.0.description>
+  <AteExoticSnack.stages.0.label>съел действительно вкусную закуску</AteExoticSnack.stages.0.label>
+  <AteExoticSnack.stages.0.description>Эта закуска была восхитительна!</AteExoticSnack.stages.0.description>
+  <AteChocolate.stages.0.label>съел шоколад</AteChocolate.stages.0.label>
+  <AteChocolate.stages.0.description>Ммм, шоколад!</AteChocolate.stages.0.description>
+  <DrankTastyDrink.stages.0.label>выпил вкусный напиток</DrankTastyDrink.stages.0.label>
+  <DrankTastyDrink.stages.0.description>Ммм, освежает!</DrankTastyDrink.stages.0.description>
+  <DrankRimCola.stages.0.label>выпил вкусный напиток</DrankRimCola.stages.0.label>
+  <DrankRimCola.stages.0.description>О боже, как я люблю Рим-Колу! А кто же не любит?</DrankRimCola.stages.0.description>
+  <AtePoorFood.stages.0.label>съел плохую еду</AtePoorFood.stages.0.label>
+  <AtePoorFood.stages.0.description>Фу. Я имею в виду, что могло быть и хуже...</AtePoorFood.stages.0.description>
+  <AteUncommonFood.stages.0.label>съел необычную еду</AteUncommonFood.stages.0.label>
+  <AteUncommonFood.stages.0.description>Ммм, довольно хорошо!</AteUncommonFood.stages.0.description>
+  <AteRareFood.stages.0.label>съел редкую еду</AteRareFood.stages.0.label>
+  <AteRareFood.stages.0.description>Я мог бы есть это каждый день!</AteRareFood.stages.0.description>
+  <AteExoticFood.stages.0.label>съел экзотическую еду</AteExoticFood.stages.0.label>
+  <AteExoticFood.stages.0.description>Я... Теперь я могу умереть счастливым...</AteExoticFood.stages.0.description>
+  <RC2_AteCheese.stages.0.label>съел сыр</RC2_AteCheese.stages.0.label>
+  <RC2_AteCheese.stages.0.description>Ммм.. сыр... так вкусно...</RC2_AteCheese.stages.0.description>
+  <RC2_AteFlour.stages.0.label>съел сырую муку</RC2_AteFlour.stages.0.label>
+  <RC2_AteFlour.stages.0.description>Почему я должен есть сырую муку? Фу! Разве мы не можем сделать из неё галеты или что-то в этом роде? Я имею в виду, неужели мы настолько ленивы?</RC2_AteFlour.stages.0.description>
+  <RC2_AteSweetener.stages.0.label>съел подсластитель напрямую</RC2_AteSweetener.stages.0.label>
+  <RC2_AteSweetener.stages.0.description>ЭТО СЛИШКОМ СЛАДКО, ФУ! Я имею в виду, конечно, что это очень калорийно, но почему я должен есть это сырым? А мы не можем... знаете... сделать из этого что-нибудь? Такое чувство, что у меня гниют зубы!</RC2_AteSweetener.stages.0.description>
+  <AteDurianDirect.stages.0.label>съел сырой дуриан</AteDurianDirect.stages.0.label>
+  <AteDurianDirect.stages.0.description>Напоминает мне об... заварном креме... с насыщенным миндальным вкусом. Или, возможно... сладком луке? Ням-ням!</AteDurianDirect.stages.0.description>
+</LanguageData>

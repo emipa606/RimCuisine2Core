@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RC2_CookJoyMealBase.label>приготовить еду</RC2_CookJoyMealBase.label>
+  <RC2_CookJoyMealBase.description>Приготовить еду.</RC2_CookJoyMealBase.description>
+  <RC2_CookJoyMealBase.jobString>Готовит еду.</RC2_CookJoyMealBase.jobString>
+  <RC2_RecipeBase.label>приготовить еду</RC2_RecipeBase.label>
+  <RC2_RecipeBase.description>Приготовить еду.</RC2_RecipeBase.description>
+  <RC2_RecipeBase.jobString>Готовит еду.</RC2_RecipeBase.jobString>
+</LanguageData>

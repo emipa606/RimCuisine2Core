@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RC2_MillingBase.label>подготовить ингридиенты</RC2_MillingBase.label>
+  <RC2_MillingBase.description>Подготовить кое-какие ингредиенты.</RC2_MillingBase.description>
+  <RC2_MillingBase.jobString>подготавливает ингридиенты</RC2_MillingBase.jobString>
+  <RC2_ProcessSugarBeets.label>сделать сахар из сахарной свёклы</RC2_ProcessSugarBeets.label>
+  <RC2_ProcessSugarBeets.description>Переработать сахарную свёклу в восхитительный, разрушающий зубы, белый кристаллический порошок. Сахарная свёкла содержит меньше сахара, чем сахарный тростник.</RC2_ProcessSugarBeets.description>
+  <RC2_ProcessSugarBeets.jobString>Делает сахар из сахарной свёклы.</RC2_ProcessSugarBeets.jobString>
+  <RC2_ProcessSugarBeetsBulk.label>сделать сахар из сахарной свёклы (5 шт.)</RC2_ProcessSugarBeetsBulk.label>
+  <RC2_ProcessSugarBeetsBulk.description>Переработать сахарную свёклу в восхитительный, разрушающий зубы, белый кристаллический порошок. Сахарная свёкла содержит меньше сахара, чем сахарный тростник.</RC2_ProcessSugarBeetsBulk.description>
+  <RC2_ProcessSugarBeetsBulk.jobString>Делает сахар из сахарной свёклы.</RC2_ProcessSugarBeetsBulk.jobString>
+  <RC2_ProcessSugarcane.label>сделать сахар из сахарного тростника</RC2_ProcessSugarcane.label>
+  <RC2_ProcessSugarcane.description>Переработать сахарный тростник в восхитительный, разрушающий зубы, белый кристаллический порошок.</RC2_ProcessSugarcane.description>
+  <RC2_ProcessSugarcane.jobString>Делает сахар из сахарного тростника.</RC2_ProcessSugarcane.jobString>
+  <RC2_ProcessSugarcaneBulk.label>сделать сахар из сахарного тростника (5 шт.)</RC2_ProcessSugarcaneBulk.label>
+  <RC2_ProcessSugarcaneBulk.description>Переработать сахарный тростник в восхитительный, разрушающий зубы, белый кристаллический порошок.</RC2_ProcessSugarcaneBulk.description>
+  <RC2_ProcessSugarcaneBulk.jobString>Делает сахар из сахарного тростника.</RC2_ProcessSugarcaneBulk.jobString>
+  <RC2_ProcessGrain.label>сделать муку из зерна</RC2_ProcessGrain.label>
+  <RC2_ProcessGrain.description>Перемолоть зёрна в муку, делая их пригодными для употребления в пищу.</RC2_ProcessGrain.description>
+  <RC2_ProcessGrain.jobString>Перемалывает зёрна в муку.</RC2_ProcessGrain.jobString>
+  <RC2_ProcessGrainBulk.label>сделать муку из зерна (5 шт.)</RC2_ProcessGrainBulk.label>
+  <RC2_ProcessGrainBulk.description>Перемолоть зёрна в муку, делая их пригодными для употребления в пищу.</RC2_ProcessGrainBulk.description>
+  <RC2_ProcessGrainBulk.jobString>Перемалывает зёрна в муку.</RC2_ProcessGrainBulk.jobString>
+  <RC2_ProcessCacao.label>сделать шоколад</RC2_ProcessCacao.label>
+  <RC2_ProcessCacao.description>Смешать какао бобы и подсластители, чтобы сделать вкусный, очень вкусный шоколад.</RC2_ProcessCacao.description>
+  <RC2_ProcessCacao.jobString>Делает шоколад.</RC2_ProcessCacao.jobString>
+  <RC2_ProcessSoybean.label>сделать тофу</RC2_ProcessSoybean.label>
+  <RC2_ProcessSoybean.description>Сделать тофу из соевых бобов. Фу.</RC2_ProcessSoybean.description>
+  <RC2_ProcessSoybean.jobString>Делает тофу.</RC2_ProcessSoybean.jobString>
+  <RC2_ProcessAgave.label>сделать нектар из агавы</RC2_ProcessAgave.label>
+  <RC2_ProcessAgave.description>Переработать плоды агавы в вкусный, липкий нектар.</RC2_ProcessAgave.description>
+  <RC2_ProcessAgave.jobString>Делает нектар из агавы.</RC2_ProcessAgave.jobString>
+  <RC2_TrimMeat.label>подготовить мясо (5 шт.)</RC2_TrimMeat.label>
+  <RC2_TrimMeat.description>Обрезать мясо от жира, жил и костей и подготовить к процессу сушки.</RC2_TrimMeat.description>
+  <RC2_TrimMeat.jobString>Подготавливает мясо.</RC2_TrimMeat.jobString>
+  <RC2_TrimMeatBulk.label>подготовить мясо (50 шт.)</RC2_TrimMeatBulk.label>
+  <RC2_TrimMeatBulk.description>Обрезать мясо от жира, жил и костей и подготовить к процессу сушки.</RC2_TrimMeatBulk.description>
+  <RC2_TrimMeatBulk.jobString>Подготавливает мясо.</RC2_TrimMeatBulk.jobString>
+  <RC2_PrepareFruit.label>подготовить фрукты (5 шт.)</RC2_PrepareFruit.label>
+  <RC2_PrepareFruit.description>Фрукты почистить, нарезать ломтиками, очистить от косточек и подготовить к процессу сушки.</RC2_PrepareFruit.description>
+  <RC2_PrepareFruit.jobString>Подготавливает фрукты.</RC2_PrepareFruit.jobString>
+  <RC2_PrepareFruitBulk.label>подготовить фрукты (50 шт.)</RC2_PrepareFruitBulk.label>
+  <RC2_PrepareFruitBulk.description>Фрукты почистить, нарезать ломтиками, очистить от косточек и подготовить к процессу сушки.</RC2_PrepareFruitBulk.description>
+  <RC2_PrepareFruitBulk.jobString>Подготавливает фрукты.</RC2_PrepareFruitBulk.jobString>
+  <RC2_BrineVegetables.label>подготовить овощи (5 шт.)</RC2_BrineVegetables.label>
+  <RC2_BrineVegetables.description>Овощи почистить, обрезать от лишних листьев, сделать рассол и поместить в него овощи.</RC2_BrineVegetables.description>
+  <RC2_BrineVegetables.jobString>Подготавливает овощи.</RC2_BrineVegetables.jobString>
+  <RC2_BrineVegetablesBulk.label>подготовить овощи (50 шт.)</RC2_BrineVegetablesBulk.label>
+  <RC2_BrineVegetablesBulk.description>Овощи почистить, обрезать от лишних листьев, сделать рассол и поместить в него овощи.</RC2_BrineVegetablesBulk.description>
+  <RC2_BrineVegetablesBulk.jobString>Подготавливает овощи.</RC2_BrineVegetablesBulk.jobString>
+</LanguageData>

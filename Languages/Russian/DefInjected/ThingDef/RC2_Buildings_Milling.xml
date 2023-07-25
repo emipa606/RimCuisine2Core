@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RC2_FoodPrepSpot.label>место для приготовления ингридиентов</RC2_FoodPrepSpot.label>
+  <RC2_FoodPrepSpot.description>Место для приготовления ингредиентов, которые затем можно использовать в кулинарии.</RC2_FoodPrepSpot.description>
+  <RC2_Quernstone.label>жёрнов</RC2_Quernstone.label>
+  <RC2_Quernstone.description>Пара небольших круглых дисков, работающих вручную, для быстрого измельчения сырых растений.</RC2_Quernstone.description>
+  <RC2_RollerMill.label>роликовая мельница</RC2_RollerMill.label>
+  <RC2_RollerMill.description>Небольшой электрический станок, использующий ролики для измельчения растительного материала.</RC2_RollerMill.description>
+</LanguageData>

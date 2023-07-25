@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RC2_BasicCooking.label>базовая готовка</RC2_BasicCooking.label>
+  <RC2_BasicCooking.description>Знания об изготовлении похлёбок, конфет, чая и остального.</RC2_BasicCooking.description>
+  <RC2_IntermediateCooking.label>продвинутая готовка</RC2_IntermediateCooking.label>
+  <RC2_IntermediateCooking.description>Знание более продвинутой кулинарии, включая жернова, кофе и выпечку.</RC2_IntermediateCooking.description>
+  <RC2_AdvancedCooking.label>передовая готовка</RC2_AdvancedCooking.label>
+  <RC2_AdvancedCooking.description>Передовые технологии приготовления пищи, включая роликовую мельницу и приготовление тофу из соевых бобов.</RC2_AdvancedCooking.description>
+  <Pemmican.label>базовая консервация пищи</Pemmican.label>
+  <Pemmican.description>Знания приготовления пеммикана, сушки фруктов и мяса, мариновании овощей, а также приготовления галет.</Pemmican.description>
+  <PackagedSurvivalMeal.label>продвинутая консервация пищи</PackagedSurvivalMeal.label>
+  <PackagedSurvivalMeal.description>Производите упакованные сухпайки, которые никогда не портятся.</PackagedSurvivalMeal.description>
+  <RC2_BasicAgriculture.label>базовое сельское хозяйство</RC2_BasicAgriculture.label>
+  <RC2_BasicAgriculture.description>Знания о посадке некоторых простых культур.</RC2_BasicAgriculture.description>
+  <TreeSowing.label>базовое лесное хозяйство</TreeSowing.label>
+  <TreeSowing.description>Садите деревья на Ваших полях! Некоторые даже приносят плоды!</TreeSowing.description>
+  <RC2_IntermediateAgriculture.label>продвинутое сельское хозяйство</RC2_IntermediateAgriculture.label>
+  <RC2_IntermediateAgriculture.description>Знания о посадке более продвинутых культур.</RC2_IntermediateAgriculture.description>
+  <RC2_IntermediateForestry.label>продвинутое лесное хозяйство</RC2_IntermediateForestry.label>
+  <RC2_IntermediateForestry.description>Знания о посадке фруктовых деревьев на Ваших полях.</RC2_IntermediateForestry.description>
+  <RC2_AdvancedAgriculture.label>передовое сельское хозяйство</RC2_AdvancedAgriculture.label>
+  <RC2_AdvancedAgriculture.description>Знания о посадке ещё более продвинутых и полезных культур.</RC2_AdvancedAgriculture.description>
+  <Cocoa.label>передовое лесное хозяйство</Cocoa.label>
+  <Cocoa.description>Расширенные знания о посадке плодовых деревьев.</Cocoa.description>
+</LanguageData>

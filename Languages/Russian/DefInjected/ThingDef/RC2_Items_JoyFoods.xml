@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RC2_MealCandy.label>конфеты</RC2_MealCandy.label>
+  <RC2_MealCandy.description>Набор из твёрдых и мягких конфет из различных подсластителей. Обычно съедаются горсткой обжор.</RC2_MealCandy.description>
+  <RC2_MealPastry.label>пончики</RC2_MealPastry.label>
+  <RC2_MealPastry.description>Мягкая, вкусная и сахарно-сладкая выпечка, часто предпочитаемая правоохранительными органами.</RC2_MealPastry.description>
+  <RC2_MealJuice.label>фруктовый сок</RC2_MealJuice.label>
+  <RC2_MealJuice.description>Вкусный напиток, приготовленный из выжатых фруктов. Освежает, но не особо насыщает.</RC2_MealJuice.description>
+  <RC2_Coffee.label>кофе</RC2_Coffee.label>
+  <RC2_Coffee.description>Ароматный напиток из заваренных кофейных зёрен, который даст заряд бодрости вашему утру.</RC2_Coffee.description>
+  <RC2_Coffee.ingestible.ingestCommandString>Выпить {0}</RC2_Coffee.ingestible.ingestCommandString>
+  <RC2_Coffee.ingestible.ingestReportString>Выпил {0}.</RC2_Coffee.ingestible.ingestReportString>
+  <RC2_GreenTea.label>зелёный чай</RC2_GreenTea.label>
+  <RC2_GreenTea.description>Ароматный, горький чай, приготовленный из неферментированных чайных листьев. Он не особенно богат питательными веществами, но содержит небольшое количество кофеина и расслабляет организм.</RC2_GreenTea.description>
+  <RC2_GreenTea.ingestible.ingestCommandString>Выпить {0}</RC2_GreenTea.ingestible.ingestCommandString>
+  <RC2_GreenTea.ingestible.ingestReportString>Выпил {0}.</RC2_GreenTea.ingestible.ingestReportString>
+  <RC2_MealCrustyPeanuts.label>хрустящий арахис</RC2_MealCrustyPeanuts.label>
+  <RC2_MealCrustyPeanuts.description>Кулёк вкусного хрустящего арахиса, всегдашний любимец циркачей по всему Rimworld'у и за его пределами. Возьмите сегодня свежую, горячую горсть орехов Красти Натс!</RC2_MealCrustyPeanuts.description>
+</LanguageData>

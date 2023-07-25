@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RC2_Hardtack.label>галеты</RC2_Hardtack.label>
+  <RC2_Hardtack.description>Жёсткое печенье или крекер. Галеты очень долго хранятся и подходит для путешествий. Вызывают жажду и имеют не очень хороший вкус.</RC2_Hardtack.description>
+  <RC2_DriedFruit.label>сушёные фрукты</RC2_DriedFruit.label>
+  <RC2_DriedFruit.description>Фрукты, которые были высушены возле огня, на солнце или в печи. Когда влага испаряется, их срок годности становится намного дольше и хорошо подходят для путешествий. Любимы как караванщиками, так и племенами. Могут использоваться в кулинарных рецептах.</RC2_DriedFruit.description>
+  <RC2_DriedMeat.label>сушёное мясо</RC2_DriedMeat.label>
+  <RC2_DriedMeat.description>Куски мяса с которых был обрезан жир, жилы и кости, и были высушены возле огня или в печи. Сушёное мясо хорошо переносится и держится гораздо дольше, чем сырое. Любимо племенами и караванщиками. Может быть съедено само по себе без проблем, но часто используется в кулинарных рецептах, особенно рагу, чтобы размягчить его.</RC2_DriedMeat.description>
+  <RC2_PickledVegetables.label>маринованные овощи</RC2_PickledVegetables.label>
+  <RC2_PickledVegetables.description>Овощи, которые были упакованы жестяную или стеклянную банку, с солевым или уксусным раствором. Предпочитается теми, кто любит уксус. Также они часто используются в кулинарии и долго хранятся.</RC2_PickledVegetables.description>
+  <RC2_TrimmedMeat.label>подготовленное мясо</RC2_TrimmedMeat.label>
+  <RC2_TrimmedMeat.description>Куски мяса с которых был обрезан жир, жилы и кости, и подготовленные к сушке на сушилке.</RC2_TrimmedMeat.description>
+  <RC2_PreparedFruit.label>подготовленные фрукты</RC2_PreparedFruit.label>
+  <RC2_PreparedFruit.description>Фрукты, которые были почищены, нарезаны ломтиками, очищены от косточек, чтобы их можно было легко высушить.</RC2_PreparedFruit.description>
+  <RC2_PickleBrine.label>подготовленные овощи</RC2_PickleBrine.label>
+  <RC2_PickleBrine.description>Овощи, которые были почищены, обрезаны от лишних листьев и помещены в рассол. Готовы для длительного маринования в бочке.</RC2_PickleBrine.description>
+</LanguageData>

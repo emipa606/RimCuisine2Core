@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RC2_CaffeineHigh.stages.0.label>ожил</RC2_CaffeineHigh.stages.0.label>
+  <RC2_CaffeineHigh.stages.0.description>Кофеин - лучший способ поднять настроение!</RC2_CaffeineHigh.stages.0.description>
+  <RC2_CaffeineHigh.stages.1.label>полон сил</RC2_CaffeineHigh.stages.1.label>
+  <RC2_CaffeineHigh.stages.1.description>Какой прилив сил!</RC2_CaffeineHigh.stages.1.description>
+  <RC2_CaffeineHigh.stages.2.label>нервный</RC2_CaffeineHigh.stages.2.label>
+  <RC2_CaffeineHigh.stages.2.description>Кофеина было слишком много. У меня начинают дрожать руки.</RC2_CaffeineHigh.stages.2.description>
+  <RC2_CaffeineHigh.stages.3.label>перегружен</RC2_CaffeineHigh.stages.3.label>
+  <RC2_CaffeineHigh.stages.3.description>Ладони потные, колени слабые, руки тяжёлые, и сам больше похожу на спагетти.</RC2_CaffeineHigh.stages.3.description>
+  <RC2_CaffeineWithdrawal.stages.1.label>кофеиновая ломка</RC2_CaffeineWithdrawal.stages.1.label>
+  <RC2_CaffeineWithdrawal.stages.1.description>Ухх, мне нужен кофеин. У меня болит голова, трудно сосредоточиться, и всем просто нужно перестать так сильно шуметь.</RC2_CaffeineWithdrawal.stages.1.description>
+</LanguageData>

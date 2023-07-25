@@ -85,4 +85,4 @@ And everyone on the mod development/mod art channel on the Rimworld Discord, who
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2562519366]Last updated 2023-05-21
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2562519366]Last updated 2023-07-25
