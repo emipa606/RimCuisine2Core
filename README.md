@@ -10,6 +10,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1833592062
 - As the Universal Fermenter has been superseded by https://steamcommunity.com/sharedfiles/filedetails/?id=2633514537][SYR] Processor Framework the mod has been updated to use this instead. Thank you Zaljerem for the updated processes. Made it easy to update the rest of the RC2 mods!
 - The old fermenting barrel is removed in 1.3
 - Processed meat/vegs can now be used in bulk and the new vegetarian/carnivore meals. Thanks to user The Manual!
+- Included the Russian translation by https://steamcommunity.com/sharedfiles/filedetails/?id=2178156726]Imnir
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
@@ -25,8 +26,6 @@ Welcome to RimCuisine 2! This mod is focused on adding new crops and food types 
 
 Overall, the mod is designed to be vanilla-friendly and fit seamlessly into normal gameplay without changing things up too dramatically.  A secondary design focus was to improve both tribal gameplay and caravaning with the addition of a number of food-preservation techniques that don't rely on freezing temperatures or high technology.  
 
-------------------------------------------------------------
-
 **New Crops:** Over 40 new crops and fruit trees, ranging from tomatoes and onions to sorghum, quinoa, and grapes, all the way to cherries, pecans and durians! In addition, all new crops can only be grown in specific biomes! Vanilla crops and a few exemptions (like wheat, cabbages, and onions) can be grown in any biome, but most require one or more biomes to be grown in.  Examples include sugarcane and bananas only being growable in tropical, agave, cactus fruit, and coffee only in arid, juniper berries only in colder biomes and grapes only in temperate! In addition, if the plant is growable hydroponically, it ignores these restrictions! Go ahead and hydroponically grow your tropical-climate-loving quinoa in a boreal forest, see what I care!
 
 **New Meals:** A variety of new meals including mass-produced pottage, sugary candy and pastries, as well as coffee, tea, and of course hardtack! Snacks provide their own moodlets, while coffee and tea provide pawns with a source of caffeine, boosting their productivity and learning while simultaneously boosting their anxiety.  Yay caffeine-induced panic attacks!  
@@ -39,8 +38,6 @@ Overall, the mod is designed to be vanilla-friendly and fit seamlessly into norm
 
 While this mod is basically feature-complete, I will be using you guys as test subjects to iron out kinks and bugs and feature balance! If you see something that is weird or doesn’t work right, let me know and we can figure it out! 
 
---------------------------------------------------
-
 **Patch Notes:**
 
 -Fixed Beer
@@ -50,8 +47,6 @@ While this mod is basically feature-complete, I will be using you guys as test s
 -Pottages now require only Basic Cooking to make.
 -Sorghum can now be properly bulk-milled.
 
---------------------------------------------------
-
 **Compatibilities:**
 
 RIMCUISINE 2 IS NOT MEANT TO BE USED WITH DISMAR’S VEGETABLE GARDEN OR TOBY’S REALISTIC FARMING.  PROBLEMS OCCURING WHEN USED TOGETHER IS NOT MY FAULT, STOP MIXING THEM (or mix them at your own peril!)
@@ -59,9 +54,6 @@ RIMCUISINE 2 IS NOT MEANT TO BE USED WITH DISMAR’S VEGETABLE GARDEN OR TOBY’
 That being said, RimCuisine 2 *seems* to be compatible with VGP Core.  Dismar and I have discussed compatibility and we both agree our mods are too massive to do full patches for, but right now they seem to play nicely together.  However, there is a lot of overlap and people insisting on using both will find duplicate items and see that a number of ingredients from one mod won’t work with some or all recipes in the other.  Use both mods together at your own risk! Don’t say I didn’t warn you!
 
 RimCuisine 2 is technically compatible with existing saves, but FOR BEST QUALITY USE ON A NEW SAVE.  Used on existing saves, new wild crops need time to spawn in, stockpiles need fixing, existing bills need fixing, pawn allowances need fixing, and you won’t have any of the free techs. But it’ll work fine if you go over this stuff.
-
-
---------------------------------------------------
 
 **Special Thanks to:**
 
@@ -85,4 +77,6 @@ And everyone on the mod development/mod art channel on the Rimworld Discord, who
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2562519366]Last updated 2023-07-25
+
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2562519366]![Image](https://img.shields.io/github/v/release/emipa606/RimCuisine2Core?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
+

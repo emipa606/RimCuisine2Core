@@ -1,91 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef Name="RC2_PlantBase" Abstract="True">
-    <category>Plant</category>
-    <thingClass>Plant</thingClass>
-    <altitudeLayer>LowPlant</altitudeLayer>
-    <useHitPoints>True</useHitPoints>
-    <statBases>
-      <Flammability>1</Flammability>
-    </statBases>
-    <tickerType>Long</tickerType>
-    <selectable>False</selectable>
-    <neverMultiSelect>True</neverMultiSelect>
-    <drawerType>MapMeshOnly</drawerType>
-    <pathCostIgnoreRepeat>false</pathCostIgnoreRepeat>
-    <graphicData>
-      <graphicClass>Graphic_Random</graphicClass>
-      <shaderType>CutoutPlant</shaderType>
-    </graphicData>
-    <ingestible>
-      <foodType>Plant</foodType>
-      <preferability>RawBad</preferability>
-    </ingestible>
+  <ThingDef Name="RC2_PlantBase" ParentName="PlantBase" Abstract="True">
     <plant>
-      <fertilityMin>0.7</fertilityMin>
-      <fertilitySensitivity>1.0</fertilitySensitivity>
-      <soundHarvesting>Harvest_Standard</soundHarvesting>
-      <soundHarvestFinish>Harvest_Standard_Finish</soundHarvestFinish>
-      <sowWork>170</sowWork>
       <harvestWork>250</harvestWork>
-      <visualSizeRange>
-        <min>0.3</min>
-        <max>1.00</max>
-      </visualSizeRange>
-      <topWindExposure>0.1</topWindExposure>
     </plant>
   </ThingDef>
-  <ThingDef ParentName="RC2_PlantBase" Name="RC2_FruitTreeBase" Abstract="True">
+  <ThingDef ParentName="TreeBase" Name="RC2_FruitTreeBase" Abstract="True">
     <statBases>
       <MaxHitPoints>300</MaxHitPoints>
       <Nutrition>1.5</Nutrition>
     </statBases>
     <description>A tree.</description>
-    <altitudeLayer>Building</altitudeLayer>
-    <selectable>true</selectable>
     <fillPercent>0.43</fillPercent>
     <graphicData>
       <shadowData>
-        <volume>(0.2, 0.35, 0.13)</volume>
         <offset>(-0.03,0,-0.24)</offset>
       </shadowData>
     </graphicData>
-    <passability>PassThroughOnly</passability>
     <pathCost>130</pathCost>
-    <blockWind>true</blockWind>
-    <ingestible>
-      <foodType>Plant</foodType>
-      <preferability>RawBad</preferability>
-    </ingestible>
     <plant>
       <lifespanDaysPerGrowDays>20</lifespanDaysPerGrowDays>
       <growDays>33.3</growDays>
       <dieIfLeafless>false</dieIfLeafless>
+      <mustBeWildToSow>false</mustBeWildToSow>
       <fertilityMin>0.5</fertilityMin>
-      <fertilitySensitivity>0.5</fertilitySensitivity>
-      <soundHarvesting>Harvest_Tree</soundHarvesting>
       <leaflessGraphicPath>Things/Plant/TreeOak_Leafless</leaflessGraphicPath>
-      <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
       <sowWork>1200</sowWork>
       <harvestWork>95</harvestWork>
       <harvestTag>Standard</harvestTag>
-      <mustBeWildToSow>true</mustBeWildToSow>
-      <sowTags>
-        <li>Ground</li>
-      </sowTags>
       <harvestMinGrowth>0.9</harvestMinGrowth>
-      <harvestFailable>false</harvestFailable>
       <harvestAfterGrowth>0.30</harvestAfterGrowth>
-      <blockAdjacentSow>true</blockAdjacentSow>
-      <visualSizeRange>
-        <min>1.5</min>
-        <max>2.0</max>
-      </visualSizeRange>
+      <visualSizeRange>1.5~2.0</visualSizeRange>
       <wildClusterWeight>1000</wildClusterWeight>
-      <wildClusterRadius>8</wildClusterRadius>
-      <topWindExposure>0.25</topWindExposure>
-      <wildOrder>3</wildOrder>
-      <interferesWithRoof>true</interferesWithRoof>
+      <forceIsTree>true</forceIsTree>
     </plant>
   </ThingDef>
   <ThingDef ParentName="RC2_FruitTreeBase" Name="RC2_DeciduousTreeBase" Abstract="True">
@@ -98,53 +45,9 @@
       </shaderParameters>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="RC2_PlantBase" Name="RC2_WildFruitTreeBase" Abstract="True">
-    <statBases>
-      <MaxHitPoints>300</MaxHitPoints>
-      <Nutrition>1.5</Nutrition>
-    </statBases>
-    <description>A tree.</description>
-    <altitudeLayer>Building</altitudeLayer>
-    <selectable>true</selectable>
-    <fillPercent>0.43</fillPercent>
-    <graphicData>
-      <shadowData>
-        <volume>(0.2, 0.35, 0.13)</volume>
-        <offset>(-0.03,0,-0.24)</offset>
-      </shadowData>
-    </graphicData>
-    <passability>PassThroughOnly</passability>
-    <pathCost>130</pathCost>
-    <blockWind>true</blockWind>
-    <ingestible>
-      <foodType>Plant</foodType>
-      <preferability>RawBad</preferability>
-    </ingestible>
+  <ThingDef ParentName="RC2_FruitTreeBase" Name="RC2_WildFruitTreeBase" Abstract="True">
     <plant>
-      <lifespanDaysPerGrowDays>20</lifespanDaysPerGrowDays>
-      <growDays>33.3</growDays>
-      <dieIfLeafless>false</dieIfLeafless>
-      <fertilityMin>0.5</fertilityMin>
-      <fertilitySensitivity>0.5</fertilitySensitivity>
-      <soundHarvesting>Harvest_Tree</soundHarvesting>
-      <leaflessGraphicPath>Things/Plant/TreeOak_Leafless</leaflessGraphicPath>
-      <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
-      <sowWork>1200</sowWork>
-      <harvestWork>95</harvestWork>
-      <harvestTag>Standard</harvestTag>
-      <harvestMinGrowth>0.9</harvestMinGrowth>
-      <harvestFailable>false</harvestFailable>
-      <harvestAfterGrowth>0.30</harvestAfterGrowth>
-      <blockAdjacentSow>true</blockAdjacentSow>
-      <visualSizeRange>
-        <min>1.5</min>
-        <max>2.0</max>
-      </visualSizeRange>
-      <wildClusterWeight>1000</wildClusterWeight>
-      <wildClusterRadius>8</wildClusterRadius>
-      <topWindExposure>0.25</topWindExposure>
-      <wildOrder>3</wildOrder>
-      <interferesWithRoof>true</interferesWithRoof>
+      <mustBeWildToSow>true</mustBeWildToSow>
     </plant>
   </ThingDef>
   <ThingDef ParentName="RC2_WildFruitTreeBase" Name="RC2_WildDeciduousTreeBase" Abstract="True">

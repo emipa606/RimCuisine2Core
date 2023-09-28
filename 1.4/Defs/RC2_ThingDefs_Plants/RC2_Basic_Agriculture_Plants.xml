@@ -28,10 +28,7 @@
       </sowTags>
       <topWindExposure>0.35</topWindExposure>
       <growDays>8</growDays>
-      <visualSizeRange>
-        <min>0.3</min>
-        <max>0.8</max>
-      </visualSizeRange>
+      <visualSizeRange>0.3~0.8</visualSizeRange>
       <wildClusterWeight>500</wildClusterWeight>
       <wildClusterRadius>5</wildClusterRadius>
       <wildOrder>2</wildOrder>
@@ -68,10 +65,7 @@
       <sowMinSkill>3</sowMinSkill>
       <topWindExposure>0.35</topWindExposure>
       <growDays>6</growDays>
-      <visualSizeRange>
-        <min>0.4</min>
-        <max>1.0</max>
-      </visualSizeRange>
+      <visualSizeRange>0.3~1.0</visualSizeRange>
       <mustBeWildToSow>true</mustBeWildToSow>
       <sowResearchPrerequisites>
         <li>RC2_BasicAgriculture</li>
@@ -104,10 +98,7 @@
       <sowMinSkill>3</sowMinSkill>
       <topWindExposure>0.35</topWindExposure>
       <growDays>3.8</growDays>
-      <visualSizeRange>
-        <min>0.3</min>
-        <max>0.8</max>
-      </visualSizeRange>
+      <visualSizeRange>0.3~0.8</visualSizeRange>
       <wildClusterWeight>500</wildClusterWeight>
       <wildClusterRadius>5</wildClusterRadius>
       <wildOrder>2</wildOrder>
@@ -146,10 +137,7 @@
       <sowMinSkill>3</sowMinSkill>
       <topWindExposure>0.35</topWindExposure>
       <growDays>9</growDays>
-      <visualSizeRange>
-        <min>0.4</min>
-        <max>1.2</max>
-      </visualSizeRange>
+      <visualSizeRange>0.4~1.2</visualSizeRange>
       <wildOrder>2</wildOrder>
       <sowResearchPrerequisites>
         <li>RC2_BasicAgriculture</li>
@@ -200,10 +188,7 @@
       <topWindExposure>0.2</topWindExposure>
       <growDays>2.3</growDays>
       <lifespanDaysPerGrowDays>5</lifespanDaysPerGrowDays>
-      <visualSizeRange>
-        <min>0.4</min>
-        <max>0.8</max>
-      </visualSizeRange>
+      <visualSizeRange>0.4~0.8</visualSizeRange>
       <wildClusterWeight>250</wildClusterWeight>
       <wildClusterRadius>5</wildClusterRadius>
       <wildOrder>2</wildOrder>
@@ -253,10 +238,7 @@
       <growDays>0.8</growDays>
       <lifespanDaysPerGrowDays>10</lifespanDaysPerGrowDays>
       <harvestWork>170</harvestWork>
-      <visualSizeRange>
-        <min>0.4</min>
-        <max>1.0</max>
-      </visualSizeRange>
+      <visualSizeRange>0.4~1.0</visualSizeRange>
       <wildOrder>2</wildOrder>
       <!--<sowResearchPrerequisites>
 				<li>RC2_BasicAgriculture</li>
@@ -304,10 +286,7 @@
       <topWindExposure>0.10</topWindExposure>
       <growDays>4.2</growDays>
       <sowMinSkill>3</sowMinSkill>
-      <visualSizeRange>
-        <min>0.3</min>
-        <max>0.7</max>
-      </visualSizeRange>
+      <visualSizeRange>0.3~0.7</visualSizeRange>
       <wildOrder>2</wildOrder>
       <immatureGraphicPath>RC2_Things/RC2_Immature/CarrotPlant</immatureGraphicPath>
       <sowResearchPrerequisites>
@@ -359,10 +338,7 @@
       <topWindExposure>0.10</topWindExposure>
       <growDays>8.7</growDays>
       <sowMinSkill>3</sowMinSkill>
-      <visualSizeRange>
-        <min>0.4</min>
-        <max>.8</max>
-      </visualSizeRange>
+      <visualSizeRange>0.3~0.8</visualSizeRange>
       <wildOrder>2</wildOrder>
       <immatureGraphicPath>RC2_Things/RC2_Immature/BeetPlant</immatureGraphicPath>
       <sowResearchPrerequisites>
@@ -412,10 +388,7 @@
       <sowMinSkill>3</sowMinSkill>
       <topWindExposure>0.35</topWindExposure>
       <growDays>6.3</growDays>
-      <visualSizeRange>
-        <min>0.4</min>
-        <max>1.2</max>
-      </visualSizeRange>
+      <visualSizeRange>0.4~1.2</visualSizeRange>
       <wildOrder>2</wildOrder>
       <sowResearchPrerequisites>
         <li>RC2_BasicAgriculture</li>
@@ -464,10 +437,7 @@
       <sowMinSkill>3</sowMinSkill>
       <topWindExposure>0.35</topWindExposure>
       <growDays>7</growDays>
-      <visualSizeRange>
-        <min>0.4</min>
-        <max>1.2</max>
-      </visualSizeRange>
+      <visualSizeRange>0.4~1.2</visualSizeRange>
       <wildOrder>2</wildOrder>
       <sowResearchPrerequisites>
         <li>RC2_BasicAgriculture</li>
@@ -516,10 +486,7 @@
       <topWindExposure>0.10</topWindExposure>
       <growDays>8</growDays>
       <sowMinSkill>3</sowMinSkill>
-      <visualSizeRange>
-        <min>0.4</min>
-        <max>.8</max>
-      </visualSizeRange>
+      <visualSizeRange>0.4~0.8</visualSizeRange>
       <wildOrder>2</wildOrder>
       <immatureGraphicPath>RC2_Things/RC2_Immature/SugarBeetPlant</immatureGraphicPath>
       <sowResearchPrerequisites>
@@ -567,10 +534,7 @@
       <harvestedThingDef>RC2_RawCoffeeBeans</harvestedThingDef>
       <topWindExposure>0.35</topWindExposure>
       <growDays>6</growDays>
-      <visualSizeRange>
-        <min>0.6</min>
-        <max>1.2</max>
-      </visualSizeRange>
+      <visualSizeRange>0.6~1.2</visualSizeRange>
       <wildOrder>2</wildOrder>
       <sowResearchPrerequisites>
         <li>RC2_BasicAgriculture</li>
@@ -624,10 +588,7 @@
       <topWindExposure>0.35</topWindExposure>
       <growDays>5</growDays>
       <sowMinSkill>4</sowMinSkill>
-      <visualSizeRange>
-        <min>0.3</min>
-        <max>1.0</max>
-      </visualSizeRange>
+      <visualSizeRange>0.3~1.0</visualSizeRange>
       <wildOrder>2</wildOrder>
       <sowResearchPrerequisites>
         <li>RC2_BasicAgriculture</li>
@@ -680,10 +641,7 @@
       <sowMinSkill>5</sowMinSkill>
       <topWindExposure>0.15</topWindExposure>
       <growDays>10.5</growDays>
-      <visualSizeRange>
-        <min>0.3</min>
-        <max>1.0</max>
-      </visualSizeRange>
+      <visualSizeRange>0.3~1.0</visualSizeRange>
       <wildOrder>2</wildOrder>
       <mustBeWildToSow>true</mustBeWildToSow>
       <sowResearchPrerequisites>

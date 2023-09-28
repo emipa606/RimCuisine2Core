@@ -29,10 +29,7 @@
       <sowMinSkill>8</sowMinSkill>
       <topWindExposure>0.35</topWindExposure>
       <growDays>6.5</growDays>
-      <visualSizeRange>
-        <min>0.4</min>
-        <max>1.0</max>
-      </visualSizeRange>
+      <visualSizeRange>0.4~1.0</visualSizeRange>
       <wildOrder>2</wildOrder>
       <sowResearchPrerequisites>
         <li>RC2_AdvancedAgriculture</li>
@@ -65,10 +62,7 @@
       <sowMinSkill>8</sowMinSkill>
       <immatureGraphicPath>RC2_Things/RC2_Immature/SoybeanPlant</immatureGraphicPath>
       <topWindExposure>0.1</topWindExposure>
-      <visualSizeRange>
-        <min>0.4</min>
-        <max>1.2</max>
-      </visualSizeRange>
+      <visualSizeRange>0.4~1.2</visualSizeRange>
       <wildOrder>2</wildOrder>
       <sowResearchPrerequisites>
         <li>RC2_AdvancedAgriculture</li>
@@ -117,10 +111,7 @@
       <sowMinSkill>8</sowMinSkill>
       <immatureGraphicPath>RC2_Things/RC2_Immature/PepperPlant</immatureGraphicPath>
       <topWindExposure>0.1</topWindExposure>
-      <visualSizeRange>
-        <min>0.4</min>
-        <max>1.2</max>
-      </visualSizeRange>
+      <visualSizeRange>0.4~1.2</visualSizeRange>
       <wildOrder>2</wildOrder>
       <sowResearchPrerequisites>
         <li>RC2_AdvancedAgriculture</li>
@@ -175,10 +166,7 @@
         <li>Ground</li>
       </sowTags>
       <topWindExposure>0.1</topWindExposure>
-      <visualSizeRange>
-        <min>0.4</min>
-        <max>1.2</max>
-      </visualSizeRange>
+      <visualSizeRange>0.4~1.2</visualSizeRange>
       <wildOrder>2</wildOrder>
       <sowResearchPrerequisites>
         <li>RC2_AdvancedAgriculture</li>
@@ -219,10 +207,7 @@
       <sowTags>
         <li>Ground</li>
       </sowTags>
-      <visualSizeRange>
-        <min>0.7</min>
-        <max>1.2</max>
-      </visualSizeRange>
+      <visualSizeRange>0.7~1.2</visualSizeRange>
       <topWindExposure>0.3</topWindExposure>
       <wildClusterWeight>100</wildClusterWeight>
       <wildClusterRadius>6</wildClusterRadius>
@@ -264,10 +249,7 @@
       <sowTags>
         <li>Ground</li>
       </sowTags>
-      <visualSizeRange>
-        <min>0.7</min>
-        <max>1.2</max>
-      </visualSizeRange>
+      <visualSizeRange>0.7~1.2</visualSizeRange>
       <immatureGraphicPath>RC2_Things/RC2_Immature/JuniperPlant</immatureGraphicPath>
       <topWindExposure>0.3</topWindExposure>
       <wildClusterWeight>150</wildClusterWeight>
@@ -307,10 +289,7 @@
 				<li>Ground</li>
 			</sowTags>
 			<topWindExposure>0.1</topWindExposure>
-			<visualSizeRange>
-        <min>0.4</min>
-        <max>1.2</max>
-      </visualSizeRange>
+			<visualSizeRange>0.4~1.2</visualSizeRange>
 	  <wildOrder>2</wildOrder>
 	  <sowResearchPrerequisites>
 		<li>RC2_AdvancedAgriculture</li>
@@ -341,10 +320,7 @@
       <topWindExposure>0.20</topWindExposure>
       <growDays>8</growDays>
       <sowMinSkill>8</sowMinSkill>
-      <visualSizeRange>
-        <min>0.4</min>
-        <max>1.2</max>
-      </visualSizeRange>
+      <visualSizeRange>0.4~1.2</visualSizeRange>
       <wildOrder>2</wildOrder>
       <immatureGraphicPath>RC2_Things/RC2_Immature/PineapplePlant</immatureGraphicPath>
       <sowResearchPrerequisites>

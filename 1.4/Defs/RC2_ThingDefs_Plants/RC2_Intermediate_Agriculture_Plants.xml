@@ -29,10 +29,7 @@
       </sowTags>
       <topWindExposure>0.35</topWindExposure>
       <growDays>10</growDays>
-      <visualSizeRange>
-        <min>0.3</min>
-        <max>0.8</max>
-      </visualSizeRange>
+      <visualSizeRange>0.3~0.8</visualSizeRange>
       <wildOrder>2</wildOrder>
       <mustBeWildToSow>true</mustBeWildToSow>
       <sowResearchPrerequisites>
@@ -64,10 +61,7 @@
       <topWindExposure>0.35</topWindExposure>
       <growDays>10.5</growDays>
       <sowMinSkill>5</sowMinSkill>
-      <visualSizeRange>
-        <min>0.6</min>
-        <max>1.0</max>
-      </visualSizeRange>
+      <visualSizeRange>0.6~1.0</visualSizeRange>
       <wildOrder>2</wildOrder>
       <immatureGraphicPath>RC2_Things/RC2_Immature/TomatoPlant</immatureGraphicPath>
       <sowResearchPrerequisites>
@@ -116,10 +110,7 @@
       <topWindExposure>0.20</topWindExposure>
       <growDays>6.2</growDays>
       <sowMinSkill>5</sowMinSkill>
-      <visualSizeRange>
-        <min>0.4</min>
-        <max>1.1</max>
-      </visualSizeRange>
+      <visualSizeRange>0.4~1.1</visualSizeRange>
       <wildOrder>2</wildOrder>
       <sowResearchPrerequisites>
         <li>RC2_IntermediateAgriculture</li>
@@ -168,10 +159,7 @@
       <topWindExposure>0.10</topWindExposure>
       <growDays>4</growDays>
       <sowMinSkill>5</sowMinSkill>
-      <visualSizeRange>
-        <min>0.2</min>
-        <max>0.6</max>
-      </visualSizeRange>
+      <visualSizeRange>0.2~0.6</visualSizeRange>
       <wildOrder>2</wildOrder>
       <sowResearchPrerequisites>
         <li>RC2_IntermediateAgriculture</li>
@@ -220,10 +208,7 @@
       <topWindExposure>0.10</topWindExposure>
       <growDays>2</growDays>
       <sowMinSkill>5</sowMinSkill>
-      <visualSizeRange>
-        <min>0.3</min>
-        <max>0.5</max>
-      </visualSizeRange>
+      <visualSizeRange>0.3~0.5</visualSizeRange>
       <wildOrder>2</wildOrder>
       <sowResearchPrerequisites>
         <li>RC2_IntermediateAgriculture</li>
@@ -282,10 +267,7 @@
         <li>Ground</li>
       </sowTags>
       <topWindExposure>0.3</topWindExposure>
-      <visualSizeRange>
-        <min>0.4</min>
-        <max>1.2</max>
-      </visualSizeRange>
+      <visualSizeRange>0.4~1.2</visualSizeRange>
       <wildOrder>2</wildOrder>
       <sowResearchPrerequisites>
         <li>RC2_IntermediateAgriculture</li>
@@ -321,10 +303,7 @@
       <harvestedThingDef>RawAgave</harvestedThingDef>
       <harvestYield>10</harvestYield>
       <harvestWork>300</harvestWork>
-      <visualSizeRange>
-        <min>0.9</min>
-        <max>1.4</max>
-      </visualSizeRange>
+      <visualSizeRange>0.9~1.4</visualSizeRange>
       <topWindExposure>0.3</topWindExposure>
       <wildClusterRadius>8</wildClusterRadius>
       <wildClusterWeight>300</wildClusterWeight>
@@ -363,10 +342,7 @@
       <sowMinSkill>8</sowMinSkill>
       <topWindExposure>0.15</topWindExposure>
       <growDays>8</growDays>
-      <visualSizeRange>
-        <min>0.4</min>
-        <max>1.3</max>
-      </visualSizeRange>
+      <visualSizeRange>0.4~1.3</visualSizeRange>
       <wildOrder>2</wildOrder>
       <wildClusterWeight>50</wildClusterWeight>
       <wildClusterRadius>3</wildClusterRadius>
@@ -409,10 +385,7 @@
       <mustBeWildToSow>true</mustBeWildToSow>
       <topWindExposure>0.35</topWindExposure>
       <growDays>5</growDays>
-      <visualSizeRange>
-        <min>0.3</min>
-        <max>1.0</max>
-      </visualSizeRange>
+      <visualSizeRange>0.3~1.0</visualSizeRange>
       <wildClusterWeight>100</wildClusterWeight>
       <wildClusterRadius>8</wildClusterRadius>
       <wildOrder>2</wildOrder>

@@ -47,10 +47,7 @@
       <harvestYield>5</harvestYield>
       <harvestWork>700</harvestWork>
       <fertilityMin>0.03</fertilityMin>
-      <visualSizeRange>
-        <min>0.7</min>
-        <max>1.2</max>
-      </visualSizeRange>
+      <visualSizeRange>0.7~1.2</visualSizeRange>
       <topWindExposure>0.0</topWindExposure>
       <wildClusterWeight>20</wildClusterWeight>
       <wildClusterRadius>4</wildClusterRadius>
@@ -82,10 +79,7 @@
       <harvestYield>12</harvestYield>
       <topWindExposure>0.35</topWindExposure>
       <immatureGraphicPath>RC2_Things/RC2_Immature/FlaxPlant</immatureGraphicPath>
-      <visualSizeRange>
-        <min>0.3</min>
-        <max>1.00</max>
-      </visualSizeRange>
+      <visualSizeRange>0.3~1.0</visualSizeRange>
       <wildClusterWeight>160</wildClusterWeight>
       <wildClusterRadius>8</wildClusterRadius>
       <wildOrder>2</wildOrder>

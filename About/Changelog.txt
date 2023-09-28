@@ -1,5 +1,8 @@
 # Changelog for RimCuisine2Core
 
+1.4.4 - Inherits some vanilla plant-classes and trees should now be replantable
+
+
 1.4.3 - Included the Russian translation by [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2178156726]Imnir[/url]
 
 

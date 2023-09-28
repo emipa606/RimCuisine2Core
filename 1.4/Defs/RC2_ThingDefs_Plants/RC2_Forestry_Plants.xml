@@ -160,10 +160,7 @@
         <li>RC2_IntermediateForestry</li>
       </sowResearchPrerequisites>
       <sowMinSkill>5</sowMinSkill>
-      <visualSizeRange>
-        <min>1.5</min>
-        <max>2.5</max>
-      </visualSizeRange>
+      <visualSizeRange>1.5~2.5</visualSizeRange>
     </plant>
   </ThingDef>
   <ThingDef ParentName="RC2_FruitTreeBase">
