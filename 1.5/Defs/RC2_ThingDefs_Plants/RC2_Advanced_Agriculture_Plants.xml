@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=========================== Grains ==============================-->
+  <ThingDef ParentName="RC2_PlantBase">
+    <defName>RC2_PlantQuinoa</defName>
+    <label>quinoa plant</label>
+    <description>A seed producing flowering plant native to mountainous regions.  This particular cultivar prefers warm, wet climates and will only grow in tropical regions.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/QuinoaPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <plant>
+      <fertilitySensitivity>.8</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestedThingDef>RC2_RawQuinoa</harvestedThingDef>
+      <harvestYield>9</harvestYield>
+      <mustBeWildToSow>true</mustBeWildToSow>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <sowMinSkill>8</sowMinSkill>
+      <topWindExposure>0.35</topWindExposure>
+      <growDays>6.5</growDays>
+      <visualSizeRange>0.4~1.0</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <sowResearchPrerequisites>
+        <li>RC2_AdvancedAgriculture</li>
+      </sowResearchPrerequisites>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+  <!--=========================== Vegetables ==============================-->
+  <ThingDef ParentName="RC2_PlantBase" Name="RC2_SoybeanBase" Abstract="True">
+    <label>soybean plant</label>
+    <description>Soya bean plant grow legumes that are often used as a meat substitute for those too squeamish to eat the flesh of the dead.  Grows in temperate and tropical regions.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/SoybeanPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <plant>
+      <fertilitySensitivity>1</fertilitySensitivity>
+      <fertilityMin>1.0</fertilityMin>
+      <growDays>8</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RC2_RawSoybean</harvestedThingDef>
+      <harvestYield>12</harvestYield>
+      <sowMinSkill>8</sowMinSkill>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/SoybeanPlant</immatureGraphicPath>
+      <topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>0.4~1.2</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <sowResearchPrerequisites>
+        <li>RC2_AdvancedAgriculture</li>
+      </sowResearchPrerequisites>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_SoybeanBase">
+    <defName>RC2_PlantSoybean</defName>
+    <plant>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <mustBeWildToSow>true</mustBeWildToSow>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_SoybeanBase">
+    <defName>RC2_PlantSoybeanHydro</defName>
+    <plant>
+      <sowTags>
+        <li>Hydroponic</li>
+      </sowTags>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantBase" Name="RC2_PepperBase" Abstract="True">
+    <label>chili pepper bush</label>
+    <description>Chili pepper plants produce deliciously spicy chili peppers.  Great for sauces and spicing up foods! Grows in subtropical and tropical regions.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/PepperPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <plant>
+      <fertilitySensitivity>1</fertilitySensitivity>
+      <fertilityMin>.7</fertilityMin>
+      <growDays>8.5</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RC2_RawPeppers</harvestedThingDef>
+      <harvestYield>12</harvestYield>
+      <sowMinSkill>8</sowMinSkill>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/PepperPlant</immatureGraphicPath>
+      <topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>0.4~1.2</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <sowResearchPrerequisites>
+        <li>RC2_AdvancedAgriculture</li>
+      </sowResearchPrerequisites>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PepperBase">
+    <defName>RC2_PlantPepper</defName>
+    <plant>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <mustBeWildToSow>true</mustBeWildToSow>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PepperBase">
+    <defName>RC2_PlantPepperHydro</defName>
+    <plant>
+      <sowTags>
+        <li>Hydroponic</li>
+      </sowTags>
+    </plant>
+  </ThingDef>
+  <!--=========================== Fruit ==============================-->
+  <ThingDef ParentName="RC2_PlantBase">
+    <defName>RC2_PlantGrapes</defName>
+    <label>grapevine</label>
+    <description>Grape vines have been cultivated for eons and are the source of delicious grapes.  Just be careful, they're a finicky plant that can only be grown in temperate regions - but not the more humid swamps.</description>
+    <statBases>
+      <MaxHitPoints>35</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/GrapePlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <plant>
+      <fertilitySensitivity>1</fertilitySensitivity>
+      <fertilityMin>1.0</fertilityMin>
+      <growDays>11</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RC2_RawGrapes</harvestedThingDef>
+      <harvestYield>16</harvestYield>
+      <sowMinSkill>8</sowMinSkill>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/GrapePlant</immatureGraphicPath>
+      <mustBeWildToSow>true</mustBeWildToSow>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>0.4~1.2</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <sowResearchPrerequisites>
+        <li>RC2_AdvancedAgriculture</li>
+      </sowResearchPrerequisites>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantBase">
+    <defName>RC2_PlantCactusFruit</defName>
+    <label>prickly pear cactus</label>
+    <description>A large-leafed desert cactus with edible fruit.  Can only be grown in arid regions.</description>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Nutrition>0.18</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/CactusFruitPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.2, 0.2, 0.2)</volume>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <fillPercent>0.20</fillPercent>
+    <pathCost>30</pathCost>
+    <plant>
+      <fertilitySensitivity>0.0</fertilitySensitivity>
+      <growDays>3</growDays>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.30</harvestAfterGrowth>
+      <harvestedThingDef>RC2_RawCactusFruit</harvestedThingDef>
+      <harvestYield>5</harvestYield>
+      <harvestWork>700</harvestWork>
+      <fertilityMin>0.03</fertilityMin>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/CactusFruitPlant</immatureGraphicPath>
+      <mustBeWildToSow>true</mustBeWildToSow>
+      <sowMinSkill>8</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <visualSizeRange>0.7~1.2</visualSizeRange>
+      <topWindExposure>0.3</topWindExposure>
+      <wildClusterWeight>100</wildClusterWeight>
+      <wildClusterRadius>6</wildClusterRadius>
+      <wildOrder>2</wildOrder>
+      <sowResearchPrerequisites>
+        <li>RC2_AdvancedAgriculture</li>
+      </sowResearchPrerequisites>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantBase">
+    <defName>RC2_PlantJuniper</defName>
+    <label>juniper bush</label>
+    <description>Evergreen shrubs that grow in colder climates, Juniper bushes produce a special kind of berry that is used as a spice and in making Gin.  Does best in colder climates.</description>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Nutrition>0.18</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/JuniperPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.2, 0.2, 0.2)</volume>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <fillPercent>0.20</fillPercent>
+    <pathCost>30</pathCost>
+    <plant>
+      <fertilitySensitivity>0.8</fertilitySensitivity>
+      <growDays>7</growDays>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.30</harvestAfterGrowth>
+      <harvestedThingDef>RC2_RawJuniperBerries</harvestedThingDef>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestYield>11</harvestYield>
+      <harvestWork>250</harvestWork>
+      <mustBeWildToSow>true</mustBeWildToSow>
+      <sowMinSkill>8</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <visualSizeRange>0.7~1.2</visualSizeRange>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/JuniperPlant</immatureGraphicPath>
+      <topWindExposure>0.3</topWindExposure>
+      <wildClusterWeight>150</wildClusterWeight>
+      <wildClusterRadius>6</wildClusterRadius>
+      <wildOrder>2</wildOrder>
+      <sowResearchPrerequisites>
+        <li>RC2_AdvancedAgriculture</li>
+      </sowResearchPrerequisites>
+    </plant>
+  </ThingDef>
+  <!--<ThingDef ParentName="RC2_PlantBase">
+    <defName>RC2_PlantPineapple</defName>
+    <label>pineapple plant</label>
+    <description>Pineapple plants are a tropical plant that produces an edible and delicious fruit. This plant can only be grown in tropical regions.</description>
+    <statBases>
+      <MaxHitPoints>35</MaxHitPoints>
+	  <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/PineapplePlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <plant>
+			<fertilitySensitivity>1</fertilitySensitivity>
+			<fertilityMin>1.0</fertilityMin>
+			<growDays>12</growDays>
+			<dieIfLeafless>true</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>RC2_RawPineapples</harvestedThingDef>
+			<harvestYield>18</harvestYield>
+			<sowMinSkill>8</sowMinSkill>
+			<immatureGraphicPath>RC2_Things/RC2_Immature/PineapplePlant</immatureGraphicPath>
+			<mustBeWildToSow>true</mustBeWildToSow>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<topWindExposure>0.1</topWindExposure>
+			<visualSizeRange>0.4~1.2</visualSizeRange>
+	  <wildOrder>2</wildOrder>
+	  <sowResearchPrerequisites>
+		<li>RC2_AdvancedAgriculture</li>
+		</sowResearchPrerequisites>
+		<purpose>Food</purpose>
+    </plant>
+  </ThingDef>-->
+  <ThingDef ParentName="RC2_PlantBase" Name="RC2_PineappleBase" Abstract="True">
+    <label>pineapple plant</label>
+    <description>Pineapple plants are a tropical plant that produces an edible and delicious fruit. This plant can only be grown in tropical regions.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/PineapplePlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>5</pathCost>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>1</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RC2_RawPineapples</harvestedThingDef>
+      <harvestYield>9</harvestYield>
+      <topWindExposure>0.20</topWindExposure>
+      <growDays>8</growDays>
+      <sowMinSkill>8</sowMinSkill>
+      <visualSizeRange>0.4~1.2</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/PineapplePlant</immatureGraphicPath>
+      <sowResearchPrerequisites>
+        <li>RC2_AdvancedAgriculture</li>
+      </sowResearchPrerequisites>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PineappleBase">
+    <defName>RC2_PlantPineapple</defName>
+    <plant>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <mustBeWildToSow>true</mustBeWildToSow>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PineappleBase">
+    <defName>RC2_PlantPineappleHydro</defName>
+    <plant>
+      <sowTags>
+        <li>Hydroponic</li>
+      </sowTags>
+    </plant>
+  </ThingDef>
+  <!--=========================== Non-Food ==============================-->
+</Defs>

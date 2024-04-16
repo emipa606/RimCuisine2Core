@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ProcessorFramework.ProcessDef Name="RC2_FoodProcessBase" Abstract="True">
+    <usesTemperature>true</usesTemperature>
+    <temperatureSafe>1.0~75.0</temperatureSafe>
+    <temperatureIdeal>30.0~70.0</temperatureIdeal>
+  </ProcessorFramework.ProcessDef>
+  <ProcessorFramework.ProcessDef ParentName="RC2_FoodProcessBase">
+    <defName>RC2_DriedMeat_Process</defName>
+    <thingDef>RC2_DriedMeat</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>RC2_TrimmedMeat</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>2</processDays>
+  </ProcessorFramework.ProcessDef>
+  <ProcessorFramework.ProcessDef ParentName="RC2_FoodProcessBase">
+    <defName>RC2_DriedFruit_Process</defName>
+    <thingDef>RC2_DriedFruit</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>RC2_PreparedFruit</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>2</processDays>
+  </ProcessorFramework.ProcessDef>
+  <ProcessorFramework.ProcessDef ParentName="RC2_FoodProcessBase">
+    <defName>RC2_PickledVegetables_Process</defName>
+    <thingDef>RC2_PickledVegetables</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>RC2_PickleBrine</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>5</processDays>
+  </ProcessorFramework.ProcessDef>
+</Defs>

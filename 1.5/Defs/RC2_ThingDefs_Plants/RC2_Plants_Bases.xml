@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="RC2_PlantBase" ParentName="PlantBase" Abstract="True">
+    <plant>
+      <harvestWork>250</harvestWork>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="TreeBase" Name="RC2_FruitTreeBase" Abstract="True">
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Nutrition>1.5</Nutrition>
+    </statBases>
+    <description>A tree.</description>
+    <fillPercent>0.43</fillPercent>
+    <graphicData>
+      <shadowData>
+        <offset>(-0.03,0,-0.24)</offset>
+      </shadowData>
+    </graphicData>
+    <pathCost>130</pathCost>
+    <plant>
+      <lifespanDaysPerGrowDays>20</lifespanDaysPerGrowDays>
+      <growDays>33.3</growDays>
+      <dieIfLeafless>false</dieIfLeafless>
+      <mustBeWildToSow>false</mustBeWildToSow>
+      <fertilityMin>0.5</fertilityMin>
+      <leaflessGraphicPath>Things/Plant/TreeOak_Leafless</leaflessGraphicPath>
+      <sowWork>1200</sowWork>
+      <harvestWork>95</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestMinGrowth>0.9</harvestMinGrowth>
+      <harvestAfterGrowth>0.30</harvestAfterGrowth>
+      <visualSizeRange>1.5~2.0</visualSizeRange>
+      <wildClusterWeight>1000</wildClusterWeight>
+      <forceIsTree>true</forceIsTree>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_FruitTreeBase" Name="RC2_DeciduousTreeBase" Abstract="True">
+    <graphicData>
+      <shaderParameters>
+        <_FallColorSource>(0.3803, 0.4352, 0.1451)</_FallColorSource>
+        <_FallColorDestination>/Other/TreeFallGradient</_FallColorDestination>
+        <_FallTransitionRange>(0.02, 0.10)</_FallTransitionRange>
+        <_FallBehaviorEnabled>1</_FallBehaviorEnabled>
+      </shaderParameters>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="RC2_FruitTreeBase" Name="RC2_WildFruitTreeBase" Abstract="True">
+    <plant>
+      <mustBeWildToSow>true</mustBeWildToSow>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_WildFruitTreeBase" Name="RC2_WildDeciduousTreeBase" Abstract="True">
+    <graphicData>
+      <shaderParameters>
+        <_FallColorSource>(0.3803, 0.4352, 0.1451)</_FallColorSource>
+        <_FallColorDestination>/Other/TreeFallGradient</_FallColorDestination>
+        <_FallTransitionRange>(0.02, 0.10)</_FallTransitionRange>
+        <_FallBehaviorEnabled>1</_FallBehaviorEnabled>
+      </shaderParameters>
+    </graphicData>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,656 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=========================== Grains ==============================-->
+  <ThingDef ParentName="RC2_PlantBase">
+    <defName>RC2_PlantWheat</defName>
+    <label>wheat plant</label>
+    <description>A widely grown and adaptable crop useful for feeding the masses.  Inedible on its own, and must be milled into flour to be edible;  Grows best on good soil.  It is also the primary ingredient in ale production, along with hops.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/WheatPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <plant>
+      <purpose>Food</purpose>
+      <fertilitySensitivity>1</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RC2_RawWheat</harvestedThingDef>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestYield>21</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <topWindExposure>0.35</topWindExposure>
+      <growDays>8</growDays>
+      <visualSizeRange>0.3~0.8</visualSizeRange>
+      <wildClusterWeight>500</wildClusterWeight>
+      <wildClusterRadius>5</wildClusterRadius>
+      <wildOrder>2</wildOrder>
+      <!--<mustBeWildToSow>true</mustBeWildToSow>-->
+      <!--<sowResearchPrerequisites>
+				<li>RC2_BasicAgriculture</li>
+			</sowResearchPrerequisites>-->
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantBase">
+    <defName>RC2_PlantOats</defName>
+    <label>oat plant</label>
+    <description>A hardy cereal eaten by both humans and livestock, oats grows well in a variety of soils produces a delicious, nutrient-rich crop. Grows in colder and temperate climates. Used in the production of stout, along with hops.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/OatPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <plant>
+      <fertilitySensitivity>.6</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestedThingDef>RC2_RawOats</harvestedThingDef>
+      <harvestYield>11</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <sowMinSkill>3</sowMinSkill>
+      <topWindExposure>0.35</topWindExposure>
+      <growDays>6</growDays>
+      <visualSizeRange>0.3~1.0</visualSizeRange>
+      <mustBeWildToSow>true</mustBeWildToSow>
+      <sowResearchPrerequisites>
+        <li>RC2_BasicAgriculture</li>
+      </sowResearchPrerequisites>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantBase">
+    <defName>RC2_PlantBarley</defName>
+    <label>Barley plant</label>
+    <description>A short but hardy grass that grows almost equally well in gravel as it does fertile soil. Can be grown just about anywhere. Also the main ingredient in that all-time favorite drink, beer.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/BarleyPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <plant>
+      <fertilitySensitivity>.3</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RC2_RawBarley</harvestedThingDef>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestYield>7</harvestYield>
+      <sowMinSkill>3</sowMinSkill>
+      <topWindExposure>0.35</topWindExposure>
+      <growDays>3.8</growDays>
+      <visualSizeRange>0.3~0.8</visualSizeRange>
+      <wildClusterWeight>500</wildClusterWeight>
+      <wildClusterRadius>5</wildClusterRadius>
+      <wildOrder>2</wildOrder>
+      <!--<mustBeWildToSow>true</mustBeWildToSow>-->
+      <sowResearchPrerequisites>
+        <li>RC2_BasicAgriculture</li>
+      </sowResearchPrerequisites>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+  <!--=========================== Vegetables ==============================-->
+  <ThingDef ParentName="RC2_PlantBase" Name="RC2_ChickpeaBase" Abstract="True">
+    <label>chickpea plant</label>
+    <description>A widely popular legume known for its uses in hummus, soups, and stews. This plant likes hot, dry climates to grow in.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/ChickpeaPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>.7</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RC2_RawChickpeas</harvestedThingDef>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/ChickpeaPlant</immatureGraphicPath>
+      <harvestYield>16</harvestYield>
+      <sowMinSkill>3</sowMinSkill>
+      <topWindExposure>0.35</topWindExposure>
+      <growDays>9</growDays>
+      <visualSizeRange>0.4~1.2</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <sowResearchPrerequisites>
+        <li>RC2_BasicAgriculture</li>
+      </sowResearchPrerequisites>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_ChickpeaBase">
+    <defName>RC2_PlantChickpeas</defName>
+    <plant>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <mustBeWildToSow>true</mustBeWildToSow>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_ChickpeaBase">
+    <defName>RC2_PlantChickpeasHydro</defName>
+    <plant>
+      <sowTags>
+        <li>Hydroponic</li>
+      </sowTags>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantBase" Name="RC2_OnionBase" Abstract="True">
+    <label>onion plants</label>
+    <description>Known by locals as muffalo balls, these come in great white hairy bulbs in the dirt. The bulbs have a pungent odor to them but the flesh, which peels off in layers, is delicious when cooked.  Although loved the rim over by tribals to spacefarers alike, they tend to cause bad breath and horrible body odor in whoever eats them. Can be grown anywhere, including hydroponically.</description>
+    <statBases>
+      <MaxHitPoints>65</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/OnionPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>.2</fertilitySensitivity>
+      <dieIfLeafless>false</dieIfLeafless>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RC2_RawOnion</harvestedThingDef>
+      <harvestYield>4</harvestYield>
+      <sowMinSkill>3</sowMinSkill>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/OnionPlant</immatureGraphicPath>
+      <topWindExposure>0.2</topWindExposure>
+      <growDays>2.3</growDays>
+      <lifespanDaysPerGrowDays>5</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.4~0.8</visualSizeRange>
+      <wildClusterWeight>250</wildClusterWeight>
+      <wildClusterRadius>5</wildClusterRadius>
+      <wildOrder>2</wildOrder>
+      <sowResearchPrerequisites>
+        <li>RC2_BasicAgriculture</li>
+      </sowResearchPrerequisites>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_OnionBase">
+    <defName>RC2_PlantOnion</defName>
+    <plant>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_OnionBase">
+    <defName>RC2_PlantOnionHydro</defName>
+    <plant>
+      <sowTags>
+        <li>Hydroponic</li>
+      </sowTags>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantBase" Name="RC2_CabbageBase" Abstract="True">
+    <label>cabbage plant</label>
+    <description>A leafy green that is easy to grow and grows just about anywhere. Some people love it, others hate it, but most acknowledge it's versatility in cooking.</description>
+    <statBases>
+      <MaxHitPoints>45</MaxHitPoints>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/CabbagePlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>.1</fertilitySensitivity>
+      <dieIfLeafless>True</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RC2_RawCabbages</harvestedThingDef>
+      <harvestYield>1</harvestYield>
+      <topWindExposure>0.3</topWindExposure>
+      <growDays>0.8</growDays>
+      <lifespanDaysPerGrowDays>10</lifespanDaysPerGrowDays>
+      <harvestWork>170</harvestWork>
+      <visualSizeRange>0.4~1.0</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <!--<sowResearchPrerequisites>
+				<li>RC2_BasicAgriculture</li>
+			</sowResearchPrerequisites>-->
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_CabbageBase">
+    <defName>RC2_PlantCabbages</defName>
+    <plant>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_CabbageBase">
+    <defName>RC2_PlantCabbagesHydro</defName>
+    <plant>
+      <sowTags>
+        <li>Hydroponic</li>
+      </sowTags>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantBase" Name="RC2_CarrotBase" Abstract="True">
+    <label>carrot plants</label>
+    <description>These bright orange roots grow out of the ground.  They're hardy and resilient, and healthy to boot, however, they don't like warmer climates.</description>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Nutrition>0.10</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/CarrotPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>5</pathCost>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>0.3</fertilitySensitivity>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <maxMeshCount>9</maxMeshCount>
+      <harvestedThingDef>RC2_RawCarrots</harvestedThingDef>
+      <harvestYield>7</harvestYield>
+      <topWindExposure>0.10</topWindExposure>
+      <growDays>4.2</growDays>
+      <sowMinSkill>3</sowMinSkill>
+      <visualSizeRange>0.3~0.7</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/CarrotPlant</immatureGraphicPath>
+      <sowResearchPrerequisites>
+        <li>RC2_BasicAgriculture</li>
+      </sowResearchPrerequisites>
+      <purpose>Food</purpose>
+      <wildClusterWeight>250</wildClusterWeight>
+      <wildClusterRadius>5</wildClusterRadius>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_CarrotBase">
+    <defName>RC2_PlantCarrot</defName>
+    <plant>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <mustBeWildToSow>true</mustBeWildToSow>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_CarrotBase">
+    <defName>RC2_PlantCarrotHydro</defName>
+    <plant>
+      <sowTags>
+        <li>Hydroponic</li>
+      </sowTags>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantBase" Name="RC2_BeetBase" Abstract="True">
+    <label>beetroots</label>
+    <description>A short plant with a bright red root.  Everything from the root to the leaves is edible.  Dislikes warmer climates.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/BeetPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>5</pathCost>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>0.4</fertilitySensitivity>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RC2_RawBeets</harvestedThingDef>
+      <harvestYield>15</harvestYield>
+      <maxMeshCount>4</maxMeshCount>
+      <topWindExposure>0.10</topWindExposure>
+      <growDays>8.7</growDays>
+      <sowMinSkill>3</sowMinSkill>
+      <visualSizeRange>0.3~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/BeetPlant</immatureGraphicPath>
+      <sowResearchPrerequisites>
+        <li>RC2_BasicAgriculture</li>
+      </sowResearchPrerequisites>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_BeetBase">
+    <defName>RC2_PlantBeet</defName>
+    <plant>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <mustBeWildToSow>true</mustBeWildToSow>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_BeetBase">
+    <defName>RC2_PlantBeetHydro</defName>
+    <plant>
+      <sowTags>
+        <li>Hydroponic</li>
+      </sowTags>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantBase" Name="RC2_SnapPeaBase" Abstract="True">
+    <label>snap pea plant</label>
+    <description>Edible seed pods, snap peas are a favorite snack or ingredient across the Rim.  Grows best in temperate regions.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/PeaPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>1</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RC2_RawSnapPeas</harvestedThingDef>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/PeaPlant</immatureGraphicPath>
+      <harvestYield>9</harvestYield>
+      <sowMinSkill>3</sowMinSkill>
+      <topWindExposure>0.35</topWindExposure>
+      <growDays>6.3</growDays>
+      <visualSizeRange>0.4~1.2</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <sowResearchPrerequisites>
+        <li>RC2_BasicAgriculture</li>
+      </sowResearchPrerequisites>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_SnapPeaBase">
+    <defName>RC2_PlantSnapPeas</defName>
+    <plant>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <mustBeWildToSow>true</mustBeWildToSow>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_SnapPeaBase">
+    <defName>RC2_PlantSnapPeasHydro</defName>
+    <plant>
+      <sowTags>
+        <li>Hydroponic</li>
+      </sowTags>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantBase" Name="RC2_CucumberBase" Abstract="True">
+    <label>cucumber vine</label>
+    <description>Cucumbers are a gourd plant most well known for making both delicious (Sweet) and gross (Dill) pickles.  They can also be eaten raw, but who really does that? Prefers warm, wet climates.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/CucumberPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>1</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RC2_RawCucumbers</harvestedThingDef>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/CucumberPlant</immatureGraphicPath>
+      <harvestYield>11</harvestYield>
+      <sowMinSkill>3</sowMinSkill>
+      <topWindExposure>0.35</topWindExposure>
+      <growDays>7</growDays>
+      <visualSizeRange>0.4~1.2</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <sowResearchPrerequisites>
+        <li>RC2_BasicAgriculture</li>
+      </sowResearchPrerequisites>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_CucumberBase">
+    <defName>RC2_PlantCucumber</defName>
+    <plant>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <mustBeWildToSow>true</mustBeWildToSow>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_CucumberBase">
+    <defName>RC2_PlantCucumberHydro</defName>
+    <plant>
+      <sowTags>
+        <li>Hydroponic</li>
+      </sowTags>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantBase" Name="RC2_SugarBeetBase" Abstract="True">
+    <label>sugar beet plant</label>
+    <description>A short plant with a pale yellow root.  While certainly edible, it's more commonly used to make beet sugar. Prefers colder to milder climates.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/SugarBeetPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>5</pathCost>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>0.5</fertilitySensitivity>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RC2_RawSugarBeets</harvestedThingDef>
+      <harvestYield>10</harvestYield>
+      <maxMeshCount>4</maxMeshCount>
+      <topWindExposure>0.10</topWindExposure>
+      <growDays>8</growDays>
+      <sowMinSkill>3</sowMinSkill>
+      <visualSizeRange>0.4~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/SugarBeetPlant</immatureGraphicPath>
+      <sowResearchPrerequisites>
+        <li>RC2_BasicAgriculture</li>
+      </sowResearchPrerequisites>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_SugarBeetBase">
+    <defName>RC2_PlantSugarBeet</defName>
+    <plant>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <mustBeWildToSow>true</mustBeWildToSow>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_SugarBeetBase">
+    <defName>RC2_PlantSugarBeetHydro</defName>
+    <plant>
+      <sowTags>
+        <li>Hydroponic</li>
+      </sowTags>
+    </plant>
+  </ThingDef>
+  <!--=========================== Non-Food ==============================-->
+  <ThingDef ParentName="RC2_PlantBase" Name="RC2_PlantCoffeeBase" Abstract="True">
+    <label>coffee bush</label>
+    <description>Coffee! This bean is used the worlds over for its caffeine content and delicious taste (when roasted and brewed).  Can only be grown in arid regions and hydroponically.  However, growing it hydroponically requires a higher grower skill, and the plant doesn't produce as many beans.</description>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/CoffeePlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <plant>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/CoffeePlant</immatureGraphicPath>
+      <fertilitySensitivity>1.0</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RC2_RawCoffeeBeans</harvestedThingDef>
+      <topWindExposure>0.35</topWindExposure>
+      <growDays>6</growDays>
+      <visualSizeRange>0.6~1.2</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <sowResearchPrerequisites>
+        <li>RC2_BasicAgriculture</li>
+      </sowResearchPrerequisites>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantCoffeeBase">
+    <defName>RC2_PlantCoffee</defName>
+    <plant>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <sowMinSkill>4</sowMinSkill>
+      <mustBeWildToSow>true</mustBeWildToSow>
+      <harvestYield>14</harvestYield>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantCoffeeBase">
+    <defName>RC2_PlantCoffeeHydro</defName>
+    <plant>
+      <sowTags>
+        <li>Hydroponic</li>
+      </sowTags>
+      <sowMinSkill>8</sowMinSkill>
+      <harvestYield>8</harvestYield>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantBase" Name="RC2_PlantTeaBase" Abstract="True">
+    <label>tea bush</label>
+    <description>The leaves of the tea plant is used to make a variety of herbal teas, depending on when the leaves are picked and how they're processed after harvest.  Grows best in tropical regions, but can be grown hydroponically with reduced yield.</description>
+    <statBases>
+      <MaxHitPoints>65</MaxHitPoints>
+      <Nutrition>0.10</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/TeaPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <plant>
+      <fertilitySensitivity>1.0</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RC2_RawTeaLeaves</harvestedThingDef>
+      <harvestYield>12</harvestYield>
+      <!--<mustBeWildToSow>true</mustBeWildToSow>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>-->
+      <topWindExposure>0.35</topWindExposure>
+      <growDays>5</growDays>
+      <sowMinSkill>4</sowMinSkill>
+      <visualSizeRange>0.3~1.0</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <sowResearchPrerequisites>
+        <li>RC2_BasicAgriculture</li>
+      </sowResearchPrerequisites>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantTeaBase">
+    <defName>RC2_PlantTea</defName>
+    <plant>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <sowMinSkill>4</sowMinSkill>
+      <mustBeWildToSow>true</mustBeWildToSow>
+      <harvestYield>12</harvestYield>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantTeaBase">
+    <defName>RC2_PlantTeaHydro</defName>
+    <plant>
+      <sowTags>
+        <li>Hydroponic</li>
+      </sowTags>
+      <sowMinSkill>8</sowMinSkill>
+      <harvestYield>6</harvestYield>
+    </plant>
+  </ThingDef>
+  <!--=========================== Fruits ==============================-->
+  <ThingDef ParentName="RC2_PlantBase">
+    <defName>RC2_PlantMelon</defName>
+    <label>melon vine</label>
+    <description>A vining plant that grows along the ground.  It produces large, juicy melons. Takes a while to grow.  This variety grows best in tropical and subtropical regions.</description>
+    <statBases>
+      <MaxHitPoints>55</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Plants/MelonPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>20</pathCost>
+    <plant>
+      <fertilitySensitivity>.8</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RC2_RawMelons</harvestedThingDef>
+      <immatureGraphicPath>RC2_Things/RC2_Immature/MelonPlant</immatureGraphicPath>
+      <harvestYield>18</harvestYield>
+      <sowMinSkill>5</sowMinSkill>
+      <topWindExposure>0.15</topWindExposure>
+      <growDays>10.5</growDays>
+      <visualSizeRange>0.3~1.0</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <mustBeWildToSow>true</mustBeWildToSow>
+      <sowResearchPrerequisites>
+        <li>RC2_BasicAgriculture</li>
+      </sowResearchPrerequisites>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+</Defs>

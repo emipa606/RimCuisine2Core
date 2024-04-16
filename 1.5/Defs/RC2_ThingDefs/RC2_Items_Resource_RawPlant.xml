@@ -1,0 +1,1233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Abstract="True" Name="RC2_PlantFoodRawBase" ParentName="OrganicProductBase">
+    <ingestible>
+      <preferability>RawBad</preferability>
+      <tasteThought>AteRawFood</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+    </ingestible>
+    <statBases>
+      <Nutrition>0.05</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <!--<thingCategories>
+      <li>PlantFoodRaw</li>
+    </thingCategories>-->
+  </ThingDef>
+  <ThingDef ParentName="OrganicProductBase" Name="RC2_RoughPlantBase" Abstract="True">
+    <ingestible>
+      <foodType>Plant</foodType>
+      <preferability>DesperateOnlyForHumanlikes</preferability>
+    </ingestible>
+    <statBases>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+  </ThingDef>
+  <!-- Grains -->
+  <!--<ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RawRice</defName>
+    <label>rice</label>
+    <description>Raw rice.</description>
+    <soundInteract>Grain_Drop</soundInteract>
+    <soundDrop>Grain_Drop</soundDrop>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/Rice</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>Seed</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>40</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+    </comps>
+  </ThingDef>-->
+  <!--<ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RawCorn</defName>
+    <label>corn</label>
+    <description>Raw corn.</description>
+    <soundInteract>Grain_Drop</soundInteract>
+    <soundDrop>Grain_Drop</soundDrop>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/Corn</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+    </comps>
+  </ThingDef>-->
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawOats</defName>
+    <label>oats</label>
+    <description>Raw oats.  Great for cooking, baking, and snacks!</description>
+    <soundInteract>Grain_Drop</soundInteract>
+    <soundDrop>Grain_Drop</soundDrop>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Oats</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.3</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>RC2_GrainsRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>Seed</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawQuinoa</defName>
+    <label>quinoa</label>
+    <description>Raw quinoa. This exotic, rice-like substance is prized for its healthy qualities.  Or so the experts would say.  They know best, right?</description>
+    <soundInteract>Grain_Drop</soundInteract>
+    <soundDrop>Grain_Drop</soundDrop>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Quinoa</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.7</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>RC2_GrainsRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>Seed</foodType>
+      <specialThoughtAsIngredient>AteExoticAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawBarley</defName>
+    <label>barley</label>
+    <description>Raw barley.  This hardy grain is used in flour and soups, but is also the prime ingredient in beer.</description>
+    <soundInteract>Grain_Drop</soundInteract>
+    <soundDrop>Grain_Drop</soundDrop>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Barley</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.3</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>Seed</foodType>
+      <specialThoughtAsIngredient>AteUncommonAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <thingCategories>
+      <li>RC2_GrainsRaw</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawSorghum</defName>
+    <label>sorghum</label>
+    <description>Raw Sorghum.  This healthy grain can be cooked similar to rice, or ground up into flour.</description>
+    <soundInteract>Grain_Drop</soundInteract>
+    <soundDrop>Grain_Drop</soundDrop>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Sorghum</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>Seed</foodType>
+      <specialThoughtAsIngredient>AteRareAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <thingCategories>
+      <li>RC2_GrainsRaw</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- Vegetables -->
+  <!--<ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RawPotatoes</defName>
+    <label>potatoes</label>
+    <description>Raw potatoes.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/Potatoes</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>-->
+  <!--<ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RawFungus</defName>
+    <label>raw fungus</label>
+    <description>Raw fungus.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/RawFungus</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>-->
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawOnion</defName>
+    <label>onions</label>
+    <description>Raw onions.  Tasty, smelly bulbs whose layers are peeled.  Great with butter.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Onion</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.3</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>RC2_VegetablesRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <specialThoughtAsIngredient>AteUncommonAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawTomato</defName>
+    <label>tomatoes</label>
+    <description>Raw tomatoes.  Perfect for sauces!</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Tomato</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>RC2_VegetablesRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <specialThoughtAsIngredient>AteRareAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawSoybean</defName>
+    <label>soybeans</label>
+    <description>Raw soybeans.  Used in soup and dishes, but also turned into a meat substitute.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Soybean</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.7</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>RC2_VegetablesRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <specialThoughtAsIngredient>AteUncommonAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawChickpeas</defName>
+    <label>chickpeas</label>
+    <description>Raw chickpeas.  Legumes high in protein that make great hummus!</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Chickpeas</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.3</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>RC2_VegetablesRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <specialThoughtAsIngredient>AteUncommonAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawTruffles</defName>
+    <label>truffles</label>
+    <description>Raw truffles.  Greatly favored by traders due to its rarity and taste.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Truffles</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.9</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <specialThoughtAsIngredient>AteExoticAsIngredient</specialThoughtAsIngredient>
+      <tasteThought>AteExoticFood</tasteThought>
+    </ingestible>
+    <thingCategories>
+      <li>RC2_VegetablesRaw</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawCabbages</defName>
+    <label>cabbages</label>
+    <description>Raw cabbages.  Great in a variety of dishes, but relatively bland by itself.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Cabbages</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.7</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>RC2_VegetablesRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawCarrots</defName>
+    <label>carrots</label>
+    <description>Raw carrots.  Great in a variety of dishes, and healthy too!</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Carrots</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.3</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>RC2_VegetablesRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <specialThoughtAsIngredient>AteUncommonAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawBeets</defName>
+    <label>beets</label>
+    <description>Raw beets.  Everything from the root to the leaves are tasty and edible.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Beets</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.3</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>RC2_VegetablesRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <specialThoughtAsIngredient>AteUncommonAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawYams</defName>
+    <label>yams</label>
+    <description>Raw yams. A delicious, filling tuber!</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Yams</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>RC2_VegetablesRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <specialThoughtAsIngredient>AteRareAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawPeppers</defName>
+    <label>chili peppers</label>
+    <description>Raw chili peppers.  Hot'n'spicy! Unlike most vegetables, they're good raw or cooked.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Peppers</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.9</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>RC2_VegetablesRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <tasteThought>AteRareFood</tasteThought>
+      <preferability>RawTasty</preferability>
+      <specialThoughtAsIngredient>AteExoticAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawSnapPeas</defName>
+    <label>snap peas</label>
+    <description>Raw snap peas.  One of the few vegetables tasty right off the plant. Although technically it's a fruit, but don't tell the chefs that.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/SnapPeas</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.4</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>RC2_VegetablesRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <specialThoughtAsIngredient>AteUncommonAsIngredient</specialThoughtAsIngredient>
+      <preferability>RawTasty</preferability>
+      <tasteThought>
+      </tasteThought>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawCucumbers</defName>
+    <label>cucumbers</label>
+    <description>Cucumbers are a gourd plant most well known for making both delicious (Sweet) and gross (Dill) pickles.  They can also be eaten raw, but who really does that?</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Cucumbers</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.3</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>RC2_VegetablesRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <specialThoughtAsIngredient>AteUncommonAsIngredient</specialThoughtAsIngredient>
+      <preferability>RawTasty</preferability>
+      <tasteThought>
+      </tasteThought>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawSugarBeets</defName>
+    <label>sugar beets</label>
+    <description>Raw sugar beets.  Edible, but generally too sweet and odd tasting.  Better cooked or used to make beet sugar.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/SugarBeets</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.4</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>RC2_VegetablesRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <specialThoughtAsIngredient>AteUncommonAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawAsparagus</defName>
+    <label>asparagus</label>
+    <description>Raw asparagus.  These young stalks are harvested before they become too woody to eat.  They have a pungeant bite to them.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Asparagus</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>RC2_VegetablesRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <specialThoughtAsIngredient>AteRareAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawEggplants</defName>
+    <label>eggplants</label>
+    <description>Raw eggplants.  Used in a variety of dishes.  Technically they're a fruit, but culinarily they're used as a vegetable.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Eggplants</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>RC2_VegetablesRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <specialThoughtAsIngredient>AteRareAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- Fruits -->
+  <!--<ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RawAgave</defName>
+    <label>agave fruit</label>
+    <description>Raw agave fruit.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/AgaveFruit</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.7</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+	  <tasteThought></tasteThought>
+	  <specialThoughtAsIngredient>AteRareAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>25</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+    </comps>
+  </ThingDef>-->
+  <!--<ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RawBerries</defName>
+    <label>berries</label>
+    <description>Assorted berries. Nice to eat, even when raw.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/Berries</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.4</MarketValue>
+			<Mass>0.027</Mass>
+		</statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+    </comps>
+    <ingestible>
+      <preferability>RawTasty</preferability>
+			<tasteThought></tasteThought>
+      <foodType>VegetableOrFruit</foodType>
+	  <specialThoughtAsIngredient>AteUncommonAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+  </ThingDef>-->
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawBanana</defName>
+    <label>bananas</label>
+    <description>Raw bananas.  Tasty yellow fruit found in bunches and often used as a form of measurement.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Banana</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.7</MarketValue>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories>
+      <li>RC2_FruitsRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <preferability>RawTasty</preferability>
+      <tasteThought>AteRareFood</tasteThought>
+      <specialThoughtAsIngredient>AteRareAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawApples</defName>
+    <label>apples</label>
+    <description>Raw apples. Tasty red/yellow fruit with a sweet and mildly sour bite to them. Juicy and crisp!</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Apples</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.4</MarketValue>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories>
+      <li>RC2_FruitsRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <preferability>RawTasty</preferability>
+      <tasteThought>AteUncommonFood</tasteThought>
+      <specialThoughtAsIngredient>AteUncommonAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawOrange</defName>
+    <label>citrus fruits</label>
+    <description>Raw citrus fruits.  Great for warding off scurvy!</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Orange</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.4</MarketValue>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories>
+      <li>RC2_FruitsRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <preferability>RawTasty</preferability>
+      <tasteThought>AteUncommonFood</tasteThought>
+      <specialThoughtAsIngredient>AteUncommonAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawFigs</defName>
+    <label>figs</label>
+    <description>Raw figs. Delicious right off the tree, Figs are used in a number of delicious meals.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Figs</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.7</MarketValue>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories>
+      <li>RC2_FruitsRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <preferability>RawTasty</preferability>
+      <tasteThought>AteRareFood</tasteThought>
+      <specialThoughtAsIngredient>AteRareAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawPomegranates</defName>
+    <label>pomegranates</label>
+    <description>Raw pomegranates. Delicious right off the tree, Figs are used in a number of delicious meals.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Pomegranates</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.7</MarketValue>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories>
+      <li>RC2_FruitsRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <preferability>RawTasty</preferability>
+      <tasteThought>AteRareFood</tasteThought>
+      <specialThoughtAsIngredient>AteRareAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawCactusFruit</defName>
+    <label>cactus fruit</label>
+    <description>Raw cactus fruits.  Make sure to peel the skins before eating them!</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/CactusFruit</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.9</MarketValue>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <preferability>RawTasty</preferability>
+      <tasteThought>AteExoticFood</tasteThought>
+      <specialThoughtAsIngredient>AteExoticAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <thingCategories>
+      <li>RC2_FruitsRaw</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawCoconut</defName>
+    <label>coconuts</label>
+    <description>Raw coconuts.  Clanging them together has been known to increase walking speed.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Coconut</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.9</MarketValue>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories>
+      <li>RC2_FruitsRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <preferability>RawTasty</preferability>
+      <tasteThought>AteExoticFood</tasteThought>
+      <specialThoughtAsIngredient>AteExoticAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawJuniperBerries</defName>
+    <label>juniper berries</label>
+    <description>Fresh Juniper Berries.  Not very tasty, but edible.  Mostly used in making Gin.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/JuniperBerries</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories>
+      <li>RC2_FruitsRaw</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <specialThoughtAsIngredient>AtePoorAsIngredient</specialThoughtAsIngredient>
+      <tasteThought>AtePoorFood</tasteThought>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawGrapes</defName>
+    <label>grapes</label>
+    <description>Assorted grapes.  Tasty raw but best used in wine making!</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Grapes</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.9</MarketValue>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+      <Mass>0.027</Mass>
+    </statBases>
+    <thingCategories>
+      <li>RC2_FruitsRaw</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <preferability>RawTasty</preferability>
+      <foodType>VegetableOrFruit</foodType>
+      <tasteThought>AteRareFood</tasteThought>
+      <specialThoughtAsIngredient>AteRareAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawMelons</defName>
+    <label>melons</label>
+    <description>Raw melons. Big, juicy and tasty, these melons are great on a hot summer day.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Melons</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.4</MarketValue>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories>
+      <li>RC2_FruitsRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <preferability>RawTasty</preferability>
+      <tasteThought>AteUncommonFood</tasteThought>
+      <specialThoughtAsIngredient>AteUncommonAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawPumpkins</defName>
+    <label>pumpkins</label>
+    <description>Raw pumpkins. Big, juicy and tasty, these pumpkins are great during the autumn.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Pumpkins</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.7</MarketValue>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories>
+      <li>RC2_FruitsRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <preferability>RawTasty</preferability>
+      <tasteThought>AteRareFood</tasteThought>
+      <specialThoughtAsIngredient>AteRareAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawPineapples</defName>
+    <label>pineapples</label>
+    <description>Raw pineapples.  A tropical fruit that grows on short plants.  It has sweet flesh that is often savored raw by cutting off the top and picking it apart.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Pineapples</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.9</MarketValue>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories>
+      <li>RC2_FruitsRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <preferability>RawTasty</preferability>
+      <tasteThought>AteExoticFood</tasteThought>
+      <specialThoughtAsIngredient>AteExoticAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawBreadfruit</defName>
+    <label>breadfruit</label>
+    <description>Raw breadfruit.  A tropical fruit that is known to taste like freshly baked bread or potato.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Breadfruit</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.3</MarketValue>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories>
+      <li>RC2_FruitsRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <preferability>RawTasty</preferability>
+      <tasteThought>
+      </tasteThought>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawDurians</defName>
+    <label>durians</label>
+    <description>Raw Durians.  Some say it smells and tastes like rotten garbage and chemicals.  Others find it delicious.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Durians</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.9</MarketValue>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories>
+      <li>RC2_FruitsRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <preferability>RawTasty</preferability>
+      <tasteThought>AteDurianDirect</tasteThought>
+      <specialThoughtAsIngredient>AteExoticAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawPlums</defName>
+    <label>plums</label>
+    <description>Raw plums.  These dusty-looking fruits have a large pit in the center and their juice is a favorite of old people.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Plums</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.4</MarketValue>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories>
+      <li>RC2_FruitsRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <preferability>RawTasty</preferability>
+      <tasteThought>AteUncommonFood</tasteThought>
+      <specialThoughtAsIngredient>AteUncommonAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawPeaches</defName>
+    <label>peaches</label>
+    <description>Raw peaches.  These dusty-looking fruits have a large pit in the center and are often used to make tea or other stuff.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Peaches</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.4</MarketValue>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories>
+      <li>RC2_FruitsRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <preferability>RawTasty</preferability>
+      <tasteThought>AteUncommonFood</tasteThought>
+      <specialThoughtAsIngredient>AteUncommonAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawPecans</defName>
+    <label>pecans</label>
+    <description>Raw pecans. Technically the seed of a fruit, these delicious nutty-like morsels are a great addition to desserts.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Pecans</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.7</MarketValue>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories>
+      <li>RC2_FruitsRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <preferability>RawTasty</preferability>
+      <tasteThought>AteRareFood</tasteThought>
+      <specialThoughtAsIngredient>AteRareAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_PlantFoodRawBase">
+    <defName>RC2_RawCherries</defName>
+    <label>cherries</label>
+    <description>Raw cherries. These tart fruits have a large seed in them, but are a favorite in wine, desserts, and just eating plain.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Cherries</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.9</MarketValue>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories>
+      <li>RC2_FruitsRaw</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <preferability>RawTasty</preferability>
+      <tasteThought>AteExoticFood</tasteThought>
+      <specialThoughtAsIngredient>AteExoticAsIngredient</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- Non-Edible -->
+  <ThingDef ParentName="RC2_RoughPlantBase">
+    <defName>RC2_RawWheat</defName>
+    <label>wheat grains</label>
+    <description>Raw wheat grains.  Non-edible by humans raw, they must instead be processed and cooked.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Wheat</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.6</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_RoughPlantBase">
+    <defName>RC2_RawSugarcane</defName>
+    <label>sugarcane</label>
+    <description>Raw sugarcane.  Although you can suck on it to get some of the sweet juices out, its not technically edible.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/Sugarcane</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.6</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>Plant</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_RoughPlantBase">
+    <defName>RC2_RawCoffeeBeans</defName>
+    <label>coffee beans</label>
+    <description>Raw coffee beans.  COFFEEEE!</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/CoffeeBeans</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>Plant</foodType>
+      <preferability>DesperateOnly</preferability>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_RoughPlantBase">
+    <defName>RC2_RawTeaLeaves</defName>
+    <label>tea leaves</label>
+    <description>Unfermented Tea Leaves.  Used in making relaxing green tea.</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/TeaLeaves</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>Plant</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RC2_RoughPlantBase">
+    <defName>RC2_RawCocoaBeans</defName>
+    <label>cocoa beans</label>
+    <description>Raw cocoa beans. Chocolate!</description>
+    <graphicData>
+      <texPath>RC2_Things/RC2_Veg/CacaoBeans</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>Plant</foodType>
+      <preferability>DesperateOnly</preferability>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

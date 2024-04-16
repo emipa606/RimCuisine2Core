@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef Name="RC2_MillingBase" Abstract="True">
+    <defName>RC2_MillingBase</defName>
+    <label>prepare ingredients</label>
+    <description>Prepare some ingredients.</description>
+    <jobString>preparing ingredients</jobString>
+    <workAmount>600</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workSkill>Cooking</workSkill>
+    <recipeUsers>
+      <li>RC2_Quernstone</li>
+      <li>RC2_RollerMill</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_MillingBase">
+    <defName>RC2_ProcessSugarBeets</defName>
+    <label>make sugar from sugar beets</label>
+    <description>Process sugar beets into a delicious, tooth-destroying white powder.  Less efficient than sugarcane.</description>
+    <jobString>Processing sugar beets.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RC2_RawSugarBeets</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_Sugar>1</RC2_Sugar>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RC2_RawSugarBeets</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>RC2_RawSugarBeets</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <recipeUsers>
+      <li>RC2_FoodPrepSpot</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_MillingBase">
+    <defName>RC2_ProcessSugarBeetsBulk</defName>
+    <label>make sugar from sugar beets in bulk</label>
+    <description>Process sugar beets into a delicious, tooth-destroying white powder. Makes 5, but still less efficient than sugarcane.</description>
+    <jobString>Processing sugar beets.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RC2_RawSugarBeets</li>
+          </thingDefs>
+        </filter>
+        <count>125</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_Sugar>5</RC2_Sugar>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RC2_RawSugarBeets</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>RC2_RawSugarBeets</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_MillingBase">
+    <defName>RC2_ProcessSugarcane</defName>
+    <label>make sugar from sugarcane</label>
+    <description>Process sugarcane into a delicious, tooth-destroying white powder.</description>
+    <jobString>Processing sugarcane.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RC2_RawSugarcane</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_Sugar>1</RC2_Sugar>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RC2_RawSugarcane</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>RC2_RawSugarcane</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <recipeUsers>
+      <li>RC2_FoodPrepSpot</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_MillingBase">
+    <defName>RC2_ProcessSugarcaneBulk</defName>
+    <label>make sugar from sugarcane in bulk</label>
+    <description>Process sugarcane into a delicious, tooth-destroying white powder. Makes 5 Sugar.</description>
+    <jobString>Processing sugarcane in bulk.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RC2_RawSugarcane</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_Sugar>5</RC2_Sugar>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RC2_RawSugarcane</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>RC2_RawSugarcane</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_MillingBase">
+    <defName>RC2_ProcessGrain</defName>
+    <label>make flour from grain</label>
+    <description>Process grains into flour, making it usable in foods.</description>
+    <jobString>Milling grain into flour.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RC2_RawWheat</li>
+            <li>RawCorn</li>
+            <li>RawRice</li>
+            <li>RC2_RawOats</li>
+            <li>RC2_RawBarley</li>
+            <li>RC2_RawQuinoa</li>
+            <li>RC2_RawSorghum</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_Flour>1</RC2_Flour>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RC2_RawWheat</li>
+        <li>RawCorn</li>
+        <li>RawRice</li>
+        <li>RC2_RawOats</li>
+        <li>RC2_RawBarley</li>
+        <li>RC2_RawQuinoa</li>
+        <li>RC2_RawSorghum</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>RC2_RawWheat</li>
+        <li>RawCorn</li>
+        <li>RawRice</li>
+        <li>RC2_RawOats</li>
+        <li>RC2_RawBarley</li>
+        <li>RC2_RawQuinoa</li>
+        <li>RC2_RawSorghum</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <recipeUsers>
+      <li>RC2_FoodPrepSpot</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_MillingBase">
+    <defName>RC2_ProcessGrainBulk</defName>
+    <label>make flour from grain in bulk</label>
+    <description>Process grain into flour, making it usable in foods. Makes 5 Flour</description>
+    <jobString>Milling grain into flour in bulk.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RC2_RawWheat</li>
+            <li>RawCorn</li>
+            <li>RawRice</li>
+            <li>RC2_RawOats</li>
+            <li>RC2_RawBarley</li>
+            <li>RC2_RawQuinoa</li>
+            <li>RC2_RawSorghum</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_Flour>5</RC2_Flour>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RC2_RawWheat</li>
+        <li>RawCorn</li>
+        <li>RawRice</li>
+        <li>RC2_RawOats</li>
+        <li>RC2_RawBarley</li>
+        <li>RC2_RawQuinoa</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>RC2_RawWheat</li>
+        <li>RawCorn</li>
+        <li>RawRice</li>
+        <li>RC2_RawOats</li>
+        <li>RC2_RawBarley</li>
+        <li>RC2_RawQuinoa</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_RecipeBase">
+    <defName>RC2_ProcessCacao</defName>
+    <label>make chocolate</label>
+    <description>Combine cocoa beans and sweeteners to make delicous, delicious chocolate.</description>
+    <jobString>Making Chocolate</jobString>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RC2_RawCocoaBeans</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_SweetsRaw</li>
+            <li>RC2_SweetsProcessed</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Chocolate>5</Chocolate>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>RC2_SweetsRaw</li>
+        <li>RC2_SweetsProcessed</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>Chocolate</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>RC2_SweetsRaw</li>
+        <li>RC2_SweetsProcessed</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>Chocolate</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <!--<RecipeDef ParentName="RC2_RecipeBulkBase">
+		<defName>RC2_ProcessCacaoBulk</defName>
+		<label>make chocolate in bulk</label>
+		<description>Combine cacao beans and sugar to make delicious, delicious chocolate.  Makes 5.</description>
+		<jobString>Making Chocolate in bulk</jobString>
+		<workAmount>1000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RC2_RawCocoaBeans</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>RC2_SweetsRaw</li>
+						<li>RC2_SweetsProcessed</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<Chocolate>25</Chocolate>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>RC2_SweetsRaw</li>
+				<li>RC2_SweetsProcessed</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>Chocolate</li>
+			</disallowedThingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>RC2_SweetsRaw</li>
+				<li>RC2_SweetsProcessed</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>Chocolate</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+	</RecipeDef>-->
+  <RecipeDef ParentName="RC2_RecipeBase">
+    <defName>RC2_ProcessSoybean</defName>
+    <label>make tofu</label>
+    <description>Make tofu out of soybeans.  Ew.</description>
+    <jobString>Making tofu.</jobString>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RC2_RawSoybean</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_Tofu>1</RC2_Tofu>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RC2_RawSoybean</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>RC2_RawSoybean</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <researchPrerequisite>RC2_AdvancedCooking</researchPrerequisite>
+  </RecipeDef>
+  <!--<RecipeDef ParentName="RC2_RecipeBulkBase">
+		<defName>RC2_ProcessSoybeanBulk</defName>
+		<label>make tofu in bulk</label>
+		<description>Make tofu out of soybeans.  Ew. Makes 5x as much.</description>
+		<jobString>Making tofu.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RC2_RawSoybean</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<products>
+			<RC2_Tofu>5</RC2_Tofu>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RC2_RawSoybean</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>RC2_RawSoybean</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<researchPrerequisite>RC2_AdvancedCooking</researchPrerequisite>
+	</RecipeDef>-->
+  <RecipeDef ParentName="RC2_RecipeBase">
+    <defName>RC2_ProcessAgave</defName>
+    <label>make nectar from agave</label>
+    <description>Process agave fruit into a delicious, sticky nectar.</description>
+    <jobString>Processing agave.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawAgave</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_AgaveNectar>1</RC2_AgaveNectar>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawAgave</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>RawAgave</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <recipeUsers>
+      <li>RC2_FoodPrepSpot</li>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!--<RecipeDef ParentName="RC2_RecipeBulkBase">
+		<defName>RC2_ProcessAgaveBulk</defName>
+		<label>make nectar from agave in bulk</label>
+		<description>Process agave fruit into a delicious, sticky nectar. Makes 5 Agave Nectar.</description>
+		<jobString>Processing sugarcane in bulk.</jobString>
+		<workAmount>1500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawAgave</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<products>
+			<RC2_AgaveNectar>5</RC2_AgaveNectar>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawAgave</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>RawAgave</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+	</RecipeDef>-->
+  <RecipeDef ParentName="RC2_RecipeBase">
+    <defName>RC2_TrimMeat</defName>
+    <label>trim meat</label>
+    <description>Trim meat of most of its fat and other stuff in preparation for the drying process.</description>
+    <jobString>Trimming meat.</jobString>
+    <recipeUsers>
+      <li>RC2_FoodPrepSpot</li>
+      <li>ButcherSpot</li>
+      <li>TableButcher</li>
+    </recipeUsers>
+    <workAmount>50</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_TrimmedMeat>5</RC2_TrimmedMeat>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>Meat_Human</li>
+        <li>Meat_Megaspider</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>Meat_Human</li>
+        <li>Meat_Megaspider</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+    <researchPrerequisite>Pemmican</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_RecipeBase">
+    <defName>RC2_TrimMeatBulk</defName>
+    <label>trim meat in bulk</label>
+    <description>Trim meat of most of its fat and other stuff in preparation for the drying process.</description>
+    <jobString>Trimming meat.</jobString>
+    <recipeUsers>
+      <li>TableButcher</li>
+    </recipeUsers>
+    <workAmount>250</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_TrimmedMeat>50</RC2_TrimmedMeat>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>Meat_Human</li>
+        <li>Meat_Megaspider</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>Meat_Human</li>
+        <li>Meat_Megaspider</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+    <researchPrerequisite>Pemmican</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_RecipeBase">
+    <defName>RC2_PrepareFruit</defName>
+    <label>prepare fruit</label>
+    <description>Prepare fruit for the drying process by slicing it, getting rid of leafage and possibly skins.</description>
+    <jobString>Preparing fruit.</jobString>
+    <recipeUsers>
+      <li>RC2_FoodPrepSpot</li>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+    <workAmount>50</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_FruitsRaw</li>
+          </categories>
+          <thingDefs>
+            <li MayRequire="Mechanelize.fruitblend">FruitblendRaw</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_PreparedFruit>5</RC2_PreparedFruit>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>RC2_FruitsRaw</li>
+      </categories>
+      <thingDefs>
+        <li MayRequire="Mechanelize.fruitblend">FruitblendRaw</li>
+      </thingDefs>
+      <disallowedThingDefs>
+        <li>RC2_RawPecans</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>RC2_FruitsRaw</li>
+      </categories>
+      <thingDefs>
+        <li MayRequire="Mechanelize.fruitblend">FruitblendRaw</li>
+      </thingDefs>
+      <disallowedThingDefs>
+        <li>RC2_RawPecans</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+    <researchPrerequisite>Pemmican</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_RecipeBase">
+    <defName>RC2_PrepareFruitBulk</defName>
+    <label>prepare fruit in bulk</label>
+    <description>Prepare fruit for the drying process by slicing it, getting rid of leafage and possibly skins.</description>
+    <jobString>Preparing fruit.</jobString>
+    <recipeUsers>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+    <workAmount>250</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_FruitsRaw</li>
+          </categories>
+          <thingDefs>
+            <li MayRequire="Mechanelize.fruitblend">FruitblendRaw</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_PreparedFruit>50</RC2_PreparedFruit>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>RC2_FruitsRaw</li>
+      </categories>
+      <thingDefs>
+        <li MayRequire="Mechanelize.fruitblend">FruitblendRaw</li>
+      </thingDefs>
+      <disallowedThingDefs>
+        <li>RC2_RawPecans</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>RC2_FruitsRaw</li>
+      </categories>
+      <thingDefs>
+        <li MayRequire="Mechanelize.fruitblend">FruitblendRaw</li>
+      </thingDefs>
+      <disallowedThingDefs>
+        <li>RC2_RawPecans</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+    <researchPrerequisite>Pemmican</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_RecipeBase">
+    <defName>RC2_BrineVegetables</defName>
+    <label>brine vegetables</label>
+    <description>Prepare vegetables for pickling by mixing up a briney solution and putting them in it.</description>
+    <jobString>brining vegetables</jobString>
+    <recipeUsers>
+      <li>RC2_FoodPrepSpot</li>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+    <workAmount>50</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_VegetablesRaw</li>
+          </categories>
+          <thingDefs>
+            <li MayRequire="sneaks.veggiemix">VeggiemixRaw</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_PickleBrine>5</RC2_PickleBrine>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>RC2_VegetablesRaw</li>
+      </categories>
+      <thingDefs>
+        <li MayRequire="sneaks.veggiemix">VeggiemixRaw</li>
+      </thingDefs>
+      <disallowedThingDefs>
+        <li>RC2_RawTruffles</li>
+        <li>RC2_RawSugarBeets</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>RC2_VegetablesRaw</li>
+      </categories>
+      <thingDefs>
+        <li MayRequire="sneaks.veggiemix">VeggiemixRaw</li>
+      </thingDefs>
+      <disallowedThingDefs>
+        <li>RC2_RawTruffles</li>
+        <li>RC2_RawSugarBeets</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+    <researchPrerequisite>Pemmican</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="RC2_RecipeBase">
+    <defName>RC2_BrineVegetablesBulk</defName>
+    <label>brine vegetables in bulk</label>
+    <description>Prepare vegetables for pickling by mixing up a briney solution and putting them in it.</description>
+    <jobString>Brining vegetables.</jobString>
+    <recipeUsers>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+    <workAmount>250</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>RC2_VegetablesRaw</li>
+          </categories>
+          <thingDefs>
+            <li MayRequire="sneaks.veggiemix">VeggiemixRaw</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <products>
+      <RC2_PickleBrine>50</RC2_PickleBrine>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>RC2_VegetablesRaw</li>
+      </categories>
+      <thingDefs>
+        <li MayRequire="sneaks.veggiemix">VeggiemixRaw</li>
+      </thingDefs>
+      <disallowedThingDefs>
+        <li>RC2_RawTruffles</li>
+        <li>RC2_RawSugarBeets</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>RC2_VegetablesRaw</li>
+      </categories>
+      <thingDefs>
+        <li MayRequire="sneaks.veggiemix">VeggiemixRaw</li>
+      </thingDefs>
+      <disallowedThingDefs>
+        <li>RC2_RawTruffles</li>
+        <li>RC2_RawSugarBeets</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+    <researchPrerequisite>Pemmican</researchPrerequisite>
+  </RecipeDef>
+</Defs>
