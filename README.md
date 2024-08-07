@@ -1,19 +1,18 @@
-# RimCuisine2Core
+# [RimCuisine 2 Core (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2562519366)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Crustypeanuts mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1833592062
 
-[strike]- The 1.3 mod now uses the https://steamcommunity.com/sharedfiles/filedetails/?id=2558008936]Universal Fermenter instead of the previously included Expandable Fermenting
-- UF code and graphics by Charlotte[/strike]
-- As the Universal Fermenter has been superseded by https://steamcommunity.com/sharedfiles/filedetails/?id=2633514537][SYR] Processor Framework the mod has been updated to use this instead. Thank you Zaljerem for the updated processes. Made it easy to update the rest of the RC2 mods!
+~~- The 1.3 mod now uses the [Universal Fermenter](https://steamcommunity.com/sharedfiles/filedetails/?id=2558008936) instead of the previously included Expandable Fermenting
+- UF code and graphics by Charlotte~~
+- As the Universal Fermenter has been superseded by [[SYR] Processor Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=2633514537) the mod has been updated to use this instead. Thank you Zaljerem for the updated processes. Made it easy to update the rest of the RC2 mods!
 - The old fermenting barrel is removed in 1.3
 - Processed meat/vegs can now be used in bulk and the new vegetarian/carnivore meals. Thanks to user The Manual!
-- Included the Russian translation by https://steamcommunity.com/sharedfiles/filedetails/?id=2178156726]Imnir
+- Included the Russian translation by [Imnir](https://steamcommunity.com/sharedfiles/filedetails/?id=2178156726)
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
 
@@ -71,13 +70,12 @@ And everyone on the mod development/mod art channel on the Rimworld Discord, who
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2562519366]![Image](https://img.shields.io/github/v/release/emipa606/RimCuisine2Core?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[![Image](https://img.shields.io/github/v/release/emipa606/RimCuisine2Core?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2562519366)

@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>8e14502c-1649-47c1-b941-cec570079f56</ID>
   <ModName>RimCuisine 2 Core (Continued)</ModName>
-  <Version>1.5.0</Version>
+  <Version>1.5.1</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,3 +12,4 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
+

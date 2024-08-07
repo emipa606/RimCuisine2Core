@@ -1,6 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef Name="RC2_PlantBase" ParentName="PlantBase" Abstract="True">
+    <neverMultiSelect>false</neverMultiSelect>
     <plant>
       <harvestWork>250</harvestWork>
     </plant>
@@ -12,6 +13,7 @@
     </statBases>
     <description>A tree.</description>
     <fillPercent>0.43</fillPercent>
+    <neverMultiSelect>false</neverMultiSelect>
     <graphicData>
       <shadowData>
         <offset>(-0.03,0,-0.24)</offset>
