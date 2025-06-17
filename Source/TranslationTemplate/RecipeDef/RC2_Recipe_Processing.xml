@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: brine vegetables -->
+  <RC2_BrineVegetables.label>brine vegetables</RC2_BrineVegetables.label>
+  <!-- EN: Prepare vegetables for pickling by mixing up a briney solution and putting them in it. -->
+  <RC2_BrineVegetables.description>Prepare vegetables for pickling by mixing up a briney solution and putting them in it.</RC2_BrineVegetables.description>
+  <!-- EN: brining vegetables -->
+  <RC2_BrineVegetables.jobString>brining vegetables</RC2_BrineVegetables.jobString>
+  <!-- EN: brine vegetables in bulk -->
+  <RC2_BrineVegetablesBulk.label>brine vegetables in bulk</RC2_BrineVegetablesBulk.label>
+  <!-- EN: Prepare vegetables for pickling by mixing up a briney solution and putting them in it. -->
+  <RC2_BrineVegetablesBulk.description>Prepare vegetables for pickling by mixing up a briney solution and putting them in it.</RC2_BrineVegetablesBulk.description>
+  <!-- EN: Brining vegetables. -->
+  <RC2_BrineVegetablesBulk.jobString>Brining vegetables.</RC2_BrineVegetablesBulk.jobString>
+  <!-- EN: prepare fruit -->
+  <RC2_PrepareFruit.label>prepare fruit</RC2_PrepareFruit.label>
+  <!-- EN: Prepare fruit for the drying process by slicing it, getting rid of leafage and possibly skins. -->
+  <RC2_PrepareFruit.description>Prepare fruit for the drying process by slicing it, getting rid of leafage and possibly skins.</RC2_PrepareFruit.description>
+  <!-- EN: Preparing fruit. -->
+  <RC2_PrepareFruit.jobString>Preparing fruit.</RC2_PrepareFruit.jobString>
+  <!-- EN: prepare fruit in bulk -->
+  <RC2_PrepareFruitBulk.label>prepare fruit in bulk</RC2_PrepareFruitBulk.label>
+  <!-- EN: Prepare fruit for the drying process by slicing it, getting rid of leafage and possibly skins. -->
+  <RC2_PrepareFruitBulk.description>Prepare fruit for the drying process by slicing it, getting rid of leafage and possibly skins.</RC2_PrepareFruitBulk.description>
+  <!-- EN: Preparing fruit. -->
+  <RC2_PrepareFruitBulk.jobString>Preparing fruit.</RC2_PrepareFruitBulk.jobString>
+  <!-- EN: make nectar from agave -->
+  <RC2_ProcessAgave.label>make nectar from agave</RC2_ProcessAgave.label>
+  <!-- EN: Process agave fruit into a delicious, sticky nectar. -->
+  <RC2_ProcessAgave.description>Process agave fruit into a delicious, sticky nectar.</RC2_ProcessAgave.description>
+  <!-- EN: Processing agave. -->
+  <RC2_ProcessAgave.jobString>Processing agave.</RC2_ProcessAgave.jobString>
+  <!-- EN: make chocolate -->
+  <RC2_ProcessCacao.label>make chocolate</RC2_ProcessCacao.label>
+  <!-- EN: Combine cocoa beans and sweeteners to make delicous, delicious chocolate. -->
+  <RC2_ProcessCacao.description>Combine cocoa beans and sweeteners to make delicous, delicious chocolate.</RC2_ProcessCacao.description>
+  <!-- EN: Making Chocolate -->
+  <RC2_ProcessCacao.jobString>Making Chocolate</RC2_ProcessCacao.jobString>
+  <!-- EN: make flour from grain -->
+  <RC2_ProcessGrain.label>make flour from grain</RC2_ProcessGrain.label>
+  <!-- EN: Process grains into flour, making it usable in foods. -->
+  <RC2_ProcessGrain.description>Process grains into flour, making it usable in foods.</RC2_ProcessGrain.description>
+  <!-- EN: Milling grain into flour. -->
+  <RC2_ProcessGrain.jobString>Milling grain into flour.</RC2_ProcessGrain.jobString>
+  <!-- EN: make flour from grain in bulk -->
+  <RC2_ProcessGrainBulk.label>make flour from grain in bulk</RC2_ProcessGrainBulk.label>
+  <!-- EN: Process grain into flour, making it usable in foods. Makes 5 Flour -->
+  <RC2_ProcessGrainBulk.description>Process grain into flour, making it usable in foods. Makes 5 Flour</RC2_ProcessGrainBulk.description>
+  <!-- EN: Milling grain into flour in bulk. -->
+  <RC2_ProcessGrainBulk.jobString>Milling grain into flour in bulk.</RC2_ProcessGrainBulk.jobString>
+  <!-- EN: make tofu -->
+  <RC2_ProcessSoybean.label>make tofu</RC2_ProcessSoybean.label>
+  <!-- EN: Make tofu out of soybeans.  Ew. -->
+  <RC2_ProcessSoybean.description>Make tofu out of soybeans.  Ew.</RC2_ProcessSoybean.description>
+  <!-- EN: Making tofu. -->
+  <RC2_ProcessSoybean.jobString>Making tofu.</RC2_ProcessSoybean.jobString>
+  <!-- EN: make sugar from sugar beets -->
+  <RC2_ProcessSugarBeets.label>make sugar from sugar beets</RC2_ProcessSugarBeets.label>
+  <!-- EN: Process sugar beets into a delicious, tooth-destroying white powder.  Less efficient than sugarcane. -->
+  <RC2_ProcessSugarBeets.description>Process sugar beets into a delicious, tooth-destroying white powder.  Less efficient than sugarcane.</RC2_ProcessSugarBeets.description>
+  <!-- EN: Processing sugar beets. -->
+  <RC2_ProcessSugarBeets.jobString>Processing sugar beets.</RC2_ProcessSugarBeets.jobString>
+  <!-- EN: make sugar from sugar beets in bulk -->
+  <RC2_ProcessSugarBeetsBulk.label>make sugar from sugar beets in bulk</RC2_ProcessSugarBeetsBulk.label>
+  <!-- EN: Process sugar beets into a delicious, tooth-destroying white powder. Makes 5, but still less efficient than sugarcane. -->
+  <RC2_ProcessSugarBeetsBulk.description>Process sugar beets into a delicious, tooth-destroying white powder. Makes 5, but still less efficient than sugarcane.</RC2_ProcessSugarBeetsBulk.description>
+  <!-- EN: Processing sugar beets. -->
+  <RC2_ProcessSugarBeetsBulk.jobString>Processing sugar beets.</RC2_ProcessSugarBeetsBulk.jobString>
+  <!-- EN: make sugar from sugarcane -->
+  <RC2_ProcessSugarcane.label>make sugar from sugarcane</RC2_ProcessSugarcane.label>
+  <!-- EN: Process sugarcane into a delicious, tooth-destroying white powder. -->
+  <RC2_ProcessSugarcane.description>Process sugarcane into a delicious, tooth-destroying white powder.</RC2_ProcessSugarcane.description>
+  <!-- EN: Processing sugarcane. -->
+  <RC2_ProcessSugarcane.jobString>Processing sugarcane.</RC2_ProcessSugarcane.jobString>
+  <!-- EN: make sugar from sugarcane in bulk -->
+  <RC2_ProcessSugarcaneBulk.label>make sugar from sugarcane in bulk</RC2_ProcessSugarcaneBulk.label>
+  <!-- EN: Process sugarcane into a delicious, tooth-destroying white powder. Makes 5 Sugar. -->
+  <RC2_ProcessSugarcaneBulk.description>Process sugarcane into a delicious, tooth-destroying white powder. Makes 5 Sugar.</RC2_ProcessSugarcaneBulk.description>
+  <!-- EN: Processing sugarcane in bulk. -->
+  <RC2_ProcessSugarcaneBulk.jobString>Processing sugarcane in bulk.</RC2_ProcessSugarcaneBulk.jobString>
+  <!-- EN: trim meat -->
+  <RC2_TrimMeat.label>trim meat</RC2_TrimMeat.label>
+  <!-- EN: Trim meat of most of its fat and other stuff in preparation for the drying process. -->
+  <RC2_TrimMeat.description>Trim meat of most of its fat and other stuff in preparation for the drying process.</RC2_TrimMeat.description>
+  <!-- EN: Trimming meat. -->
+  <RC2_TrimMeat.jobString>Trimming meat.</RC2_TrimMeat.jobString>
+  <!-- EN: trim meat in bulk -->
+  <RC2_TrimMeatBulk.label>trim meat in bulk</RC2_TrimMeatBulk.label>
+  <!-- EN: Trim meat of most of its fat and other stuff in preparation for the drying process. -->
+  <RC2_TrimMeatBulk.description>Trim meat of most of its fat and other stuff in preparation for the drying process.</RC2_TrimMeatBulk.description>
+  <!-- EN: Trimming meat. -->
+  <RC2_TrimMeatBulk.jobString>Trimming meat.</RC2_TrimMeatBulk.jobString>
+</LanguageData>

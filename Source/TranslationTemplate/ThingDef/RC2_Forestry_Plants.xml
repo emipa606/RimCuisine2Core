@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: cocoa tree -->
+  <Plant_TreeCocoa.label>cocoa tree</Plant_TreeCocoa.label>
+  <!-- EN: A cocoa tree.  Its beans are used in making chocolate. Yields beans twice a year.  Only grown in tropical regions. -->
+  <Plant_TreeCocoa.description>A cocoa tree.  Its beans are used in making chocolate. Yields beans twice a year.  Only grown in tropical regions.</Plant_TreeCocoa.description>
+  <!-- EN: apple tree -->
+  <RC2_PlantAppletree.label>apple tree</RC2_PlantAppletree.label>
+  <!-- EN: A fruit bearing tree that grows large, juicy red apples.  Bears fruit five times a year once mature.  Does best in temperate climates. -->
+  <RC2_PlantAppletree.description>A fruit bearing tree that grows large, juicy red apples.  Bears fruit five times a year once mature.  Does best in temperate climates.</RC2_PlantAppletree.description>
+  <!-- EN: banana tree -->
+  <RC2_PlantBananaTree.label>banana tree</RC2_PlantBananaTree.label>
+  <!-- EN: A fruit bearing tree that grows numerous clusters of bananas.  Bears fruit three times a year once it matures.  Only grown in the tropics. -->
+  <RC2_PlantBananaTree.description>A fruit bearing tree that grows numerous clusters of bananas.  Bears fruit three times a year once it matures.  Only grown in the tropics.</RC2_PlantBananaTree.description>
+  <!-- EN: breadfruit tree -->
+  <RC2_PlantBreadfruitTree.label>breadfruit tree</RC2_PlantBreadfruitTree.label>
+  <!-- EN: A fruit bearing tree that grows a number of breadfruits.  Bears fruit five times a year once mature.  Breadfruit is often a staple food in tropical regions.  Only found in rainforests. -->
+  <RC2_PlantBreadfruitTree.description>A fruit bearing tree that grows a number of breadfruits.  Bears fruit five times a year once mature.  Breadfruit is often a staple food in tropical regions.  Only found in rainforests.</RC2_PlantBreadfruitTree.description>
+  <!-- EN: cherry tree -->
+  <RC2_PlantCherryTree.label>cherry tree</RC2_PlantCherryTree.label>
+  <!-- EN: A fruit bearing tree that grows cherries.  Bears fruit less than two times a year once mature.  Does best in temperate regions. -->
+  <RC2_PlantCherryTree.description>A fruit bearing tree that grows cherries.  Bears fruit less than two times a year once mature.  Does best in temperate regions.</RC2_PlantCherryTree.description>
+  <!-- EN: coconut tree -->
+  <RC2_PlantCoconutTree.label>coconut tree</RC2_PlantCoconutTree.label>
+  <!-- EN: A fruit bearing palm tree that grows coconuts. Bears fruit three times a year.  Only grows well in tropical regions. -->
+  <RC2_PlantCoconutTree.description>A fruit bearing palm tree that grows coconuts. Bears fruit three times a year.  Only grows well in tropical regions.</RC2_PlantCoconutTree.description>
+  <!-- EN: durian tree -->
+  <RC2_PlantDurianTree.label>durian tree</RC2_PlantDurianTree.label>
+  <!-- EN: A fruit bearing tree that grows a number of durians.  Bears fruit two times a year once mature.  Only grows in tropical regions. -->
+  <RC2_PlantDurianTree.description>A fruit bearing tree that grows a number of durians.  Bears fruit two times a year once mature.  Only grows in tropical regions.</RC2_PlantDurianTree.description>
+  <!-- EN: fig tree -->
+  <RC2_PlantFigTree.label>fig tree</RC2_PlantFigTree.label>
+  <!-- EN: A fruit bearing tree that grows a number of fig pods.  Bears fruit four times a year once mature.  Only grows well in arid climates. -->
+  <RC2_PlantFigTree.description>A fruit bearing tree that grows a number of fig pods.  Bears fruit four times a year once mature.  Only grows well in arid climates.</RC2_PlantFigTree.description>
+  <!-- EN: citrus tree -->
+  <RC2_PlantOrangeTree.label>citrus tree</RC2_PlantOrangeTree.label>
+  <!-- EN: A fruit bearing tree that grows a number of orange citrus fruit. Bears fruit four times a year once it matures.  Only likes warmer climates. -->
+  <RC2_PlantOrangeTree.description>A fruit bearing tree that grows a number of orange citrus fruit. Bears fruit four times a year once it matures.  Only likes warmer climates.</RC2_PlantOrangeTree.description>
+  <!-- EN: peach tree -->
+  <RC2_PlantPeachTree.label>peach tree</RC2_PlantPeachTree.label>
+  <!-- EN: A fruit bearing tree that grows large, juicy peaches.  Bears fruit two times a year once mature.  Does best in temperate climates. -->
+  <RC2_PlantPeachTree.description>A fruit bearing tree that grows large, juicy peaches.  Bears fruit two times a year once mature.  Does best in temperate climates.</RC2_PlantPeachTree.description>
+  <!-- EN: pecan tree -->
+  <RC2_PlantPecanTree.label>pecan tree</RC2_PlantPecanTree.label>
+  <!-- EN: A fruit bearing tree that grows small pods that house pecans within them.  Bears fruit less than two times a year.  Found primarily in temperate climates. -->
+  <RC2_PlantPecanTree.description>A fruit bearing tree that grows small pods that house pecans within them.  Bears fruit less than two times a year.  Found primarily in temperate climates.</RC2_PlantPecanTree.description>
+  <!-- EN: plum tree -->
+  <RC2_PlantPlumTree.label>plum tree</RC2_PlantPlumTree.label>
+  <!-- EN: A fruit bearing tree that grows large, juicy plums.  Bears fruit three times a year once mature.  Likes temperate and tropical climates. -->
+  <RC2_PlantPlumTree.description>A fruit bearing tree that grows large, juicy plums.  Bears fruit three times a year once mature.  Likes temperate and tropical climates.</RC2_PlantPlumTree.description>
+  <!-- EN: pomegranate tree -->
+  <RC2_PlantPomegranateTree.label>pomegranate tree</RC2_PlantPomegranateTree.label>
+  <!-- EN: A fruit bearing tree that grows a number of pomegranates.  Bears fruit twice a year once mature.  Likes hot, dry climates. -->
+  <RC2_PlantPomegranateTree.description>A fruit bearing tree that grows a number of pomegranates.  Bears fruit twice a year once mature.  Likes hot, dry climates.</RC2_PlantPomegranateTree.description>
+  <!-- EN: sugar maple tree -->
+  <RC2_PlantSugarMapleTree.label>sugar maple tree</RC2_PlantSugarMapleTree.label>
+  <!-- EN: A common medium-sized tree, easily identifiable by its distinct three-pointed leaf.  This particular breed of tree has a higher sugar content, perfect for syrup production - it produces three bottles worth of syrup a year.  Found in colder and temperate climates. -->
+  <RC2_PlantSugarMapleTree.description>A common medium-sized tree, easily identifiable by its distinct three-pointed leaf.  This particular breed of tree has a higher sugar content, perfect for syrup production - it produces three bottles worth of syrup a year.  Found in colder and temperate climates.</RC2_PlantSugarMapleTree.description>
+</LanguageData>

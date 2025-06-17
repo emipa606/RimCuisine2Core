@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: brew green tea -->
+  <RC2_BrewTea.label>brew green tea</RC2_BrewTea.label>
+  <!-- EN: Brew tea leaves into green tea. Makes 5. -->
+  <RC2_BrewTea.description>Brew tea leaves into green tea. Makes 5.</RC2_BrewTea.description>
+  <!-- EN: Brewing green tea. -->
+  <RC2_BrewTea.jobString>Brewing green tea.</RC2_BrewTea.jobString>
+  <!-- EN: make candy -->
+  <RC2_MakeCandy.label>make candy</RC2_MakeCandy.label>
+  <!-- EN: Uses sweets to make delicious, delicious candy.  Makes 10. -->
+  <RC2_MakeCandy.description>Uses sweets to make delicious, delicious candy.  Makes 10.</RC2_MakeCandy.description>
+  <!-- EN: Making candy. -->
+  <RC2_MakeCandy.jobString>Making candy.</RC2_MakeCandy.jobString>
+  <!-- EN: make juice -->
+  <RC2_MakeJuice.label>make juice</RC2_MakeJuice.label>
+  <!-- EN: Uses one or more fruits to make delicious juice.  Makes 5. -->
+  <RC2_MakeJuice.description>Uses one or more fruits to make delicious juice.  Makes 5.</RC2_MakeJuice.description>
+  <!-- EN: Making juice. -->
+  <RC2_MakeJuice.jobString>Making juice.</RC2_MakeJuice.jobString>
+  <!-- EN: bake pastries -->
+  <RC2_MakePastry.label>bake pastries</RC2_MakePastry.label>
+  <!-- EN: Uses sweets and flour to make pastries.  No not pasties, pastries! Careful of any law enforcement nearby, however, as they'll eat it all. Makes 10. -->
+  <RC2_MakePastry.description>Uses sweets and flour to make pastries.  No not pasties, pastries! Careful of any law enforcement nearby, however, as they'll eat it all. Makes 10.</RC2_MakePastry.description>
+  <!-- EN: Baking pastries. -->
+  <RC2_MakePastry.jobString>Baking pastries.</RC2_MakePastry.jobString>
+  <!-- EN: brew coffee -->
+  <RC2_ProcessCoffee.label>brew coffee</RC2_ProcessCoffee.label>
+  <!-- EN: Brew raw coffee beans into delicous coffee. Makes 5. -->
+  <RC2_ProcessCoffee.description>Brew raw coffee beans into delicous coffee. Makes 5.</RC2_ProcessCoffee.description>
+  <!-- EN: Brewing coffee. -->
+  <RC2_ProcessCoffee.jobString>Brewing coffee.</RC2_ProcessCoffee.jobString>
+</LanguageData>

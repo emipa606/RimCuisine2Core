@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: dried fruit -->
+  <RC2_DriedFruit.label>dried fruit</RC2_DriedFruit.label>
+  <!-- EN: Fruit that has been dried, often near a fire, in the sun, or in an oven.  With its moisture gone, they last quite a bit longer and travel well.  Favored by caravneers and tribals alike.  Can be used in cooking recipes. -->
+  <RC2_DriedFruit.description>Fruit that has been dried, often near a fire, in the sun, or in an oven.  With its moisture gone, they last quite a bit longer and travel well.  Favored by caravneers and tribals alike.  Can be used in cooking recipes.</RC2_DriedFruit.description>
+  <!-- EN: dried meat -->
+  <RC2_DriedMeat.label>dried meat</RC2_DriedMeat.label>
+  <!-- EN: Meat hunks that have been trimmed of most, if not all, of their fat and dried near a fire or in a stove.  Dried meat travels well and lasts quite a bit longer than raw meat.  Favored by tribals and caravaneers.  Can be eaten by itself without issue, but is often used in cooking recipes, especially stews, to soften it up. -->
+  <RC2_DriedMeat.description>Meat hunks that have been trimmed of most, if not all, of their fat and dried near a fire or in a stove.  Dried meat travels well and lasts quite a bit longer than raw meat.  Favored by tribals and caravaneers.  Can be eaten by itself without issue, but is often used in cooking recipes, especially stews, to soften it up.</RC2_DriedMeat.description>
+  <!-- EN: hardtack -->
+  <RC2_Hardtack.label>hardtack</RC2_Hardtack.label>
+  <!-- EN: A tough biscuit or cracker that lasts a very long time and is good for travelling.  Makes you thirsty and doesn't taste very good though. -->
+  <RC2_Hardtack.description>A tough biscuit or cracker that lasts a very long time and is good for travelling.  Makes you thirsty and doesn't taste very good though.</RC2_Hardtack.description>
+  <!-- EN: brined vegetables -->
+  <RC2_PickleBrine.label>brined vegetables</RC2_PickleBrine.label>
+  <!-- EN: Vegetables that have been trimmed of excess leafage and mixed in with a briney solution, ready for long-term pickling in a barrel. -->
+  <RC2_PickleBrine.description>Vegetables that have been trimmed of excess leafage and mixed in with a briney solution, ready for long-term pickling in a barrel.</RC2_PickleBrine.description>
+  <!-- EN: pickled vegetables -->
+  <RC2_PickledVegetables.label>pickled vegetables</RC2_PickledVegetables.label>
+  <!-- EN: Vegetables that have been packed into a jar or can with a briny or vinegary solution.  Favored by those with a taste for vinegar, they're also often used in cooking and they last a long time. -->
+  <RC2_PickledVegetables.description>Vegetables that have been packed into a jar or can with a briny or vinegary solution.  Favored by those with a taste for vinegar, they're also often used in cooking and they last a long time.</RC2_PickledVegetables.description>
+  <!-- EN: prepared fruit -->
+  <RC2_PreparedFruit.label>prepared fruit</RC2_PreparedFruit.label>
+  <!-- EN: Fruit that has been peeled, slice, and/or de-pitted/seeded so it can easily be dried. -->
+  <RC2_PreparedFruit.description>Fruit that has been peeled, slice, and/or de-pitted/seeded so it can easily be dried.</RC2_PreparedFruit.description>
+  <!-- EN: trimmed meat -->
+  <RC2_TrimmedMeat.label>trimmed meat</RC2_TrimmedMeat.label>
+  <!-- EN: Meat hunks that have been trimmed of most, if not all, of their fat and ready to be dried at a drying rack. -->
+  <RC2_TrimmedMeat.description>Meat hunks that have been trimmed of most, if not all, of their fat and ready to be dried at a drying rack.</RC2_TrimmedMeat.description>
+</LanguageData>

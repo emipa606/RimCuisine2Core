@@ -1,5 +1,8 @@
 # Changelog for RimCuisine2Core
 
+1.6.0 - Mod updated for 1.6 and passed autotests
+
+
 1.5.1 - Plants should now be possible to multiselect, same as vanilla berry bushes
 
 

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: coffee -->
+  <RC2_Coffee.label>coffee</RC2_Coffee.label>
+  <!-- EN: An aromatic brew made from coffee beans that'll give your morning a jumpstart. -->
+  <RC2_Coffee.description>An aromatic brew made from coffee beans that'll give your morning a jumpstart.</RC2_Coffee.description>
+  <!-- EN: Drink {0} -->
+  <RC2_Coffee.ingestible.ingestCommandString>Drink {0}</RC2_Coffee.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <RC2_Coffee.ingestible.ingestReportString>Drinking {0}.</RC2_Coffee.ingestible.ingestReportString>
+  <!-- EN: green tea -->
+  <RC2_GreenTea.label>green tea</RC2_GreenTea.label>
+  <!-- EN: An aromatic, bitter tea made from unfermented tea leaves.  Not particularly rich in nutrients, but it does have a small amount of caffeine and is relaxing to drink. -->
+  <RC2_GreenTea.description>An aromatic, bitter tea made from unfermented tea leaves.  Not particularly rich in nutrients, but it does have a small amount of caffeine and is relaxing to drink.</RC2_GreenTea.description>
+  <!-- EN: Drink {0} -->
+  <RC2_GreenTea.ingestible.ingestCommandString>Drink {0}</RC2_GreenTea.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <RC2_GreenTea.ingestible.ingestReportString>Drinking {0}.</RC2_GreenTea.ingestible.ingestReportString>
+  <!-- EN: candy -->
+  <RC2_MealCandy.label>candy</RC2_MealCandy.label>
+  <!-- EN: A collection of hard and soft candy made from sweeteners. Usually eaten by the handful by the gluttonous. -->
+  <RC2_MealCandy.description>A collection of hard and soft candy made from sweeteners. Usually eaten by the handful by the gluttonous.</RC2_MealCandy.description>
+  <!-- EN: crusty peanuts -->
+  <RC2_MealCrustyPeanuts.label>crusty peanuts</RC2_MealCrustyPeanuts.label>
+  <!-- EN: A bag of delicous legumes! Peanuts, the all time favorite of circus-goers all along the rim and beyond.  Grab a fresh hot handful of Crusty's Nuts today! -->
+  <RC2_MealCrustyPeanuts.description>A bag of delicous legumes! Peanuts, the all time favorite of circus-goers all along the rim and beyond.  Grab a fresh hot handful of Crusty's Nuts today!</RC2_MealCrustyPeanuts.description>
+  <!-- EN: fruit juice -->
+  <RC2_MealJuice.label>fruit juice</RC2_MealJuice.label>
+  <!-- EN: A tasty drink made from squeezing one or more fruits.  Refreshing, though not particularly filling. -->
+  <RC2_MealJuice.description>A tasty drink made from squeezing one or more fruits.  Refreshing, though not particularly filling.</RC2_MealJuice.description>
+  <!-- EN: pastry -->
+  <RC2_MealPastry.label>pastry</RC2_MealPastry.label>
+  <!-- EN: A soft, delicious and sugary sweet pastry often favored by law enforcement. -->
+  <RC2_MealPastry.description>A soft, delicious and sugary sweet pastry often favored by law enforcement.</RC2_MealPastry.description>
+</LanguageData>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: prickly pear cactus -->
+  <RC2_PlantCactusFruit.label>prickly pear cactus</RC2_PlantCactusFruit.label>
+  <!-- EN: A large-leafed desert cactus with edible fruit.  Can only be grown in arid regions. -->
+  <RC2_PlantCactusFruit.description>A large-leafed desert cactus with edible fruit.  Can only be grown in arid regions.</RC2_PlantCactusFruit.description>
+  <!-- EN: grapevine -->
+  <RC2_PlantGrapes.label>grapevine</RC2_PlantGrapes.label>
+  <!-- EN: Grape vines have been cultivated for eons and are the source of delicious grapes.  Just be careful, they're a finicky plant that can only be grown in temperate regions - but not the more humid swamps. -->
+  <RC2_PlantGrapes.description>Grape vines have been cultivated for eons and are the source of delicious grapes.  Just be careful, they're a finicky plant that can only be grown in temperate regions - but not the more humid swamps.</RC2_PlantGrapes.description>
+  <!-- EN: juniper bush -->
+  <RC2_PlantJuniper.label>juniper bush</RC2_PlantJuniper.label>
+  <!-- EN: Evergreen shrubs that grow in colder climates, Juniper bushes produce a special kind of berry that is used as a spice and in making Gin.  Does best in colder climates. -->
+  <RC2_PlantJuniper.description>Evergreen shrubs that grow in colder climates, Juniper bushes produce a special kind of berry that is used as a spice and in making Gin.  Does best in colder climates.</RC2_PlantJuniper.description>
+  <!-- EN: chili pepper bush -->
+  <RC2_PlantPepper.label>chili pepper bush</RC2_PlantPepper.label>
+  <!-- EN: Chili pepper plants produce deliciously spicy chili peppers.  Great for sauces and spicing up foods! Grows in subtropical and tropical regions. -->
+  <RC2_PlantPepper.description>Chili pepper plants produce deliciously spicy chili peppers.  Great for sauces and spicing up foods! Grows in subtropical and tropical regions.</RC2_PlantPepper.description>
+  <!-- EN: chili pepper bush -->
+  <RC2_PlantPepperHydro.label>chili pepper bush</RC2_PlantPepperHydro.label>
+  <!-- EN: Chili pepper plants produce deliciously spicy chili peppers.  Great for sauces and spicing up foods! Grows in subtropical and tropical regions. -->
+  <RC2_PlantPepperHydro.description>Chili pepper plants produce deliciously spicy chili peppers.  Great for sauces and spicing up foods! Grows in subtropical and tropical regions.</RC2_PlantPepperHydro.description>
+  <!-- EN: pineapple plant -->
+  <RC2_PlantPineapple.label>pineapple plant</RC2_PlantPineapple.label>
+  <!-- EN: Pineapple plants are a tropical plant that produces an edible and delicious fruit. This plant can only be grown in tropical regions. -->
+  <RC2_PlantPineapple.description>Pineapple plants are a tropical plant that produces an edible and delicious fruit. This plant can only be grown in tropical regions.</RC2_PlantPineapple.description>
+  <!-- EN: pineapple plant -->
+  <RC2_PlantPineappleHydro.label>pineapple plant</RC2_PlantPineappleHydro.label>
+  <!-- EN: Pineapple plants are a tropical plant that produces an edible and delicious fruit. This plant can only be grown in tropical regions. -->
+  <RC2_PlantPineappleHydro.description>Pineapple plants are a tropical plant that produces an edible and delicious fruit. This plant can only be grown in tropical regions.</RC2_PlantPineappleHydro.description>
+  <!-- EN: quinoa plant -->
+  <RC2_PlantQuinoa.label>quinoa plant</RC2_PlantQuinoa.label>
+  <!-- EN: A seed producing flowering plant native to mountainous regions.  This particular cultivar prefers warm, wet climates and will only grow in tropical regions. -->
+  <RC2_PlantQuinoa.description>A seed producing flowering plant native to mountainous regions.  This particular cultivar prefers warm, wet climates and will only grow in tropical regions.</RC2_PlantQuinoa.description>
+  <!-- EN: soybean plant -->
+  <RC2_PlantSoybean.label>soybean plant</RC2_PlantSoybean.label>
+  <!-- EN: Soya bean plant grow legumes that are often used as a meat substitute for those too squeamish to eat the flesh of the dead.  Grows in temperate and tropical regions. -->
+  <RC2_PlantSoybean.description>Soya bean plant grow legumes that are often used as a meat substitute for those too squeamish to eat the flesh of the dead.  Grows in temperate and tropical regions.</RC2_PlantSoybean.description>
+  <!-- EN: soybean plant -->
+  <RC2_PlantSoybeanHydro.label>soybean plant</RC2_PlantSoybeanHydro.label>
+  <!-- EN: Soya bean plant grow legumes that are often used as a meat substitute for those too squeamish to eat the flesh of the dead.  Grows in temperate and tropical regions. -->
+  <RC2_PlantSoybeanHydro.description>Soya bean plant grow legumes that are often used as a meat substitute for those too squeamish to eat the flesh of the dead.  Grows in temperate and tropical regions.</RC2_PlantSoybeanHydro.description>
+</LanguageData>

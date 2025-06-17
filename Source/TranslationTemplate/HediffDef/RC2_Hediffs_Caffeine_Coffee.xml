@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: caffeine buzz -->
+  <RC2_Caffeine.label>caffeine buzz</RC2_Caffeine.label>
+  <!-- EN: Caffeine. Yum. -->
+  <RC2_Caffeine.description>Caffeine. Yum.</RC2_Caffeine.description>
+  <!-- EN: a caffeine buzz -->
+  <RC2_Caffeine.labelNoun>a caffeine buzz</RC2_Caffeine.labelNoun>
+  <!-- EN: perked up -->
+  <RC2_Caffeine.stages.perked_up.label>perked up</RC2_Caffeine.stages.perked_up.label>
+  <!-- EN: wired -->
+  <RC2_Caffeine.stages.wired.label>wired</RC2_Caffeine.stages.wired.label>
+  <!-- EN: jittery -->
+  <RC2_Caffeine.stages.jittery.label>jittery</RC2_Caffeine.stages.jittery.label>
+  <!-- EN: overload -->
+  <RC2_Caffeine.stages.overload.label>overload</RC2_Caffeine.stages.overload.label>
+  <!-- EN: caffeine addiction -->
+  <RC2_CaffeineAddiction.label>caffeine addiction</RC2_CaffeineAddiction.label>
+  <!-- EN: Caffeine addiction. Oh no. -->
+  <RC2_CaffeineAddiction.description>Caffeine addiction. Oh no.</RC2_CaffeineAddiction.description>
+  <!-- EN: withdrawal -->
+  <RC2_CaffeineAddiction.stages.withdrawal.label>withdrawal</RC2_CaffeineAddiction.stages.withdrawal.label>
+  <!-- EN: caffeine tolerance -->
+  <RC2_CaffeineTolerance.label>caffeine tolerance</RC2_CaffeineTolerance.label>
+  <!-- EN: Caffeine tolerance. -->
+  <RC2_CaffeineTolerance.description>Caffeine tolerance.</RC2_CaffeineTolerance.description>
+  <!-- EN: small -->
+  <RC2_CaffeineTolerance.stages.small.label>small</RC2_CaffeineTolerance.stages.small.label>
+  <!-- EN: large -->
+  <RC2_CaffeineTolerance.stages.large.label>large</RC2_CaffeineTolerance.stages.large.label>
+  <!-- EN: massive -->
+  <RC2_CaffeineTolerance.stages.massive.label>massive</RC2_CaffeineTolerance.stages.massive.label>
+</LanguageData>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: advanced forestry -->
+  <Cocoa.label>advanced forestry</Cocoa.label>
+  <!-- EN: Further expanded knowledge of planting fruit trees. -->
+  <Cocoa.description>Further expanded knowledge of planting fruit trees.</Cocoa.description>
+  <!-- EN: intermediate food preservation -->
+  <PackagedSurvivalMeal.label>intermediate food preservation</PackagedSurvivalMeal.label>
+  <!-- EN: Produce packaged survival meals which never go bad. -->
+  <PackagedSurvivalMeal.description>Produce packaged survival meals which never go bad.</PackagedSurvivalMeal.description>
+  <!-- EN: basic food preservation -->
+  <Pemmican.label>basic food preservation</Pemmican.label>
+  <!-- EN: The knowledge of making pemmican, drying fruit and drying meat and making hardtack. -->
+  <Pemmican.description>The knowledge of making pemmican, drying fruit and drying meat and making hardtack.</Pemmican.description>
+  <!-- EN: advanced agriculture -->
+  <RC2_AdvancedAgriculture.label>advanced agriculture</RC2_AdvancedAgriculture.label>
+  <!-- EN: The knowledge of planting even more advanced and useful crops. -->
+  <RC2_AdvancedAgriculture.description>The knowledge of planting even more advanced and useful crops.</RC2_AdvancedAgriculture.description>
+  <!-- EN: advanced cooking -->
+  <RC2_AdvancedCooking.label>advanced cooking</RC2_AdvancedCooking.label>
+  <!-- EN: Advanced cooking techniques, including the rollermill and making tofu from soybeans. -->
+  <RC2_AdvancedCooking.description>Advanced cooking techniques, including the rollermill and making tofu from soybeans.</RC2_AdvancedCooking.description>
+  <!-- EN: basic agriculture -->
+  <RC2_BasicAgriculture.label>basic agriculture</RC2_BasicAgriculture.label>
+  <!-- EN: The knowledge of planting some simple crops. -->
+  <RC2_BasicAgriculture.description>The knowledge of planting some simple crops.</RC2_BasicAgriculture.description>
+  <!-- EN: basic cooking -->
+  <RC2_BasicCooking.label>basic cooking</RC2_BasicCooking.label>
+  <!-- EN: The knowledge of making pottages, candy, and tea, among other things. -->
+  <RC2_BasicCooking.description>The knowledge of making pottages, candy, and tea, among other things.</RC2_BasicCooking.description>
+  <!-- EN: intermediate agriculture -->
+  <RC2_IntermediateAgriculture.label>intermediate agriculture</RC2_IntermediateAgriculture.label>
+  <!-- EN: The knowledge of planting more advanced crops. -->
+  <RC2_IntermediateAgriculture.description>The knowledge of planting more advanced crops.</RC2_IntermediateAgriculture.description>
+  <!-- EN: intermediate cooking -->
+  <RC2_IntermediateCooking.label>intermediate cooking</RC2_IntermediateCooking.label>
+  <!-- EN: The knowledge of more advanced cooking, including quernstones, coffee, and pastries. -->
+  <RC2_IntermediateCooking.description>The knowledge of more advanced cooking, including quernstones, coffee, and pastries.</RC2_IntermediateCooking.description>
+  <!-- EN: intermediate forestry -->
+  <RC2_IntermediateForestry.label>intermediate forestry</RC2_IntermediateForestry.label>
+  <!-- EN: The knowledge of planting fruit trees in your fields. -->
+  <RC2_IntermediateForestry.description>The knowledge of planting fruit trees in your fields.</RC2_IntermediateForestry.description>
+  <!-- EN: basic forestry -->
+  <TreeSowing.label>basic forestry</TreeSowing.label>
+  <!-- EN: Sow the local biome's natural trees in your fields, as well as some that bear fruit. -->
+  <TreeSowing.description>Sow the local biome's natural trees in your fields, as well as some that bear fruit.</TreeSowing.description>
+</LanguageData>

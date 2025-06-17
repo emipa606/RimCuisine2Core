@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: agave nectar -->
+  <RC2_AgaveNectar.label>agave nectar</RC2_AgaveNectar.label>
+  <!-- EN: A processed sweetener made from the agave plant.  Super sweet and healthy, and also used to make tequila! -->
+  <RC2_AgaveNectar.description>A processed sweetener made from the agave plant.  Super sweet and healthy, and also used to make tequila!</RC2_AgaveNectar.description>
+  <!-- EN: flour -->
+  <RC2_Flour.label>flour</RC2_Flour.label>
+  <!-- EN: Flour made from grinding any sort of grain.  Used in baking and cooking, it is the staple of many societies, including here on the Rim.  Very long lasting with a 2 year shelflife. -->
+  <RC2_Flour.description>Flour made from grinding any sort of grain.  Used in baking and cooking, it is the staple of many societies, including here on the Rim.  Very long lasting with a 2 year shelflife.</RC2_Flour.description>
+  <!-- EN: honey -->
+  <RC2_Honey.label>honey</RC2_Honey.label>
+  <!-- EN: A delicious batch of regurgitated bee-produce.  Super sweet, super delicious, honey is used as a natural sweetener in all sorts of goodies.  Also used in the production of mead by angry northmen. Doesn't spoil, though can deteriorate if left outside. -->
+  <RC2_Honey.description>A delicious batch of regurgitated bee-produce.  Super sweet, super delicious, honey is used as a natural sweetener in all sorts of goodies.  Also used in the production of mead by angry northmen. Doesn't spoil, though can deteriorate if left outside.</RC2_Honey.description>
+  <!-- EN: sugar -->
+  <RC2_Sugar.label>sugar</RC2_Sugar.label>
+  <!-- EN: A crystaline substance so sweet it'll make your teeth hurt, not to mention quickly get you sick to your stomach.  Best eaten cooked in a variety of dishes and not eaten raw.  But if you're desperate, its better than eating Steve. (Heyoo!) -->
+  <RC2_Sugar.description>A crystaline substance so sweet it'll make your teeth hurt, not to mention quickly get you sick to your stomach.  Best eaten cooked in a variety of dishes and not eaten raw.  But if you're desperate, its better than eating Steve. (Heyoo!)</RC2_Sugar.description>
+  <!-- EN: syrup -->
+  <RC2_Syrup.label>syrup</RC2_Syrup.label>
+  <!-- EN: A sticky golden brown substance bled from innocent maple trees.  Extremely sweet and delicious, often used on flapjacks or guzzled down directly by the insane. Doesn't spoil, but will deteriorate if left outside for too long. -->
+  <RC2_Syrup.description>A sticky golden brown substance bled from innocent maple trees.  Extremely sweet and delicious, often used on flapjacks or guzzled down directly by the insane. Doesn't spoil, but will deteriorate if left outside for too long.</RC2_Syrup.description>
+  <!-- EN: Tofu -->
+  <RC2_Tofu.label>Tofu</RC2_Tofu.label>
+  <!-- EN: A soy based product that provides the protein needed to be considered a meat substitute.  Tastes like ass according to most rimworlders.  Gourmands, however, appreciate its unique texture and taste. Does not preserve well, lasting only 3 days without proper refridgeration or freezing. -->
+  <RC2_Tofu.description>A soy based product that provides the protein needed to be considered a meat substitute.  Tastes like ass according to most rimworlders.  Gourmands, however, appreciate its unique texture and taste. Does not preserve well, lasting only 3 days without proper refridgeration or freezing.</RC2_Tofu.description>
+</LanguageData>

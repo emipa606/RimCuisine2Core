@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Barley plant -->
+  <RC2_PlantBarley.label>Barley plant</RC2_PlantBarley.label>
+  <!-- EN: A short but hardy grass that grows almost equally well in gravel as it does fertile soil. Can be grown just about anywhere. Also the main ingredient in that all-time favorite drink, beer. -->
+  <RC2_PlantBarley.description>A short but hardy grass that grows almost equally well in gravel as it does fertile soil. Can be grown just about anywhere. Also the main ingredient in that all-time favorite drink, beer.</RC2_PlantBarley.description>
+  <!-- EN: beetroots -->
+  <RC2_PlantBeet.label>beetroots</RC2_PlantBeet.label>
+  <!-- EN: A short plant with a bright red root.  Everything from the root to the leaves is edible.  Dislikes warmer climates. -->
+  <RC2_PlantBeet.description>A short plant with a bright red root.  Everything from the root to the leaves is edible.  Dislikes warmer climates.</RC2_PlantBeet.description>
+  <!-- EN: beetroots -->
+  <RC2_PlantBeetHydro.label>beetroots</RC2_PlantBeetHydro.label>
+  <!-- EN: A short plant with a bright red root.  Everything from the root to the leaves is edible.  Dislikes warmer climates. -->
+  <RC2_PlantBeetHydro.description>A short plant with a bright red root.  Everything from the root to the leaves is edible.  Dislikes warmer climates.</RC2_PlantBeetHydro.description>
+  <!-- EN: cabbage plant -->
+  <RC2_PlantCabbages.label>cabbage plant</RC2_PlantCabbages.label>
+  <!-- EN: A leafy green that is easy to grow and grows just about anywhere. Some people love it, others hate it, but most acknowledge it's versatility in cooking. -->
+  <RC2_PlantCabbages.description>A leafy green that is easy to grow and grows just about anywhere. Some people love it, others hate it, but most acknowledge it's versatility in cooking.</RC2_PlantCabbages.description>
+  <!-- EN: cabbage plant -->
+  <RC2_PlantCabbagesHydro.label>cabbage plant</RC2_PlantCabbagesHydro.label>
+  <!-- EN: A leafy green that is easy to grow and grows just about anywhere. Some people love it, others hate it, but most acknowledge it's versatility in cooking. -->
+  <RC2_PlantCabbagesHydro.description>A leafy green that is easy to grow and grows just about anywhere. Some people love it, others hate it, but most acknowledge it's versatility in cooking.</RC2_PlantCabbagesHydro.description>
+  <!-- EN: carrot plants -->
+  <RC2_PlantCarrot.label>carrot plants</RC2_PlantCarrot.label>
+  <!-- EN: These bright orange roots grow out of the ground.  They're hardy and resilient, and healthy to boot, however, they don't like warmer climates. -->
+  <RC2_PlantCarrot.description>These bright orange roots grow out of the ground.  They're hardy and resilient, and healthy to boot, however, they don't like warmer climates.</RC2_PlantCarrot.description>
+  <!-- EN: carrot plants -->
+  <RC2_PlantCarrotHydro.label>carrot plants</RC2_PlantCarrotHydro.label>
+  <!-- EN: These bright orange roots grow out of the ground.  They're hardy and resilient, and healthy to boot, however, they don't like warmer climates. -->
+  <RC2_PlantCarrotHydro.description>These bright orange roots grow out of the ground.  They're hardy and resilient, and healthy to boot, however, they don't like warmer climates.</RC2_PlantCarrotHydro.description>
+  <!-- EN: chickpea plant -->
+  <RC2_PlantChickpeas.label>chickpea plant</RC2_PlantChickpeas.label>
+  <!-- EN: A widely popular legume known for its uses in hummus, soups, and stews. This plant likes hot, dry climates to grow in. -->
+  <RC2_PlantChickpeas.description>A widely popular legume known for its uses in hummus, soups, and stews. This plant likes hot, dry climates to grow in.</RC2_PlantChickpeas.description>
+  <!-- EN: chickpea plant -->
+  <RC2_PlantChickpeasHydro.label>chickpea plant</RC2_PlantChickpeasHydro.label>
+  <!-- EN: A widely popular legume known for its uses in hummus, soups, and stews. This plant likes hot, dry climates to grow in. -->
+  <RC2_PlantChickpeasHydro.description>A widely popular legume known for its uses in hummus, soups, and stews. This plant likes hot, dry climates to grow in.</RC2_PlantChickpeasHydro.description>
+  <!-- EN: coffee bush -->
+  <RC2_PlantCoffee.label>coffee bush</RC2_PlantCoffee.label>
+  <!-- EN: Coffee! This bean is used the worlds over for its caffeine content and delicious taste (when roasted and brewed).  Can only be grown in arid regions and hydroponically.  However, growing it hydroponically requires a higher grower skill, and the plant doesn't produce as many beans. -->
+  <RC2_PlantCoffee.description>Coffee! This bean is used the worlds over for its caffeine content and delicious taste (when roasted and brewed).  Can only be grown in arid regions and hydroponically.  However, growing it hydroponically requires a higher grower skill, and the plant doesn't produce as many beans.</RC2_PlantCoffee.description>
+  <!-- EN: coffee bush -->
+  <RC2_PlantCoffeeHydro.label>coffee bush</RC2_PlantCoffeeHydro.label>
+  <!-- EN: Coffee! This bean is used the worlds over for its caffeine content and delicious taste (when roasted and brewed).  Can only be grown in arid regions and hydroponically.  However, growing it hydroponically requires a higher grower skill, and the plant doesn't produce as many beans. -->
+  <RC2_PlantCoffeeHydro.description>Coffee! This bean is used the worlds over for its caffeine content and delicious taste (when roasted and brewed).  Can only be grown in arid regions and hydroponically.  However, growing it hydroponically requires a higher grower skill, and the plant doesn't produce as many beans.</RC2_PlantCoffeeHydro.description>
+  <!-- EN: cucumber vine -->
+  <RC2_PlantCucumber.label>cucumber vine</RC2_PlantCucumber.label>
+  <!-- EN: Cucumbers are a gourd plant most well known for making both delicious (Sweet) and gross (Dill) pickles.  They can also be eaten raw, but who really does that? Prefers warm, wet climates. -->
+  <RC2_PlantCucumber.description>Cucumbers are a gourd plant most well known for making both delicious (Sweet) and gross (Dill) pickles.  They can also be eaten raw, but who really does that? Prefers warm, wet climates.</RC2_PlantCucumber.description>
+  <!-- EN: cucumber vine -->
+  <RC2_PlantCucumberHydro.label>cucumber vine</RC2_PlantCucumberHydro.label>
+  <!-- EN: Cucumbers are a gourd plant most well known for making both delicious (Sweet) and gross (Dill) pickles.  They can also be eaten raw, but who really does that? Prefers warm, wet climates. -->
+  <RC2_PlantCucumberHydro.description>Cucumbers are a gourd plant most well known for making both delicious (Sweet) and gross (Dill) pickles.  They can also be eaten raw, but who really does that? Prefers warm, wet climates.</RC2_PlantCucumberHydro.description>
+  <!-- EN: melon vine -->
+  <RC2_PlantMelon.label>melon vine</RC2_PlantMelon.label>
+  <!-- EN: A vining plant that grows along the ground.  It produces large, juicy melons. Takes a while to grow.  This variety grows best in tropical and subtropical regions. -->
+  <RC2_PlantMelon.description>A vining plant that grows along the ground.  It produces large, juicy melons. Takes a while to grow.  This variety grows best in tropical and subtropical regions.</RC2_PlantMelon.description>
+  <!-- EN: oat plant -->
+  <RC2_PlantOats.label>oat plant</RC2_PlantOats.label>
+  <!-- EN: A hardy cereal eaten by both humans and livestock, oats grows well in a variety of soils produces a delicious, nutrient-rich crop. Grows in colder and temperate climates. Used in the production of stout, along with hops. -->
+  <RC2_PlantOats.description>A hardy cereal eaten by both humans and livestock, oats grows well in a variety of soils produces a delicious, nutrient-rich crop. Grows in colder and temperate climates. Used in the production of stout, along with hops.</RC2_PlantOats.description>
+  <!-- EN: onion plants -->
+  <RC2_PlantOnion.label>onion plants</RC2_PlantOnion.label>
+  <!-- EN: Known by locals as muffalo balls, these come in great white hairy bulbs in the dirt. The bulbs have a pungent odor to them but the flesh, which peels off in layers, is delicious when cooked.  Although loved the rim over by tribals to spacefarers alike, they tend to cause bad breath and horrible body odor in whoever eats them. Can be grown anywhere, including hydroponically. -->
+  <RC2_PlantOnion.description>Known by locals as muffalo balls, these come in great white hairy bulbs in the dirt. The bulbs have a pungent odor to them but the flesh, which peels off in layers, is delicious when cooked.  Although loved the rim over by tribals to spacefarers alike, they tend to cause bad breath and horrible body odor in whoever eats them. Can be grown anywhere, including hydroponically.</RC2_PlantOnion.description>
+  <!-- EN: onion plants -->
+  <RC2_PlantOnionHydro.label>onion plants</RC2_PlantOnionHydro.label>
+  <!-- EN: Known by locals as muffalo balls, these come in great white hairy bulbs in the dirt. The bulbs have a pungent odor to them but the flesh, which peels off in layers, is delicious when cooked.  Although loved the rim over by tribals to spacefarers alike, they tend to cause bad breath and horrible body odor in whoever eats them. Can be grown anywhere, including hydroponically. -->
+  <RC2_PlantOnionHydro.description>Known by locals as muffalo balls, these come in great white hairy bulbs in the dirt. The bulbs have a pungent odor to them but the flesh, which peels off in layers, is delicious when cooked.  Although loved the rim over by tribals to spacefarers alike, they tend to cause bad breath and horrible body odor in whoever eats them. Can be grown anywhere, including hydroponically.</RC2_PlantOnionHydro.description>
+  <!-- EN: snap pea plant -->
+  <RC2_PlantSnapPeas.label>snap pea plant</RC2_PlantSnapPeas.label>
+  <!-- EN: Edible seed pods, snap peas are a favorite snack or ingredient across the Rim.  Grows best in temperate regions. -->
+  <RC2_PlantSnapPeas.description>Edible seed pods, snap peas are a favorite snack or ingredient across the Rim.  Grows best in temperate regions.</RC2_PlantSnapPeas.description>
+  <!-- EN: snap pea plant -->
+  <RC2_PlantSnapPeasHydro.label>snap pea plant</RC2_PlantSnapPeasHydro.label>
+  <!-- EN: Edible seed pods, snap peas are a favorite snack or ingredient across the Rim.  Grows best in temperate regions. -->
+  <RC2_PlantSnapPeasHydro.description>Edible seed pods, snap peas are a favorite snack or ingredient across the Rim.  Grows best in temperate regions.</RC2_PlantSnapPeasHydro.description>
+  <!-- EN: sugar beet plant -->
+  <RC2_PlantSugarBeet.label>sugar beet plant</RC2_PlantSugarBeet.label>
+  <!-- EN: A short plant with a pale yellow root.  While certainly edible, it's more commonly used to make beet sugar. Prefers colder to milder climates. -->
+  <RC2_PlantSugarBeet.description>A short plant with a pale yellow root.  While certainly edible, it's more commonly used to make beet sugar. Prefers colder to milder climates.</RC2_PlantSugarBeet.description>
+  <!-- EN: sugar beet plant -->
+  <RC2_PlantSugarBeetHydro.label>sugar beet plant</RC2_PlantSugarBeetHydro.label>
+  <!-- EN: A short plant with a pale yellow root.  While certainly edible, it's more commonly used to make beet sugar. Prefers colder to milder climates. -->
+  <RC2_PlantSugarBeetHydro.description>A short plant with a pale yellow root.  While certainly edible, it's more commonly used to make beet sugar. Prefers colder to milder climates.</RC2_PlantSugarBeetHydro.description>
+  <!-- EN: tea bush -->
+  <RC2_PlantTea.label>tea bush</RC2_PlantTea.label>
+  <!-- EN: The leaves of the tea plant is used to make a variety of herbal teas, depending on when the leaves are picked and how they're processed after harvest.  Grows best in tropical regions, but can be grown hydroponically with reduced yield. -->
+  <RC2_PlantTea.description>The leaves of the tea plant is used to make a variety of herbal teas, depending on when the leaves are picked and how they're processed after harvest.  Grows best in tropical regions, but can be grown hydroponically with reduced yield.</RC2_PlantTea.description>
+  <!-- EN: tea bush -->
+  <RC2_PlantTeaHydro.label>tea bush</RC2_PlantTeaHydro.label>
+  <!-- EN: The leaves of the tea plant is used to make a variety of herbal teas, depending on when the leaves are picked and how they're processed after harvest.  Grows best in tropical regions, but can be grown hydroponically with reduced yield. -->
+  <RC2_PlantTeaHydro.description>The leaves of the tea plant is used to make a variety of herbal teas, depending on when the leaves are picked and how they're processed after harvest.  Grows best in tropical regions, but can be grown hydroponically with reduced yield.</RC2_PlantTeaHydro.description>
+  <!-- EN: wheat plant -->
+  <RC2_PlantWheat.label>wheat plant</RC2_PlantWheat.label>
+  <!-- EN: A widely grown and adaptable crop useful for feeding the masses.  Inedible on its own, and must be milled into flour to be edible;  Grows best on good soil.  It is also the primary ingredient in ale production, along with hops. -->
+  <RC2_PlantWheat.description>A widely grown and adaptable crop useful for feeding the masses.  Inedible on its own, and must be milled into flour to be edible;  Grows best on good soil.  It is also the primary ingredient in ale production, along with hops.</RC2_PlantWheat.description>
+</LanguageData>

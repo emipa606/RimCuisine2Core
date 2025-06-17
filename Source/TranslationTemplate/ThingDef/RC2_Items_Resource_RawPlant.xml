@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: apples -->
+  <RC2_RawApples.label>apples</RC2_RawApples.label>
+  <!-- EN: Raw apples. Tasty red/yellow fruit with a sweet and mildly sour bite to them. Juicy and crisp! -->
+  <RC2_RawApples.description>Raw apples. Tasty red/yellow fruit with a sweet and mildly sour bite to them. Juicy and crisp!</RC2_RawApples.description>
+  <!-- EN: asparagus -->
+  <RC2_RawAsparagus.label>asparagus</RC2_RawAsparagus.label>
+  <!-- EN: Raw asparagus.  These young stalks are harvested before they become too woody to eat.  They have a pungeant bite to them. -->
+  <RC2_RawAsparagus.description>Raw asparagus.  These young stalks are harvested before they become too woody to eat.  They have a pungeant bite to them.</RC2_RawAsparagus.description>
+  <!-- EN: bananas -->
+  <RC2_RawBanana.label>bananas</RC2_RawBanana.label>
+  <!-- EN: Raw bananas.  Tasty yellow fruit found in bunches and often used as a form of measurement. -->
+  <RC2_RawBanana.description>Raw bananas.  Tasty yellow fruit found in bunches and often used as a form of measurement.</RC2_RawBanana.description>
+  <!-- EN: barley -->
+  <RC2_RawBarley.label>barley</RC2_RawBarley.label>
+  <!-- EN: Raw barley.  This hardy grain is used in flour and soups, but is also the prime ingredient in beer. -->
+  <RC2_RawBarley.description>Raw barley.  This hardy grain is used in flour and soups, but is also the prime ingredient in beer.</RC2_RawBarley.description>
+  <!-- EN: beets -->
+  <RC2_RawBeets.label>beets</RC2_RawBeets.label>
+  <!-- EN: Raw beets.  Everything from the root to the leaves are tasty and edible. -->
+  <RC2_RawBeets.description>Raw beets.  Everything from the root to the leaves are tasty and edible.</RC2_RawBeets.description>
+  <!-- EN: breadfruit -->
+  <RC2_RawBreadfruit.label>breadfruit</RC2_RawBreadfruit.label>
+  <!-- EN: Raw breadfruit.  A tropical fruit that is known to taste like freshly baked bread or potato. -->
+  <RC2_RawBreadfruit.description>Raw breadfruit.  A tropical fruit that is known to taste like freshly baked bread or potato.</RC2_RawBreadfruit.description>
+  <!-- EN: cabbages -->
+  <RC2_RawCabbages.label>cabbages</RC2_RawCabbages.label>
+  <!-- EN: Raw cabbages.  Great in a variety of dishes, but relatively bland by itself. -->
+  <RC2_RawCabbages.description>Raw cabbages.  Great in a variety of dishes, but relatively bland by itself.</RC2_RawCabbages.description>
+  <!-- EN: cactus fruit -->
+  <RC2_RawCactusFruit.label>cactus fruit</RC2_RawCactusFruit.label>
+  <!-- EN: Raw cactus fruits.  Make sure to peel the skins before eating them! -->
+  <RC2_RawCactusFruit.description>Raw cactus fruits.  Make sure to peel the skins before eating them!</RC2_RawCactusFruit.description>
+  <!-- EN: carrots -->
+  <RC2_RawCarrots.label>carrots</RC2_RawCarrots.label>
+  <!-- EN: Raw carrots.  Great in a variety of dishes, and healthy too! -->
+  <RC2_RawCarrots.description>Raw carrots.  Great in a variety of dishes, and healthy too!</RC2_RawCarrots.description>
+  <!-- EN: cherries -->
+  <RC2_RawCherries.label>cherries</RC2_RawCherries.label>
+  <!-- EN: Raw cherries. These tart fruits have a large seed in them, but are a favorite in wine, desserts, and just eating plain. -->
+  <RC2_RawCherries.description>Raw cherries. These tart fruits have a large seed in them, but are a favorite in wine, desserts, and just eating plain.</RC2_RawCherries.description>
+  <!-- EN: chickpeas -->
+  <RC2_RawChickpeas.label>chickpeas</RC2_RawChickpeas.label>
+  <!-- EN: Raw chickpeas.  Legumes high in protein that make great hummus! -->
+  <RC2_RawChickpeas.description>Raw chickpeas.  Legumes high in protein that make great hummus!</RC2_RawChickpeas.description>
+  <!-- EN: cocoa beans -->
+  <RC2_RawCocoaBeans.label>cocoa beans</RC2_RawCocoaBeans.label>
+  <!-- EN: Raw cocoa beans. Chocolate! -->
+  <RC2_RawCocoaBeans.description>Raw cocoa beans. Chocolate!</RC2_RawCocoaBeans.description>
+  <!-- EN: coconuts -->
+  <RC2_RawCoconut.label>coconuts</RC2_RawCoconut.label>
+  <!-- EN: Raw coconuts.  Clanging them together has been known to increase walking speed. -->
+  <RC2_RawCoconut.description>Raw coconuts.  Clanging them together has been known to increase walking speed.</RC2_RawCoconut.description>
+  <!-- EN: coffee beans -->
+  <RC2_RawCoffeeBeans.label>coffee beans</RC2_RawCoffeeBeans.label>
+  <!-- EN: Raw coffee beans.  COFFEEEE! -->
+  <RC2_RawCoffeeBeans.description>Raw coffee beans.  COFFEEEE!</RC2_RawCoffeeBeans.description>
+  <!-- EN: cucumbers -->
+  <RC2_RawCucumbers.label>cucumbers</RC2_RawCucumbers.label>
+  <!-- EN: Cucumbers are a gourd plant most well known for making both delicious (Sweet) and gross (Dill) pickles.  They can also be eaten raw, but who really does that? -->
+  <RC2_RawCucumbers.description>Cucumbers are a gourd plant most well known for making both delicious (Sweet) and gross (Dill) pickles.  They can also be eaten raw, but who really does that?</RC2_RawCucumbers.description>
+  <!-- EN: durians -->
+  <RC2_RawDurians.label>durians</RC2_RawDurians.label>
+  <!-- EN: Raw Durians.  Some say it smells and tastes like rotten garbage and chemicals.  Others find it delicious. -->
+  <RC2_RawDurians.description>Raw Durians.  Some say it smells and tastes like rotten garbage and chemicals.  Others find it delicious.</RC2_RawDurians.description>
+  <!-- EN: eggplants -->
+  <RC2_RawEggplants.label>eggplants</RC2_RawEggplants.label>
+  <!-- EN: Raw eggplants.  Used in a variety of dishes.  Technically they're a fruit, but culinarily they're used as a vegetable. -->
+  <RC2_RawEggplants.description>Raw eggplants.  Used in a variety of dishes.  Technically they're a fruit, but culinarily they're used as a vegetable.</RC2_RawEggplants.description>
+  <!-- EN: figs -->
+  <RC2_RawFigs.label>figs</RC2_RawFigs.label>
+  <!-- EN: Raw figs. Delicious right off the tree, Figs are used in a number of delicious meals. -->
+  <RC2_RawFigs.description>Raw figs. Delicious right off the tree, Figs are used in a number of delicious meals.</RC2_RawFigs.description>
+  <!-- EN: grapes -->
+  <RC2_RawGrapes.label>grapes</RC2_RawGrapes.label>
+  <!-- EN: Assorted grapes.  Tasty raw but best used in wine making! -->
+  <RC2_RawGrapes.description>Assorted grapes.  Tasty raw but best used in wine making!</RC2_RawGrapes.description>
+  <!-- EN: juniper berries -->
+  <RC2_RawJuniperBerries.label>juniper berries</RC2_RawJuniperBerries.label>
+  <!-- EN: Fresh Juniper Berries.  Not very tasty, but edible.  Mostly used in making Gin. -->
+  <RC2_RawJuniperBerries.description>Fresh Juniper Berries.  Not very tasty, but edible.  Mostly used in making Gin.</RC2_RawJuniperBerries.description>
+  <!-- EN: melons -->
+  <RC2_RawMelons.label>melons</RC2_RawMelons.label>
+  <!-- EN: Raw melons. Big, juicy and tasty, these melons are great on a hot summer day. -->
+  <RC2_RawMelons.description>Raw melons. Big, juicy and tasty, these melons are great on a hot summer day.</RC2_RawMelons.description>
+  <!-- EN: oats -->
+  <RC2_RawOats.label>oats</RC2_RawOats.label>
+  <!-- EN: Raw oats.  Great for cooking, baking, and snacks! -->
+  <RC2_RawOats.description>Raw oats.  Great for cooking, baking, and snacks!</RC2_RawOats.description>
+  <!-- EN: onions -->
+  <RC2_RawOnion.label>onions</RC2_RawOnion.label>
+  <!-- EN: Raw onions.  Tasty, smelly bulbs whose layers are peeled.  Great with butter. -->
+  <RC2_RawOnion.description>Raw onions.  Tasty, smelly bulbs whose layers are peeled.  Great with butter.</RC2_RawOnion.description>
+  <!-- EN: citrus fruits -->
+  <RC2_RawOrange.label>citrus fruits</RC2_RawOrange.label>
+  <!-- EN: Raw citrus fruits.  Great for warding off scurvy! -->
+  <RC2_RawOrange.description>Raw citrus fruits.  Great for warding off scurvy!</RC2_RawOrange.description>
+  <!-- EN: peaches -->
+  <RC2_RawPeaches.label>peaches</RC2_RawPeaches.label>
+  <!-- EN: Raw peaches.  These dusty-looking fruits have a large pit in the center and are often used to make tea or other stuff. -->
+  <RC2_RawPeaches.description>Raw peaches.  These dusty-looking fruits have a large pit in the center and are often used to make tea or other stuff.</RC2_RawPeaches.description>
+  <!-- EN: pecans -->
+  <RC2_RawPecans.label>pecans</RC2_RawPecans.label>
+  <!-- EN: Raw pecans. Technically the seed of a fruit, these delicious nutty-like morsels are a great addition to desserts. -->
+  <RC2_RawPecans.description>Raw pecans. Technically the seed of a fruit, these delicious nutty-like morsels are a great addition to desserts.</RC2_RawPecans.description>
+  <!-- EN: chili peppers -->
+  <RC2_RawPeppers.label>chili peppers</RC2_RawPeppers.label>
+  <!-- EN: Raw chili peppers.  Hot'n'spicy! Unlike most vegetables, they're good raw or cooked. -->
+  <RC2_RawPeppers.description>Raw chili peppers.  Hot'n'spicy! Unlike most vegetables, they're good raw or cooked.</RC2_RawPeppers.description>
+  <!-- EN: pineapples -->
+  <RC2_RawPineapples.label>pineapples</RC2_RawPineapples.label>
+  <!-- EN: Raw pineapples.  A tropical fruit that grows on short plants.  It has sweet flesh that is often savored raw by cutting off the top and picking it apart. -->
+  <RC2_RawPineapples.description>Raw pineapples.  A tropical fruit that grows on short plants.  It has sweet flesh that is often savored raw by cutting off the top and picking it apart.</RC2_RawPineapples.description>
+  <!-- EN: plums -->
+  <RC2_RawPlums.label>plums</RC2_RawPlums.label>
+  <!-- EN: Raw plums.  These dusty-looking fruits have a large pit in the center and their juice is a favorite of old people. -->
+  <RC2_RawPlums.description>Raw plums.  These dusty-looking fruits have a large pit in the center and their juice is a favorite of old people.</RC2_RawPlums.description>
+  <!-- EN: pomegranates -->
+  <RC2_RawPomegranates.label>pomegranates</RC2_RawPomegranates.label>
+  <!-- EN: Raw pomegranates. Delicious right off the tree, Figs are used in a number of delicious meals. -->
+  <RC2_RawPomegranates.description>Raw pomegranates. Delicious right off the tree, Figs are used in a number of delicious meals.</RC2_RawPomegranates.description>
+  <!-- EN: pumpkins -->
+  <RC2_RawPumpkins.label>pumpkins</RC2_RawPumpkins.label>
+  <!-- EN: Raw pumpkins. Big, juicy and tasty, these pumpkins are great during the autumn. -->
+  <RC2_RawPumpkins.description>Raw pumpkins. Big, juicy and tasty, these pumpkins are great during the autumn.</RC2_RawPumpkins.description>
+  <!-- EN: quinoa -->
+  <RC2_RawQuinoa.label>quinoa</RC2_RawQuinoa.label>
+  <!-- EN: Raw quinoa. This exotic, rice-like substance is prized for its healthy qualities.  Or so the experts would say.  They know best, right? -->
+  <RC2_RawQuinoa.description>Raw quinoa. This exotic, rice-like substance is prized for its healthy qualities.  Or so the experts would say.  They know best, right?</RC2_RawQuinoa.description>
+  <!-- EN: snap peas -->
+  <RC2_RawSnapPeas.label>snap peas</RC2_RawSnapPeas.label>
+  <!-- EN: Raw snap peas.  One of the few vegetables tasty right off the plant. Although technically it's a fruit, but don't tell the chefs that. -->
+  <RC2_RawSnapPeas.description>Raw snap peas.  One of the few vegetables tasty right off the plant. Although technically it's a fruit, but don't tell the chefs that.</RC2_RawSnapPeas.description>
+  <!-- EN: sorghum -->
+  <RC2_RawSorghum.label>sorghum</RC2_RawSorghum.label>
+  <!-- EN: Raw Sorghum.  This healthy grain can be cooked similar to rice, or ground up into flour. -->
+  <RC2_RawSorghum.description>Raw Sorghum.  This healthy grain can be cooked similar to rice, or ground up into flour.</RC2_RawSorghum.description>
+  <!-- EN: soybeans -->
+  <RC2_RawSoybean.label>soybeans</RC2_RawSoybean.label>
+  <!-- EN: Raw soybeans.  Used in soup and dishes, but also turned into a meat substitute. -->
+  <RC2_RawSoybean.description>Raw soybeans.  Used in soup and dishes, but also turned into a meat substitute.</RC2_RawSoybean.description>
+  <!-- EN: sugar beets -->
+  <RC2_RawSugarBeets.label>sugar beets</RC2_RawSugarBeets.label>
+  <!-- EN: Raw sugar beets.  Edible, but generally too sweet and odd tasting.  Better cooked or used to make beet sugar. -->
+  <RC2_RawSugarBeets.description>Raw sugar beets.  Edible, but generally too sweet and odd tasting.  Better cooked or used to make beet sugar.</RC2_RawSugarBeets.description>
+  <!-- EN: sugarcane -->
+  <RC2_RawSugarcane.label>sugarcane</RC2_RawSugarcane.label>
+  <!-- EN: Raw sugarcane.  Although you can suck on it to get some of the sweet juices out, its not technically edible. -->
+  <RC2_RawSugarcane.description>Raw sugarcane.  Although you can suck on it to get some of the sweet juices out, its not technically edible.</RC2_RawSugarcane.description>
+  <!-- EN: tea leaves -->
+  <RC2_RawTeaLeaves.label>tea leaves</RC2_RawTeaLeaves.label>
+  <!-- EN: Unfermented Tea Leaves.  Used in making relaxing green tea. -->
+  <RC2_RawTeaLeaves.description>Unfermented Tea Leaves.  Used in making relaxing green tea.</RC2_RawTeaLeaves.description>
+  <!-- EN: tomatoes -->
+  <RC2_RawTomato.label>tomatoes</RC2_RawTomato.label>
+  <!-- EN: Raw tomatoes.  Perfect for sauces! -->
+  <RC2_RawTomato.description>Raw tomatoes.  Perfect for sauces!</RC2_RawTomato.description>
+  <!-- EN: truffles -->
+  <RC2_RawTruffles.label>truffles</RC2_RawTruffles.label>
+  <!-- EN: Raw truffles.  Greatly favored by traders due to its rarity and taste. -->
+  <RC2_RawTruffles.description>Raw truffles.  Greatly favored by traders due to its rarity and taste.</RC2_RawTruffles.description>
+  <!-- EN: wheat grains -->
+  <RC2_RawWheat.label>wheat grains</RC2_RawWheat.label>
+  <!-- EN: Raw wheat grains.  Non-edible by humans raw, they must instead be processed and cooked. -->
+  <RC2_RawWheat.description>Raw wheat grains.  Non-edible by humans raw, they must instead be processed and cooked.</RC2_RawWheat.description>
+  <!-- EN: yams -->
+  <RC2_RawYams.label>yams</RC2_RawYams.label>
+  <!-- EN: Raw yams. A delicious, filling tuber! -->
+  <RC2_RawYams.description>Raw yams. A delicious, filling tuber!</RC2_RawYams.description>
+</LanguageData>

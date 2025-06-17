@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: cook thin pottage (5) -->
+  <CookThinPottage.label>cook thin pottage (5)</CookThinPottage.label>
+  <!-- EN: Cooks a bland, thin pottage out of some ingredients.  Makes 5 meals. -->
+  <CookThinPottage.description>Cooks a bland, thin pottage out of some ingredients.  Makes 5 meals.</CookThinPottage.description>
+  <!-- EN: Cooking thin pottage. -->
+  <CookThinPottage.jobString>Cooking thin pottage.</CookThinPottage.jobString>
+  <!-- EN: cook thick pottage (5) -->
+  <RC2_CookThickPottage.label>cook thick pottage (5)</RC2_CookThickPottage.label>
+  <!-- EN: Cooks a thick pottage out of meat and any kind of plant food.  Makes 5 meals. -->
+  <RC2_CookThickPottage.description>Cooks a thick pottage out of meat and any kind of plant food.  Makes 5 meals.</RC2_CookThickPottage.description>
+  <!-- EN: Cooking thick pottage. -->
+  <RC2_CookThickPottage.jobString>Cooking thick pottage.</RC2_CookThickPottage.jobString>
+  <!-- EN: make hardtack -->
+  <RC2_MakeHardtack.label>make hardtack</RC2_MakeHardtack.label>
+  <!-- EN: Make hardtack, a tough biscuit or cracker that lasts for years and fills you up.  Doesn't taste too great though. Makes 14. -->
+  <RC2_MakeHardtack.description>Make hardtack, a tough biscuit or cracker that lasts for years and fills you up.  Doesn't taste too great though. Makes 14.</RC2_MakeHardtack.description>
+  <!-- EN: Making hardtack. -->
+  <RC2_MakeHardtack.jobString>Making hardtack.</RC2_MakeHardtack.jobString>
+</LanguageData>

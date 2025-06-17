@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: caffeine buzz from tea -->
+  <RC2_CaffeineTea.label>caffeine buzz from tea</RC2_CaffeineTea.label>
+  <!-- EN: Caffeine. Yum. -->
+  <RC2_CaffeineTea.description>Caffeine. Yum.</RC2_CaffeineTea.description>
+  <!-- EN: a tea buzz -->
+  <RC2_CaffeineTea.labelNoun>a tea buzz</RC2_CaffeineTea.labelNoun>
+  <!-- EN: perked up -->
+  <RC2_CaffeineTea.stages.perked_up.label>perked up</RC2_CaffeineTea.stages.perked_up.label>
+  <!-- EN: wired -->
+  <RC2_CaffeineTea.stages.wired.label>wired</RC2_CaffeineTea.stages.wired.label>
+  <!-- EN: jittery -->
+  <RC2_CaffeineTea.stages.jittery.label>jittery</RC2_CaffeineTea.stages.jittery.label>
+  <!-- EN: shaky -->
+  <RC2_CaffeineTea.stages.shaky.label>shaky</RC2_CaffeineTea.stages.shaky.label>
+</LanguageData>

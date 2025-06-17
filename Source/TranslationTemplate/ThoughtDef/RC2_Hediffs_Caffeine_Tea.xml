@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: perked up -->
+  <RC2_CaffeineHighTea.stages.perked_up.label>perked up</RC2_CaffeineHighTea.stages.perked_up.label>
+  <!-- EN: Caffeine is the best pick-me-up! -->
+  <RC2_CaffeineHighTea.stages.perked_up.description>Caffeine is the best pick-me-up!</RC2_CaffeineHighTea.stages.perked_up.description>
+  <!-- EN: wired -->
+  <RC2_CaffeineHighTea.stages.wired.label>wired</RC2_CaffeineHighTea.stages.wired.label>
+  <!-- EN: What a rush! -->
+  <RC2_CaffeineHighTea.stages.wired.description>What a rush!</RC2_CaffeineHighTea.stages.wired.description>
+  <!-- EN: jittery -->
+  <RC2_CaffeineHighTea.stages.jittery.label>jittery</RC2_CaffeineHighTea.stages.jittery.label>
+  <!-- EN: That was too much caffeine. My hands are starting to shake. -->
+  <RC2_CaffeineHighTea.stages.jittery.description>That was too much caffeine. My hands are starting to shake.</RC2_CaffeineHighTea.stages.jittery.description>
+  <!-- EN: shaky -->
+  <RC2_CaffeineHighTea.stages.shaky.label>shaky</RC2_CaffeineHighTea.stages.shaky.label>
+  <!-- EN: Palms are sweaty, knees weak, arms are heavy, mom's spaghetti! -->
+  <RC2_CaffeineHighTea.stages.shaky.description>Palms are sweaty, knees weak, arms are heavy, mom's spaghetti!</RC2_CaffeineHighTea.stages.shaky.description>
+</LanguageData>

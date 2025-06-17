@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: thick pottage -->
+  <RC2_ThickPottage.label>thick pottage</RC2_ThickPottage.label>
+  <!-- EN: A filling pottage made from meat and vegetarian ingredients.  Tasty, but not quite as filling as a proper meal. -->
+  <RC2_ThickPottage.description>A filling pottage made from meat and vegetarian ingredients.  Tasty, but not quite as filling as a proper meal.</RC2_ThickPottage.description>
+  <!-- EN: thin pottage -->
+  <RC2_ThinPottage.label>thin pottage</RC2_ThinPottage.label>
+  <!-- EN: A simple, bland tasting pottage made from a few ingredients. Not quite as filling as a proper meal. -->
+  <RC2_ThinPottage.description>A simple, bland tasting pottage made from a few ingredients. Not quite as filling as a proper meal.</RC2_ThinPottage.description>
+</LanguageData>

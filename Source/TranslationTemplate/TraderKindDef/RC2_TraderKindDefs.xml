@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: cabbage merchant -->
+  <RC2_Caravan_Cabbage.label>cabbage merchant</RC2_Caravan_Cabbage.label>
+  <!-- EN: agricultural trader -->
+  <RC2_Caravan_Neolithic_Farmer.label>agricultural trader</RC2_Caravan_Neolithic_Farmer.label>
+  <!-- EN: agricultural trader -->
+  <RC2_Caravan_Outlander_Farmer.label>agricultural trader</RC2_Caravan_Outlander_Farmer.label>
+  <!-- EN: RimCo Whole Foods Trader -->
+  <RC2_Orbital_SnackTrader.label>RimCo Whole Foods Trader</RC2_Orbital_SnackTrader.label>
+</LanguageData>

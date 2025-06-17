@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: asparagus shoots -->
+  <RC2_AsparagusBaseHydro.label>asparagus shoots</RC2_AsparagusBaseHydro.label>
+  <!-- EN: A short, fast-growing shoot whose young stalks are used as a vegetable. A versatile plant that grows anywhere but tropical regions. -->
+  <RC2_AsparagusBaseHydro.description>A short, fast-growing shoot whose young stalks are used as a vegetable. A versatile plant that grows anywhere but tropical regions.</RC2_AsparagusBaseHydro.description>
+  <!-- EN: agave -->
+  <RC2_PlantAgave.label>agave</RC2_PlantAgave.label>
+  <!-- EN: A large-leafed desert plant with edible flowers and stalks. This variant is better able to be tamed, although it can still only be grown in arid regions. -->
+  <RC2_PlantAgave.description>A large-leafed desert plant with edible flowers and stalks. This variant is better able to be tamed, although it can still only be grown in arid regions.</RC2_PlantAgave.description>
+  <!-- EN: asparagus shoots -->
+  <RC2_PlantAsparagus.label>asparagus shoots</RC2_PlantAsparagus.label>
+  <!-- EN: A short, fast-growing shoot whose young stalks are used as a vegetable. A versatile plant that grows anywhere but tropical regions. -->
+  <RC2_PlantAsparagus.description>A short, fast-growing shoot whose young stalks are used as a vegetable. A versatile plant that grows anywhere but tropical regions.</RC2_PlantAsparagus.description>
+  <!-- EN: eggplant plant -->
+  <RC2_PlantEggPlant.label>eggplant plant</RC2_PlantEggPlant.label>
+  <!-- EN: These spongy fruits are technically berries - but, use them like a berry, and you'll have a bad time. Instead, they're used similarly to vegetables.  Grown in temperate and tropical climates. -->
+  <RC2_PlantEggPlant.description>These spongy fruits are technically berries - but, use them like a berry, and you'll have a bad time. Instead, they're used similarly to vegetables.  Grown in temperate and tropical climates.</RC2_PlantEggPlant.description>
+  <!-- EN: common mushrooms -->
+  <RC2_PlantMushroom.label>common mushrooms</RC2_PlantMushroom.label>
+  <!-- EN: A small, white mushroom that has been cultivated for thousands of years. Does not require light to grow, but won't die when exposed to it.  Variations exist to such an extent that they're found in every climate. -->
+  <RC2_PlantMushroom.description>A small, white mushroom that has been cultivated for thousands of years. Does not require light to grow, but won't die when exposed to it.  Variations exist to such an extent that they're found in every climate.</RC2_PlantMushroom.description>
+  <!-- EN: common mushrooms -->
+  <RC2_PlantMushroomHydro.label>common mushrooms</RC2_PlantMushroomHydro.label>
+  <!-- EN: A small, white mushroom that has been cultivated for thousands of years. Does not require light to grow, but won't die when exposed to it.  Variations exist to such an extent that they're found in every climate. -->
+  <RC2_PlantMushroomHydro.description>A small, white mushroom that has been cultivated for thousands of years. Does not require light to grow, but won't die when exposed to it.  Variations exist to such an extent that they're found in every climate.</RC2_PlantMushroomHydro.description>
+  <!-- EN: pumpkin vine -->
+  <RC2_PlantPumpkin.label>pumpkin vine</RC2_PlantPumpkin.label>
+  <!-- EN: A vining plant that grows along the ground.  It produces large, juicy pumpkins. Takes a while to grow.  Does not react well to colder climates, but can be grown in temperate, tropical, and arid ones. -->
+  <RC2_PlantPumpkin.description>A vining plant that grows along the ground.  It produces large, juicy pumpkins. Takes a while to grow.  Does not react well to colder climates, but can be grown in temperate, tropical, and arid ones.</RC2_PlantPumpkin.description>
+  <!-- EN: sorghum plants -->
+  <RC2_PlantSorghum.label>sorghum plants</RC2_PlantSorghum.label>
+  <!-- EN: A heat-loving grass with an edible grain.  Very popular amongst desert-dwelling tribes and colonies, and takes fairly well to most soils. -->
+  <RC2_PlantSorghum.description>A heat-loving grass with an edible grain.  Very popular amongst desert-dwelling tribes and colonies, and takes fairly well to most soils.</RC2_PlantSorghum.description>
+  <!-- EN: sugarcane reeds -->
+  <RC2_PlantSugarcane.label>sugarcane reeds</RC2_PlantSugarcane.label>
+  <!-- EN: This tall grass has stalkes that, when processed, create a delicious sugar great for ruining your teeth.  Also used for making rum! Why is the rum always gone?  Only grown in tropical regions. -->
+  <RC2_PlantSugarcane.description>This tall grass has stalkes that, when processed, create a delicious sugar great for ruining your teeth.  Also used for making rum! Why is the rum always gone?  Only grown in tropical regions.</RC2_PlantSugarcane.description>
+  <!-- EN: tomato plant -->
+  <RC2_PlantTomato.label>tomato plant</RC2_PlantTomato.label>
+  <!-- EN: This bright red bulb is the fruit of a deadly strain of poisonous plants.  The fruit itself is not poisonous, thankfully, and is actually quite delicious, especially when cooked into a sauce or made into ketchup.  Although a fruit, the Toma Mato is classified as a vegetable by chefs.  They don’t know any better.  Likes temperate climates. -->
+  <RC2_PlantTomato.description>This bright red bulb is the fruit of a deadly strain of poisonous plants.  The fruit itself is not poisonous, thankfully, and is actually quite delicious, especially when cooked into a sauce or made into ketchup.  Although a fruit, the Toma Mato is classified as a vegetable by chefs.  They don’t know any better.  Likes temperate climates.</RC2_PlantTomato.description>
+  <!-- EN: tomato plant -->
+  <RC2_PlantTomatoHydro.label>tomato plant</RC2_PlantTomatoHydro.label>
+  <!-- EN: This bright red bulb is the fruit of a deadly strain of poisonous plants.  The fruit itself is not poisonous, thankfully, and is actually quite delicious, especially when cooked into a sauce or made into ketchup.  Although a fruit, the Toma Mato is classified as a vegetable by chefs.  They don’t know any better.  Likes temperate climates. -->
+  <RC2_PlantTomatoHydro.description>This bright red bulb is the fruit of a deadly strain of poisonous plants.  The fruit itself is not poisonous, thankfully, and is actually quite delicious, especially when cooked into a sauce or made into ketchup.  Although a fruit, the Toma Mato is classified as a vegetable by chefs.  They don’t know any better.  Likes temperate climates.</RC2_PlantTomatoHydro.description>
+  <!-- EN: yam plant -->
+  <RC2_PlantYam.label>yam plant</RC2_PlantYam.label>
+  <!-- EN: This earthy tuber is similar to potato, but not.  Some mistakenly use the name to refer to sweet potatoes (its not). Unlike its relative, the potato, yams only grow well in warm, wet climates. -->
+  <RC2_PlantYam.description>This earthy tuber is similar to potato, but not.  Some mistakenly use the name to refer to sweet potatoes (its not). Unlike its relative, the potato, yams only grow well in warm, wet climates.</RC2_PlantYam.description>
+  <!-- EN: yam plant -->
+  <RC2_PlantYamHydro.label>yam plant</RC2_PlantYamHydro.label>
+  <!-- EN: This earthy tuber is similar to potato, but not.  Some mistakenly use the name to refer to sweet potatoes (its not). Unlike its relative, the potato, yams only grow well in warm, wet climates. -->
+  <RC2_PlantYamHydro.description>This earthy tuber is similar to potato, but not.  Some mistakenly use the name to refer to sweet potatoes (its not). Unlike its relative, the potato, yams only grow well in warm, wet climates.</RC2_PlantYamHydro.description>
+</LanguageData>

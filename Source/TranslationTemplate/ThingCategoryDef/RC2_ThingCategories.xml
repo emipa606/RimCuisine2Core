@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: processed animal products -->
+  <RC2_AnimalProductProcessed.label>processed animal products</RC2_AnimalProductProcessed.label>
+  <!-- EN: drinks -->
+  <RC2_DrinkMealsJoy.label>drinks</RC2_DrinkMealsJoy.label>
+  <!-- EN: snacks -->
+  <RC2_FoodMealsJoy.label>snacks</RC2_FoodMealsJoy.label>
+  <!-- EN: processed ingredients -->
+  <RC2_FoodProcessed.label>processed ingredients</RC2_FoodProcessed.label>
+  <!-- EN: processed fruits -->
+  <RC2_FruitProcessed.label>processed fruits</RC2_FruitProcessed.label>
+  <!-- EN: raw fruits -->
+  <RC2_FruitsRaw.label>raw fruits</RC2_FruitsRaw.label>
+  <!-- EN: processed grains -->
+  <RC2_GrainsProcessed.label>processed grains</RC2_GrainsProcessed.label>
+  <!-- EN: raw grains -->
+  <RC2_GrainsRaw.label>raw grains</RC2_GrainsRaw.label>
+  <!-- EN: processed meat -->
+  <RC2_MeatProcessed.label>processed meat</RC2_MeatProcessed.label>
+  <!-- EN: processed vegetarian -->
+  <RC2_PlantFoodProcessed.label>processed vegetarian</RC2_PlantFoodProcessed.label>
+  <!-- EN: processed sweets -->
+  <RC2_SweetsProcessed.label>processed sweets</RC2_SweetsProcessed.label>
+  <!-- EN: raw sweets -->
+  <RC2_SweetsRaw.label>raw sweets</RC2_SweetsRaw.label>
+  <!-- EN: processed vegetables -->
+  <RC2_VegetablesProcessed.label>processed vegetables</RC2_VegetablesProcessed.label>
+  <!-- EN: raw vegetables -->
+  <RC2_VegetablesRaw.label>raw vegetables</RC2_VegetablesRaw.label>
+</LanguageData>
