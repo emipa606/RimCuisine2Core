@@ -205,7 +205,7 @@
   </ThingDef>
   <!--=========================== Advanced Forestry ==============================-->
   <ThingDef ParentName="RC2_FruitTreeBase">
-    <defName>Plant_TreeCocoa</defName>
+    <defName>Plant_TreeCacao</defName>
     <label>cocoa tree</label>
     <description>A cocoa tree.  Its beans are used in making chocolate. Yields beans twice a year.  Only grown in tropical regions.</description>
     <graphicData>

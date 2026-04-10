@@ -35,17 +35,6 @@ Overall, the mod is designed to be vanilla-friendly and fit seamlessly into norm
 
 **Changes to Existing Stuff:** None! Well, I lied.  A few minor tweaks to categories and the inventory display.  All of which have been patched in correctly so as to not cause issues.  In addition, a few old techs have been renamed and moved to the RimCuisine tech tree, but otherwise unmolested in their definitions (for compatibility reasons)  Pemmican is now “Basic Preservation Techniques”, and Survival Meals is now “Intermediate Preservation Techniques”.  Tree Sowing is now Basic Forestry, and Cocoa trees is Advanced Forestry.  Unlike RimCuisine 1, healroot is untouched! 
 
-While this mod is basically feature-complete, I will be using you guys as test subjects to iron out kinks and bugs and feature balance! If you see something that is weird or doesn’t work right, let me know and we can figure it out! 
-
-**Patch Notes:**
-
--Fixed Beer
--Coffee and Tea can now be grown hydroponically, but with a higher skill requirement and less yield compared to soil-based growing.
--Added intermediate cooking and advanced cooking to classic starts.
--Fixed a number of descriptions, especially the technology ones which were using outdated RimCuisine 1 descriptions.
--Pottages now require only Basic Cooking to make.
--Sorghum can now be properly bulk-milled.
-
 **Compatibilities:**
 
 RIMCUISINE 2 IS NOT MEANT TO BE USED WITH DISMAR’S VEGETABLE GARDEN OR TOBY’S REALISTIC FARMING.  PROBLEMS OCCURING WHEN USED TOGETHER IS NOT MY FAULT, STOP MIXING THEM (or mix them at your own peril!)
@@ -70,7 +59,20 @@ And everyone on the mod development/mod art channel on the Rimworld Discord, who
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) and command Ctrl+F12
+-  For best support, please use the Discord-channel for error-reporting.
+-  Do not report errors by making a discussion-thread, I get no notification of that.
+-  If you have the solution for a problem, please post it to the GitHub repository.
+
+
+
+![Image](https://img.litet.net/logos/ReportingIssues.png)
+
+
+
+-  See if the error persists if you just have this mod and its requirements active.
+-  If not, try adding your other mods until it happens again.
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -78,4 +80,4 @@ And everyone on the mod development/mod art channel on the Rimworld Discord, who
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/RimCuisine2Core?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2562519366) | tags:  preservation,  trading
+[![Image](https://img.shields.io/github/v/release/emipa606/RimCuisine2Core?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2562519366) | tags: trading, preservation

@@ -39,8 +39,8 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1833592062
 
 [table]
     [tr]
-        [td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
-        [td][url=https://github.com/emipa606/RimCuisine2Core][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+        [td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/RimCuisine2Core][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
     [/tr]
     [tr]
         [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
@@ -68,17 +68,6 @@ Overall, the mod is designed to be vanilla-friendly and fit seamlessly into norm
 
 [b]Changes to Existing Stuff:[/b] None! Well, I lied.  A few minor tweaks to categories and the inventory display.  All of which have been patched in correctly so as to not cause issues.  In addition, a few old techs have been renamed and moved to the RimCuisine tech tree, but otherwise unmolested in their definitions (for compatibility reasons)  Pemmican is now “Basic Preservation Techniques”, and Survival Meals is now “Intermediate Preservation Techniques”.  Tree Sowing is now Basic Forestry, and Cocoa trees is Advanced Forestry.  Unlike RimCuisine 1, healroot is untouched! 
 
-While this mod is basically feature-complete, I will be using you guys as test subjects to iron out kinks and bugs and feature balance! If you see something that is weird or doesn’t work right, let me know and we can figure it out! 
-
-[b]Patch Notes:[/b]
-
--Fixed Beer
--Coffee and Tea can now be grown hydroponically, but with a higher skill requirement and less yield compared to soil-based growing.
--Added intermediate cooking and advanced cooking to classic starts.
--Fixed a number of descriptions, especially the technology ones which were using outdated RimCuisine 1 descriptions.
--Pottages now require only Basic Cooking to make.
--Sorghum can now be properly bulk-milled.
-
 [b]Compatibilities:[/b]
 
 RIMCUISINE 2 IS NOT MEANT TO BE USED WITH DISMAR’S VEGETABLE GARDEN OR TOBY’S REALISTIC FARMING.  PROBLEMS OCCURING WHEN USED TOGETHER IS NOT MY FAULT, STOP MIXING THEM (or mix them at your own peril!)
@@ -101,13 +90,23 @@ And everyone on the mod development/mod art channel on the Rimworld Discord, who
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+
+[img]https://img.litet.net/logos/ReportingIssues.png[/img]
+[list]
+[*] See if the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
 [/list] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2562519366][img]https://img.shields.io/github/v/release/emipa606/RimCuisine2Core?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  preservation,  trading</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2562519366][img]https://img.shields.io/github/v/release/emipa606/RimCuisine2Core?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags: trading, preservation</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
 </ModMetaData>
