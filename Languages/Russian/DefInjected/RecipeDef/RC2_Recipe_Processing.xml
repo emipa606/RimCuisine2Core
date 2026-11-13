@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <RC2_MillingBase.label>подготовить ингридиенты</RC2_MillingBase.label>
-  <RC2_MillingBase.description>Подготовить кое-какие ингредиенты.</RC2_MillingBase.description>
-  <RC2_MillingBase.jobString>подготавливает ингридиенты</RC2_MillingBase.jobString>
   <RC2_ProcessSugarBeets.label>сделать сахар из сахарной свёклы</RC2_ProcessSugarBeets.label>
   <RC2_ProcessSugarBeets.description>Переработать сахарную свёклу в восхитительный, разрушающий зубы, белый кристаллический порошок. Сахарная свёкла содержит меньше сахара, чем сахарный тростник.</RC2_ProcessSugarBeets.description>
   <RC2_ProcessSugarBeets.jobString>Делает сахар из сахарной свёклы.</RC2_ProcessSugarBeets.jobString>

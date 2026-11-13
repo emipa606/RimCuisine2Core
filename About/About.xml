@@ -12,15 +12,71 @@
     <li>1.4</li>
     <li>1.5</li>
     <li>1.6</li>
+    <li>1.7</li>
   </supportedVersions>
   <modDependencies>
-    <li>
-      <packageId>syrchalis.processor.framework</packageId>
-      <displayName>[SYR] Processor Framework</displayName>
-      <steamWorkshopUrl>steam://url/CommunityFilePage/2633514537</steamWorkshopUrl>
-      <downloadUrl>https://github.com/Syrchalis/ProcessorFramework/releases/latest</downloadUrl>
-    </li>
   </modDependencies>
+  <modDependenciesByVersion>
+    <v1.0>
+      <li>
+        <packageId>syrchalis.processor.framework</packageId>
+        <displayName>[SYR] Processor Framework</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2633514537</steamWorkshopUrl>
+        <downloadUrl>https://github.com/Syrchalis/ProcessorFramework/releases/latest</downloadUrl>
+      </li>
+    </v1.0>
+    <v1.1>
+      <li>
+        <packageId>syrchalis.processor.framework</packageId>
+        <displayName>[SYR] Processor Framework</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2633514537</steamWorkshopUrl>
+        <downloadUrl>https://github.com/Syrchalis/ProcessorFramework/releases/latest</downloadUrl>
+      </li>
+    </v1.1>
+    <v1.2>
+      <li>
+        <packageId>syrchalis.processor.framework</packageId>
+        <displayName>[SYR] Processor Framework</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2633514537</steamWorkshopUrl>
+        <downloadUrl>https://github.com/Syrchalis/ProcessorFramework/releases/latest</downloadUrl>
+      </li>
+    </v1.2>
+    <v1.3>
+      <li>
+        <packageId>syrchalis.processor.framework</packageId>
+        <displayName>[SYR] Processor Framework (Deprecated)</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3210544395</steamWorkshopUrl>
+      </li>
+    </v1.3>
+    <v1.4>
+      <li>
+        <packageId>syrchalis.processor.framework</packageId>
+        <displayName>[SYR] Processor Framework (Deprecated)</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3210544395</steamWorkshopUrl>
+      </li>
+    </v1.4>
+    <v1.5>
+      <li>
+        <packageId>syrchalis.processor.framework</packageId>
+        <displayName>[SYR] Processor Framework (Deprecated)</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3210544395</steamWorkshopUrl>
+      </li>
+    </v1.5>
+    <v1.6>
+      <li>
+        <packageId>syrchalis.processor.framework</packageId>
+        <displayName>[SYR] Processor Framework (Deprecated)</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3210544395</steamWorkshopUrl>
+      </li>
+    </v1.6>
+    <v1.7>
+      <li>
+        <packageId>syrchalis.processor.framework</packageId>
+        <displayName>[SYR] Processor Framework - Legacy Edition</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3818640415</steamWorkshopUrl>
+      </li>
+    </v1.7>
+  </modDependenciesByVersion>
   <loadAfter>
     <li>syrchalis.processor.framework</li>
   </loadAfter>
@@ -107,6 +163,6 @@ And everyone on the mod development/mod art channel on the Rimworld Discord, who
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
 [/list] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2562519366][img]https://img.shields.io/github/v/release/emipa606/RimCuisine2Core?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags: trading, preservation</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2562519366][img]https://img.shields.io/github/v/release/emipa606/RimCuisine2Core?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | preservation, trading</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.7.0</modVersion>
 </ModMetaData>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <RC2_PlantOrangeTree.label>апельсин</RC2_PlantOrangeTree.label>
   <RC2_PlantOrangeTree.description>Плодоносящее дерево, на котором растёт множество оранжевых плодов. После вырастания начинает плодоносить четыре раза в год. Только любит более тёплый климат.</RC2_PlantOrangeTree.description>
@@ -20,8 +20,6 @@
   <RC2_PlantBreadfruitTree.description>Плодоносящее дерево, на котором растёт множество плодов хлебного дерева. После вырастания начинает плодоносить пять раз в год. Плоды хлебного дерева часто являются основным продуктом питания в тропических регионах. Встречается только в тропических лесах.</RC2_PlantBreadfruitTree.description>
   <RC2_PlantPecanTree.label>пекан</RC2_PlantPecanTree.label>
   <RC2_PlantPecanTree.description>Плодоносящее дерево, на котором растут маленькие стручки с орехами пекан. После вырастания начинает плодоносить менее двух раз в год. Встречается преимущественно в умеренном климате.</RC2_PlantPecanTree.description>
-  <Plant_TreeCocoa.label>какао</Plant_TreeCocoa.label>
-  <Plant_TreeCocoa.description>Бобы какао используются в приготовлении шоколада. Урожайность бобов два раза в год. Выращивается только в тропических регионах.</Plant_TreeCocoa.description>
   <RC2_PlantSugarMapleTree.label>сахарный клён</RC2_PlantSugarMapleTree.label>
   <RC2_PlantSugarMapleTree.description>Обыкновенное дерево средних размеров, легко узнаваемое по чёткому трехконечному листу. Эта особая порода деревьев имеет более высокое содержание сахара и идеально подходит для производства сиропа. Сахарный клён производит три бутылки сиропа в год. Встречается в более холодном и умеренном климате.</RC2_PlantSugarMapleTree.description>
   <RC2_PlantDurianTree.label>дуриан</RC2_PlantDurianTree.label>
@@ -57,4 +55,6 @@
   <!-- EN: A fruit bearing tree that grows a number of pomegranates.  Bears fruit twice a year once mature.  Likes hot, dry climates. -->
   <!-- EN: sugar maple tree -->
   <!-- EN: A common medium-sized tree, easily identifiable by its distinct three-pointed leaf.  This particular breed of tree has a higher sugar content, perfect for syrup production - it produces three bottles worth of syrup a year.  Found in colder and temperate climates. -->
+  <Plant_TreeCacao.label>какао-дерево</Plant_TreeCacao.label>
+  <Plant_TreeCacao.description>Какао-дерево.  Его бобы используются для изготовления шоколада. Даёт урожай бобов два раза в год.  Растёт только в тропических регионах.</Plant_TreeCacao.description>
 </LanguageData>

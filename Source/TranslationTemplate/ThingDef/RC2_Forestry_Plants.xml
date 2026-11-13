@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <!-- EN: cocoa tree -->
-  <Plant_TreeCocoa.label>cocoa tree</Plant_TreeCocoa.label>
+  <Plant_TreeCacao.label>cocoa tree</Plant_TreeCacao.label>
   <!-- EN: A cocoa tree.  Its beans are used in making chocolate. Yields beans twice a year.  Only grown in tropical regions. -->
-  <Plant_TreeCocoa.description>A cocoa tree.  Its beans are used in making chocolate. Yields beans twice a year.  Only grown in tropical regions.</Plant_TreeCocoa.description>
+  <Plant_TreeCacao.description>A cocoa tree.  Its beans are used in making chocolate. Yields beans twice a year.  Only grown in tropical regions.</Plant_TreeCacao.description>
   <!-- EN: apple tree -->
   <RC2_PlantAppletree.label>apple tree</RC2_PlantAppletree.label>
   <!-- EN: A fruit bearing tree that grows large, juicy red apples.  Bears fruit five times a year once mature.  Does best in temperate climates. -->

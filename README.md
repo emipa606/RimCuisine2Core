@@ -80,4 +80,4 @@ And everyone on the mod development/mod art channel on the Rimworld Discord, who
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/RimCuisine2Core?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2562519366) | tags: trading, preservation
+[![Image](https://img.shields.io/github/v/release/emipa606/RimCuisine2Core?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2562519366) | preservation, trading
